@@ -1,0 +1,14 @@
+.ninjaBadge{
+    display: flex;
+    gap: 12px;
+}
+
+.ninjaBadge figure{
+    width: 52px;
+    height: 52px;
+    background-color: var(--color-1);
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

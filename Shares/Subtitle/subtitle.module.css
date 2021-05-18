@@ -1,0 +1,15 @@
+.sub_title{
+    font-size: 24px;
+    font-weight: 800px;
+}
+.defectPadding{
+    padding-top: 72px;
+    padding-bottom: 28px;
+}
+
+@media screen and (max-width: 560px) {
+
+    .sub_title{
+        font-size: 24px;
+    }
+}
