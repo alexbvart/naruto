@@ -13,7 +13,7 @@ const Figure = ({src,className,description}) => {
                     layout="responsive"
                     quality={100}
                     width={500}
-                    height={500}
+                    height={440}
                 />
                 <figcaption>{description}</figcaption>
 

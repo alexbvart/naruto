@@ -11,12 +11,15 @@ const CarouselOfHeaderImages = ({children,items}) => {
                 .wrapper{
                     width:100%;
                     height:100%;
+                    max-height:440px;
                     overflow:hidden;
                     background:red;
                     grid-area:carrousel;
                 }
                 .carouselOfHeaderImages{
                     width: 100%;
+                    height:100%;
+
                     display: grid;
                     grid-template-columns: repeat(${items},100%);
                     

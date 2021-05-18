@@ -1,0 +1,22 @@
+.section{
+    width: 85vw;
+    height: 400px;
+    background-color: red;
+}
+.carrousel{
+    display: grid;
+    grid-template-columns: repeat(4, 100% );
+    overflow-x: scroll;
+}
+.carrousel section:nth-child(1){
+    background-color: blue;
+}
+.carrousel section:nth-child(2){
+    background-color: green;
+}
+.carrousel section:nth-child(3){
+    background-color: yellow;
+}
+.carrousel section:nth-child(4){
+    background-color: tomato;
+}
