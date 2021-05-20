@@ -2,15 +2,16 @@ import Head from 'next/head'
 
 
 
+
 export default function Home({ datalist }) {
 
   return (
 
     <>
       <Head>
-        <title>Auxona Ø</title>
+        <title>Ninja</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#15171B" />
       </Head>
 
 

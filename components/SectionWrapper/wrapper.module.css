@@ -1,12 +1,19 @@
 .section{
     width: 85vw;
-    height: 400px;
+    height: 200px;
     background-color: red;
+    scroll-snap-align: center;
 }
 .carrousel{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 100% );
+    grid-gap: 0;
+    grid-template-columns: repeat(4, 85vw );
     overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+
+
 }
 .carrousel section:nth-child(1){
     background-color: blue;
@@ -15,8 +22,18 @@
     background-color: green;
 }
 .carrousel section:nth-child(3){
-    background-color: yellow;
+    background-color: rgb(7, 71, 36);
 }
 .carrousel section:nth-child(4){
     background-color: tomato;
+}
+
+@media screen and (max-width: 560px) {
+    .section{
+        width: calc(100vw - 48px);
+        background-color: red;
+    }
+    .carrousel{
+        grid-template-columns: repeat(4, calc(100vw - 48px) );
+    }
 }
