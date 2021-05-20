@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Hero from '../../components/Hero';
 import SectionWrapper from '../../components/SectionWrapper/index,';
-import {naruto} from "./dataNaruto";
+import {naruto} from "../../dataNaruto";
 
 const Naruto = () => {
 
