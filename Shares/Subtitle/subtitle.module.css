@@ -3,8 +3,8 @@
     font-weight: 800px;
 }
 .defectPadding{
-    padding-top: 72px;
-    padding-bottom: 28px;
+    /* padding-top: 72px; */
+    padding-bottom: 32px;
 }
 
 @media screen and (max-width: 560px) {

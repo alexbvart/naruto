@@ -5,12 +5,11 @@ import {naruto} from "./dataNaruto";
 
 const Naruto = () => {
 
-    console.log(naruto);
     return ( 
         <>
 
             <Hero header={naruto.header} />
-            <SectionWrapper></SectionWrapper>
+            <SectionWrapper content={naruto}></SectionWrapper>
         </>
     );
 }

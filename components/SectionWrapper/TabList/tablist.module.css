@@ -1,11 +1,17 @@
 .nav{
-    height: 54px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 32px 0;
+    margin: 22px 0;
 
-    position: relative;
+
+
+
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-1);
+    z-index: 2;
 }
 .navigation{
     display: flex;

@@ -1,0 +1,27 @@
+.figure_wrapper{
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.figure_wrapper::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg, rgba(16, 16, 18, 0) 50%, rgb(16, 16, 18) 120%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+/*     mix-blend-mode: lighten; */
+    filter: contrast(80%)  brightness(80%) opacity(80%);
+    z-index: 1;
+}
+.figcaption{
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    z-index: 1;
+
+}

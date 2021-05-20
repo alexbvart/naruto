@@ -1,13 +1,18 @@
 import React, {useEffect, useState} from 'react';
+import useWindowDimensions from '../../hooks/useWindowDimension';
+import Section from './Section';
 
 import TabButton from './TabButton';
 import TabList from './TabList';
 import {carrousel,section} from './wrapper.module.css'
-const SectionWrapper = () => {
+const SectionWrapper = ({content}) => {
+
+    const windowSize = useWindowDimensions();
 
     const ScrollFromSection = (value)=>{
         var elmnt = document.getElementById("mainContainer");
             elmnt.scrollLeft = (value - 1 ) * elmnt.clientWidth;
+            elmnt.scrollTop  = 0;
     }
     const DetectScrollPosition = () => {
         var elmnt = document.getElementById("mainContainer");
@@ -17,18 +22,13 @@ const SectionWrapper = () => {
         const change = key !== numberOfSection;
         if (change) {
             setKey(numberOfSection)
+            elmnt.scrollTop  = 0;
             /* console.log({key},'!=',{numberOfSection},' = ',{change} , ); */
         }
 
     }
     const [key, setKey] = useState(1);
-
-    useEffect(() => {
-        /* console.log({key},'Key montar'); */
-        return () => {
-            /* console.log({key},'Key desmontar'); */
-        }
-    }, [key])
+    const widthOfWindow = windowSize.width > 560 ? "85vw" : "calc(100vw - 48px) ";
 
 
     return ( 
@@ -43,16 +43,31 @@ const SectionWrapper = () => {
                 <TabButton ScrollFromSection={ScrollFromSection} pushSlide={2}>Apariencia </TabButton>
                 <TabButton ScrollFromSection={ScrollFromSection} pushSlide={3}>Historia </TabButton>
                 <TabButton ScrollFromSection={ScrollFromSection} pushSlide={4}>Habilidades </TabButton>
+                <TabButton ScrollFromSection={ScrollFromSection} pushSlide={5}>Habilidades </TabButton>
             </TabList>
 
 
-            <main className={carrousel} id="mainContainer" onScroll={()=> DetectScrollPosition()}>
-                <section className={section} >Información {key}</section>
+            <main className={`${carrousel} carrousel_dinamic`} id="mainContainer" onScroll={()=> DetectScrollPosition()}>
+
+                <section className={section} >
+                    <Section content={content.info.intro}></Section>
+                </section>
                 
-                <section className={section} >Apariencia {key}</section>
+                <section className={section} >
+                    <Section content={content.appearance.appearance}></Section>
+                    <Section content={content.appearance.personality}></Section>
+                </section>
+                
                 <section className={section} >Hisotira {key}</section>
                 <section className={section} >Habilidades {key}</section>
+                <section className={section} >Habilidades 2{key}</section>
             </main>
+
+            <style jsx>{`
+                .carrousel_dinamic{
+                    grid-template-columns: repeat(5, ${widthOfWindow});
+                }
+            `}</style>
 
         </>
     );

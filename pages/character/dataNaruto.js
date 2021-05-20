@@ -15,16 +15,37 @@ export const naruto ={
         affiliationIcon: "https://static.wikia.nocookie.net/naruto/images/2/2b/S%C3%ADmbolo_de_Konohagakure.svg/revision/latest/scale-to-width-down/18?cb=20130303103502&path-prefix=es",
         rank:"Kage",
     },
-
-    intro: {
-        paragraph:[
-            "Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) es el protagonista de la serie del manga y anime Naruto y Naruto Shippūden. Asimismo es partícipe del manga y anime Boruto: Naruto Next Generations, secuela de la obra original de Masashi Kishimoto. Es residente de Konohagakure, hijo del Cuarto Hokage, Minato Namikaze y su esposa Kushina Uzumaki, además de ser la actual reencarnación de Asura Ōtsutsuki.",
-            'Desde el día de su nacimiento hasta que le fue extraído por Madara Uchiha fue el Jinchūriki de la mitad Yang de Kurama y el más reciente de la mitad Yin de Kurama. Finalmente recibiría la mitad extraída de Kurama, unificándose con su otra mitad en el interior de éste, hasta que la bestia desapareció de su interior después de utilizar el Modo Barión. También posee parte del Chakra de las otras Bestias con Cola, convirtiéndose en un Jinchūriki para cada uno de los Bijū. Debido a esto y a sus habilidades como Jinchūriki fue considerado el Pilar Humano del Poder del Diez Colas.[14] Fue miembro del Equipo Kakashi junto a Sakura Haruno y Sasuke Uchiha. Actualmente es el Séptimo Hokage (七代目火影, Nanadaime Hokage; que significa "Séptima Sombra del Fuego") de Konoha, cumpliendo su sueño, así como también el esposo de Hinata Hyūga y padre de Boruto Uzumaki y Himawari Uzumaki',
-        ],
+    info:{
+        intro: {
+                paragraph:[
+                    "Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) es el protagonista de la serie del manga y anime Naruto y Naruto Shippūden. Asimismo es partícipe del manga y anime Boruto: Naruto Next Generations, secuela de la obra original de Masashi Kishimoto. Es residente de Konohagakure, hijo del Cuarto Hokage, Minato Namikaze y su esposa Kushina Uzumaki, además de ser la actual reencarnación de Asura Ōtsutsuki.",
+                    'Desde el día de su nacimiento hasta que le fue extraído por Madara Uchiha fue el Jinchūriki de la mitad Yang de Kurama y el más reciente de la mitad Yin de Kurama. Finalmente recibiría la mitad extraída de Kurama, unificándose con su otra mitad en el interior de éste, hasta que la bestia desapareció de su interior después de utilizar el Modo Barión. También posee parte del Chakra de las otras Bestias con Cola, convirtiéndose en un Jinchūriki para cada uno de los Bijū. Debido a esto y a sus habilidades como Jinchūriki fue considerado el Pilar Humano del Poder del Diez Colas.[14] Fue miembro del Equipo Kakashi junto a Sakura Haruno y Sasuke Uchiha. Actualmente es el Séptimo Hokage (七代目火影, Nanadaime Hokage; que significa "Séptima Sombra del Fuego") de Konoha, cumpliendo su sueño, así como también el esposo de Hinata Hyūga y padre de Boruto Uzumaki y Himawari Uzumaki',
+                ],
+        },
+        name:{
+            kanji:"うずまきナルト",
+            romaji:"Uzumaki Naruto",
+            alias:[
+                'El Ninja Número Uno Hiperactivo Cabeza Hueca',
+                'Niño de la Profecía',
+                'Salvador del Mundo',
+                'Héroe de la Hoja Oculta (',
+                'Chico de Milagros ',
+                'Hokage Naranja de Konoha',
+                'Séptimo Hokag',
+                'Zorro ',
+            ],
+        },
+        information:{
+            birth: '10 de octubre',
+            genre: 'masculino',
+        }
     },
+    
 
     appearance:{
         appearance:{
+            title:"Apariencia",
             paragraph:[
                 'Naruto, según lo establecido por Jiraiya, tiene un gran parecido con su padre, heredando sus ojos azules y su cabello rubio de punta, de igual forma, de su madre heredó la forma de sus ojos y su cara. Las características físicas más importantes y resaltantes de Naruto son las tres marcas de bigotes en ambas mejillas. Además, el rasgo más mencionado con regularidad antes de la Segunda Parte era su baja estatura para su edad. Después de dos años, Naruto tuvo una racha en su crecimiento, llegando a superar en tamaño a Sakura. Para el final de la Cuarta Guerra Mundial Shinobi, la estatura de Naruto había aumentado hasta casi alcanzar a su padre, y dos años después, fue el más alto de su generación. Durante el epílogo, la estatura de Naruto aumentó a tal punto de superar por una cabeza completa a su esposa Hinata, siendo uno de los más altos de su generación.',
                 'Durante su infancia, Naruto utilizó una multitud de camisas que variaban sus colores, pasando por blanco, verde o negro, las cuales tenían un símbolo Uzumaki o de fuego en la parte delantera, además de que llevaba unas bermudas. También solía utilizar en su frente unos goggles de color verde que tenían escrito su nombre, sin embargo, con el tiempo, dejó de utilizarlos y lo reemplazó por su banda. Durante la Primera Parte, la vestimenta de Naruto consistió en un chándal color naranja con azul en la zona de los hombros y alrededor de la cintura, un remolino blanco con una borla en la parte izquierda y el símbolo del Clan Uzumaki en la espalda, tenía el cuello alto de color blanco, pantalones color naranja con una pequeña bolsa para guardar sus armas unido a su pierna derecha, las típicas sandalias shinobi de color azul y un protector de frente de color azul. Debajo de su chándal, Naruto utiliza generalmente una camiseta negra, sin embargo, en algunas ocasiones, llevaba una armadura bajo ésta',
@@ -35,7 +56,7 @@ export const naruto ={
             ],
             images:[
                 {
-                    url:'https://static.wikia.nocookie.net/naruto/images/4/4b/Naruto_de_beb%C3%A9.png/revision/latest/scale-to-width-down/200?cb=20170125054743&path-prefix=es',
+                    url: "https://static.wikia.nocookie.net/naruto/images/8/8f/Naruto_Uzumaki_Parte_III_Anime.png/revision/latest/scale-to-width-down/350?cb=20201023034708&path-prefix=es",
                     description:'Naruto de bebé.',
                 },
                 {
@@ -57,6 +78,7 @@ export const naruto ={
             ]
         },
         personality:{
+            title:"Personalidad",
             paragraph:[
                 'Inicialmente llevaba una bufanda a rayas de color azul que había sido tejida por su madre, sin embargo, la dejó de utilizar cuando supo que Hinata tejía una bufanda roja para él. Cuando él y Hinata se casaron, Naruto utilizaba un kimono negro tradicional de las bodas. Varios años después, ya como el Séptimo Hokage, Naruto deja de utilizar su Banda ninja. Su vestimenta consta de una sudadera de color naranja con rayas negras, junto con pantalones negros y las sandalias shinobi. Junto con el sombrero típico del Hokage, Naruto también empieza a utilizar una capa blanca decorada con llamas en los bordes y que tiene inscrita verticalmente las palabras "Séptimo Hokage" (七代目火影, Nanadaime Hokage) y se cierra en la parte frontal por una cuerda delgada de color rojo.',
                 'La exuberante personalidad de Naruto y su deseo ardiente de superación impactan fuertemente en la vida de quienes lo rodean. Al comienzo de la serie, Naruto se hizo amigo de Konohamaru Sarutobi, el nieto del Tercer Hokage, y es a través de su tutela breve que Konohamaru comprendió que el camino al éxito es a través del trabajo duro. Kakashi Hatake ha descrito esto como “el poder único de Naruto”, el como parece cambiar la visión del mundo de todas las personas que conoce. Con este poder, Naruto fue capaz de redimir a Zabuza Momochi y Neji Hyūga, e infundir valor a Inari, Sakura Haruno, Hinata Hyūga y Tsunade. También de cambiar a Gaara, de un despiadado asesino a uno de sus más cercanos amigos, e incluso de ganar la confianza deNagato, el aparente líder deAkatsuki y quien fue uno de los principales antagonistas de la serie. Naruto cree que sólo él podía salvar a Sasuke Uchiha de la oscuridad, al final lográndolo.',

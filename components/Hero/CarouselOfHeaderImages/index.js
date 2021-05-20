@@ -13,7 +13,6 @@ const CarouselOfHeaderImages = ({children,items}) => {
                     height:100%;
                     max-height:440px;
                     overflow:hidden;
-                    background:red;
                     grid-area:carrousel;
                 }
                 .carouselOfHeaderImages{
