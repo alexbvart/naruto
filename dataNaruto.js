@@ -106,6 +106,67 @@ export const naruto ={
                 
             ]
         }
+    },
+
+    history:{
+        history:{
+                title:"Historia",
+                paragraph:[
+                    'Debido a las condiciones en las que se encontraba la madre de Naruto, quien era la Jinchūriki del Nueve Colas, el nacimiento de Naruto se tuvo que realizar de manera muy cautelosa. Cuando llegó el momento de dar a luz, el sello que contenía a la bestia dentro de la Jinchūriki se debilitó,siendo entonces necesario fortalecerlo tras el final del parto. Naruto nació en un cuarto protegido por una barrera y dicho nacimiento sólo fue presenciado por sus padres, Kushina Uzumaki y Minato Namikaze, además de Biwako Sarutobi, esposa de Hiruzen Sarutobi, y Taji, una ninja médico que prestó su ayuda durante el nacimiento.',
+                    'Una vez nació Naruto, Minato estaba a punto de fortalecer el sello de Kushina, pero apareció un hombre enmascarado quien secuestró a Naruto. Minato logra salvar a Naruto pero, debido a esto, es incapaz de proteger a Kushina, quien es raptada por el enmascarado. El enmascarado reveló que su intención era liberar al Nueve Colas para atacar a la aldea de la hoja, aprovechando la debilidad en la que se encontraba el sello de Kushina. Minato colocó a Naruto y, posteriormente, a una Kushina debilitada en un casa de seguridad mientras él decidió encargarse de la situación. Finalmente, el Nueve Colas demostró un gran poderío y Minato decidió sellar una parte del chakra del Nueve Colas dentro de Naruto para que se convirtiera en un Jinchūriki.',
+                    'La otra parte del chakra del Nueve Colas fue sellada dentro de Minato, al mismo tiempo, Minato consideró conveniente el sellar un poco de su chakra, así como el de Kushina, en Naruto para que, una vez crezca, puedan ayudarlo en su papel como Jinchūriki. Mientras se realizaba el sellado, Minato y Kushina son atravesados por una de las garras del Nueve Colas quien intentaba matar a Naruto antes de ser sellado. Debido a esto y al sello realizado, los padres de Naruto fallecen, no sin antes despedirse de Naruto y pedirle a Hiruzen que los aldeanos de la hoja tratasen a Naruto como un héroe al lograr salvar a la aldea del Zorro Demonio de Nueve Colas.',
+                    'Sin embargo, sólo unos pocos habitantes fueron capaces de cumplir esta petición, debido a que la mayoría quedó resentida por el ataque de la bestia, tratando de mala manera a Naruto durante su crecimiento. Debido a esto, Hiruzen decretó que nadie se debía enterar acerca de la verdad de Naruto para que los otros niños no lo tratasen diferente y no lo marginaran. De todas maneras, la mayoría de los chicos mantuvieron la misma actitud de desprecio de sus padres hacia Naruto, provocando que, en su mayor parte del tiempo, Naruto se encontrara solo. También Hiruzen consideró prudente que nadie le contara a Naruto que su padre era el Cuarto Hokage. Toda esta situación provocó en Naruto la necesidad de resaltar para no pasar desapercibido. Posteriormente Naruto entró en la Academia Ninja.',
+                    'Un día, mientras estaba jugando solo en el columpio cerca de la Academia, Naruto presenció cuando un grupo de matones molestaba a Hinata Hyūga por sus ojos y decidió intervenir. Naruto se presenta ante los matones como el próximo Hokage y como lo superaban en número, los agresores golpearon a Naruto y destrozaron la bufanda roja que traía puesta. Sorprendida por ver cómo Naruto la había protegido, Hinata da las gracias, mientras que Naruto dejó la bufanda porque estaba arruinada despidiéndola con una sonrisa para que no se preocupara.',
+                    'Un día, en el anime, Naruto fue confrontado por Sakura Haruno, Ino Yamanaka, Shikamaru Nara y Chōji Akimichi. Ellos le reclamaron por alguien llamado Yota, quien de repente desapareció. Naruto negó conocer a la persona por la que ellos preguntaban y luego, ante la insistencia de éstos, Naruto se va molesto al ver que las miradas de los chicos eran similares a las de los demás aldeanos. Más tarde, cuando se encontraba en el bosque, Naruto oye a un chico que se encontraba llorando así que decide encontrarlo. Luego descubre que el clima tenía relación con las emociones del chico. Naruto se dio cuenta que ese era Yota, el chico que los demás estaban buscando. Yota mostró simpatía a Naruto y le pidió que le enseñara a silbar, Naruto se muestra confundido ante la petición pero se da cuenta que Yota ya lo había visto silbando y de allí viene el deseo.',
+                    'Mientras Naruto le enseñaba a silbar, ambos fortalecieron lazos y se volvieron amigos cercanos. Posteriormente, Naruto y los demás chicos de Konoha se dispusieron a jugar pero, durante el juego, Naruto inconscientemente hirió los sentimientos de Yota, así que éste desapareció. Una vez lo encontraron se dieron cuenta que había sido atrapado por los ANBU quienes decidieron interrogarlo al darse cuenta que no pertenecía a la aldea. Los chicos trataron de detener a los altos mandos, pero no obtuvieron frutos. El día siguiente, Naruto recibió la visita de sus amigos, y decidieron dirigirse a la Mansión Hokage para rescatar a su amigo. El papel de Naruto era el de distraer a los altos mandos mientras los demás rescataban a Yota.',
+                    'Al principio, el plan parecía dar frutos, pero los ANBU lograron reaccionar y detener a los chicos. Cuando el panorama se miraba oscuro, Yota se molesta y hace caer rayos sobre los ANBU quienes cayeron desmayados. Los chicos comenzaron a huir de la mansión mientras eran perseguidos por los ANBU, llegando hasta un río. Los chicos eran incapaces de caminar sobre el agua debido a su corta experiencia así que tuvieron que atravesarlo. Desafortunadamente, Naruto fue arrastrado por la corriente pero finalmente es salvado por Yota. Al salvarlo, Yota reveló que ya no poseía energía y que era hora de despedirse. Yota utilizó una técnica en los chicos para que olvidaran lo sucedido y de esa manera evitar que tuvieran esa mala experiencia en sus mentes.',
+                    'Eventualmente, Naruto se volvió estudiante de Iruka Umino y conoció a su compañero Sasuke Uchiha cuando ambos son elegidos para unir sus sellos. A pesar de la elevada emoción de Naruto ante la oportunidad de derrotar a Sasuke dada la popularidad que poseía, este fue derrotado fácilmente. Al ver los ojos de Sasuke, Naruto se dio cuenta de que estaban llenos de odio. Cuando Iruka les dijo que realizaran el Sello de Armonía, ambos se negaron. Desde ese momento, Naruto eligió a Sasuke como su rival y que trataría de aprovechar cada oportunidad para vencerlo.',
+                    'Cuando Naruto se enteró de que Sasuke también era un huérfano, estaba secretamente feliz por no ser el único que se encontraba solo y quería hablar con él, pero no podía a causa de sus celos. Sin embargo, Naruto deseó que, algún día, Sasuke lo reconociera como un igual. En el anime, mientras Naruto se encontraba en la academia, escuchó a un grupo de chicos liderados por Hibachi que tenían planeado realizar una "prueba de coraje". Naruto se mostró interesado pero los chicos le negaron la participación. Naruto decidió jugarles una broma a los chicos así que se dirigió a una tienda de máscaras. Al ver de quien se trataba el vendedor lo empujó y le reclamó, mientras todos los aldeanos observaban asombrados. Finalmente el vendedor le lanzó la máscara y le ordenó que se alejara. Naruto se mostró confundido acerca de las miradas de los aldeanos y se fue corriendo.',
+                    'Al anochecer, Naruto se disfrazó y decidió ir al cementerio, lugar donde los otros chicos realizarían la "prueba de coraje". Naruto asustó a los chicos quienes se fueron asustados. Iruka se dio cuenta de lo sucedido y le recriminó a Naruto. Naruto, al ver la mirada de desprecio de Iruka, se fue molesto y le comentó que no volvería a la academia. Tras varios días de ausencia, Hibachi le comentó a Naruto que le permitiría ingresar a su grupo si le traía alguna pertenencia del cadáver de algún ninja en las colinas. Naruto fue alegremente, pero sin saber que podrían haber ninjas peligrosos en los alrededores. Iruka logró alcanzarlo y le ordenó regresar. Naruto desobedeció y escapó. Finalmente fueron atacados por unas Kunoichis de Takigakure pero fueron salvados por Kakashi Hatake. Iruka decidió comenzar a entender los sentimientos de Naruto y le habló de la Voluntad de Fuego logrando motivar a Naruto para volverse Hokage.',
+                ],
+                images:[
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/e/e7/El_Hombre_Enmascarado_amenazando_a_Naruto.png/revision/latest/scale-to-width-down/180?cb=20170120012616&path-prefix=es",
+                        description:'Naruto de bebé secuestrado por un hombre enmascarado',
+                    },
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/d/de/Kushina_junto_a_Naruto_reci%C3%A9n_nacido.png/revision/latest/scale-to-width-down/180?cb=20170120023408&path-prefix=es",
+                        description:'Naruto recién nacido junto a su madre.',
+                    },
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/2/29/Kushina_y_Minato_protegiendo_a_Naruto.png/revision/latest/scale-to-width-down/180?cb=20170121140044&path-prefix=es",
+                        description:'Los padres de Naruto atravesados por una garra del Nueve Colas.',
+                    },
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/9/91/Miradas_de_desprecio_de_los_aldeanos_hacia_Naruto.png/revision/latest/scale-to-width-down/180?cb=20130823070803&path-prefix=es",
+                        description:'Miradas de desprecio de los aldeanos hacia Naruto.',
+                    },
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/8/8d/Naruto_y_Hinata_se_conocen.png/revision/latest/scale-to-width-down/180?cb=20151020202835&path-prefix=es",
+                        description:'Naruto y Hinata se conocen.',
+                    },
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/0/0e/Naruto_es_confrontado_por_sus_compa%C3%B1eros.png/revision/latest/scale-to-width-down/180?cb=20130823070629&path-prefix=es",
+                        description:'Naruto es confrontado por sus compañeros.',
+                    },
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/d/d3/Naruto_ense%C3%B1a_a_Yota_como_silbar.png/revision/latest/scale-to-width-down/180?cb=20131021020359&path-prefix=es",
+                        description:'Naruto le enseña a silbar a Yota.',
+                    },
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/b/b6/Yota_se_despide_de_sus_amigos.png/revision/latest/scale-to-width-down/180?cb=20131223230334&path-prefix=es",
+                        description:'Yota se despide de sus amigos.',
+                    },
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/9/90/Naruto_derrotado_por_Sasuke_de_ni%C3%B1os_en_la_Academia.png/revision/latest/scale-to-width-down/180?cb=20120502175804&path-prefix=es",
+                        description:'Naruto derrotado por Sasuke de niños en la Academia.',
+                    },
+                    {
+                        url: "https://static.wikia.nocookie.net/naruto/images/d/dc/Naruto_disfrazado.png/revision/latest/scale-to-width-down/180?cb=20130823080035&path-prefix=es",
+                        description:'Naruto disfrazado',
+                    },
+                ]
+            },
     }
 
 }

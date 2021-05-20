@@ -57,8 +57,11 @@ const SectionWrapper = ({content}) => {
                     <Section content={content.appearance.appearance}></Section>
                     <Section content={content.appearance.personality}></Section>
                 </section>
-                
-                <section className={section} >Hisotira {key}</section>
+
+                <section className={section} >
+                    <Section content={content.history.history}></Section>
+
+                </section>
                 <section className={section} >Habilidades {key}</section>
                 <section className={section} >Habilidades 2{key}</section>
             </main>
