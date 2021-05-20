@@ -56,7 +56,7 @@ export const naruto ={
             ],
             images:[
                 {
-                    url: "https://static.wikia.nocookie.net/naruto/images/8/8f/Naruto_Uzumaki_Parte_III_Anime.png/revision/latest/scale-to-width-down/350?cb=20201023034708&path-prefix=es",
+                    url: "https://static.wikia.nocookie.net/naruto/images/4/4b/Naruto_de_beb%C3%A9.png/revision/latest/scale-to-width-down/200?cb=20170125054743&path-prefix=es",
                     description:'Naruto de bebé.',
                 },
                 {
