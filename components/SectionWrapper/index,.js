@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import Title from 'Shares/Title';
 import useWindowDimensions from '../../hooks/useWindowDimension';
 import Section from './Section';
 
@@ -60,6 +61,7 @@ const SectionWrapper = ({content}) => {
 
                 <section className={section} >
                     <Section content={content.history.history}></Section>
+                    <Section content={content.history.partOne}><Title>Primera parte</Title></Section>
 
                 </section>
                 <section className={section} >Habilidades {key}</section>
