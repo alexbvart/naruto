@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import Title from 'Shares/Title';
 import useWindowDimensions from '../../hooks/useWindowDimension';
 import Section from './Section';
@@ -9,28 +9,25 @@ import {carrousel,section} from './wrapper.module.css'
 const SectionWrapper = ({content}) => {
 
     const windowSize = useWindowDimensions();
+    const mainContainer = useRef(null)
+    const wrapperContainer = mainContainer.current;
+    const [key, setKey] = useState(1);
+    const widthOfWindow = windowSize.width > 560 ? "85vw" : "calc(100vw - 48px) ";
 
     const ScrollFromSection = (value)=>{
-        var elmnt = document.getElementById("mainContainer");
-            elmnt.scrollLeft = (value - 1 ) * elmnt.clientWidth;
-            elmnt.scrollTop  = 0;
+        wrapperContainer.scrollLeft = (value - 1 ) * wrapperContainer.clientWidth;
+        wrapperContainer.scrollTop  = 0;
     }
     const DetectScrollPosition = () => {
-        var elmnt = document.getElementById("mainContainer");
-        const {scrollLeft,clientWidth} = elmnt;
-
+        const {scrollLeft,clientWidth} = wrapperContainer;
         const numberOfSection = Math.round(scrollLeft / clientWidth) + 1;
         const change = key !== numberOfSection;
         if (change) {
             setKey(numberOfSection)
-            elmnt.scrollTop  = 0;
+            wrapperContainer.scrollTop  = 0;
             /* console.log({key},'!=',{numberOfSection},' = ',{change} , ); */
         }
-
     }
-    const [key, setKey] = useState(1);
-    const widthOfWindow = windowSize.width > 560 ? "85vw" : "calc(100vw - 48px) ";
-
 
     return ( 
         <>
@@ -48,7 +45,7 @@ const SectionWrapper = ({content}) => {
             </TabList>
 
 
-            <main className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} id="mainContainer" onScroll={()=> DetectScrollPosition()}>
+            <main className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} ref={mainContainer} onScroll={()=> DetectScrollPosition()}>
 
                 <section className={section} >
                     <Section content={content.info.intro}></Section>
