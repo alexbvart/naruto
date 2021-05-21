@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 22px 0;
+    margin: 22px auto;
 
 
 
@@ -20,15 +20,15 @@
     margin-right: 8px;
 }
 .tab_element{
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 400;
     margin-right: 12px;
-
-    
 }
 .tab_element_active{
-    font-weight: 800;
+    font-weight: 600;
 }
+
+
 .navigation_buuble{
     display: flex;
     position: sticky;
@@ -57,8 +57,6 @@
         flex-direction: column;
         justify-content: center;
         overflow-x: scroll;
-        margin: 22px 0;
-
     }
 
     .nav::-webkit-scrollbar {

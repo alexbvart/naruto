@@ -1,6 +1,6 @@
 .sub_title{
     font-size: 24px;
-    font-weight: 800px;
+    font-weight: 500;
 }
 .defectPadding{
     /* padding-top: 72px; */
@@ -11,5 +11,7 @@
 
     .sub_title{
         font-size: 24px;
+        font-weight: 600;
+
     }
 }

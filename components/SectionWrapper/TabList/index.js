@@ -6,7 +6,7 @@ import {nav,
 const TabList = ({activeKey, onSelect, children}) => {
 
     return ( 
-        <nav className={nav}>
+        <nav className={`${nav} wrapper_margin_globals`}>
         <div className={navigation}>
         
             {Children.map(children, (child, i) => (

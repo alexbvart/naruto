@@ -78,6 +78,27 @@
 
 }
 
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('NeueRg'), url(/fonts/NHaasGroteskTXPro-55Rg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('NeueRg'), url(/fonts/NHaasGroteskTXPro-65Md.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('NeueRg'), url(/fonts/NHaasGroteskTXPro-75Bd.ttf) format('truetype');
+}
 
 html,
 body {
@@ -90,7 +111,7 @@ body {
 
   background-color: var(--bg-1);
   color: var(--color-1);
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Neue Haas Grotesk', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -118,9 +139,10 @@ a {
   box-sizing: border-box;
 }
 
-.wrapper-margin{
-  width: calc(100% - var(--wrapper-margin));
+.wrapper_margin_globals{
+  width: calc(100% - 15%);
   margin: auto;
+  height: 100%; 
 }
 .title-headers{
   font-size: var(--title-headers-font-size);
@@ -171,6 +193,10 @@ a {
     --main-width: 100vw;
     --z-nav: -1;
 
+  }
+  .wrapper_margin_globals{
+    width: calc(100vw - 48px);
+    margin: auto;
   }
 
 }

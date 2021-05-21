@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Paragraph from 'Shares/Paragraph';
 import Subtitle from '../../../Shares/Subtitle';
 import Figure from '../../Figure';
 import {section,images_grid,rellenuto} from './section.module.css'
@@ -47,7 +48,7 @@ const OneSection = ({content,className}) => {
 
                 {content.paragraph && 
                     content.paragraph.map((paragraph)=>(
-                        <><p>{paragraph}</p> <br/></>
+                        <><Paragraph>{paragraph}</Paragraph> <br/></>
                     ))
                 }
                 <div className={images_grid}>

@@ -1,11 +1,11 @@
 .h3{
     font-size: 20px;
-    font-weight: 700px;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 560px) {
 
     .h3{
-        font-size: 16px;
+        font-size: 18px;
     }
 }

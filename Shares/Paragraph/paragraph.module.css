@@ -1,11 +1,13 @@
 .paragraph{
     font-size: 20px;
-    font-weight: 500px;
+    font-weight: 400;
+    line-height: 170%;
 }
 
 @media screen and (max-width: 560px) {
 
     .paragraph{
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 170%;
     }
 }

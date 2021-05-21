@@ -6,13 +6,17 @@
     scroll-snap-align: center;
 }
 .carrousel{
-    width: 100%;
+    /* width: 100%; */
     display: grid;
     grid-gap: 0;
     /* grid-template-columns: repeat(4, 85vw );  */ /*the number of sections is dynamic that is why we use js, in the styles of the component */
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     overscroll-behavior-x: contain;
+
+
+
+    
 }
 
 .carrousel::-webkit-scrollbar {
@@ -24,7 +28,7 @@
 
 }
 .carrousel::-webkit-scrollbar-thumb {
-background: var(--card-background);
+    background: var(--card-background);
 }
 
 

@@ -48,7 +48,7 @@ const SectionWrapper = ({content}) => {
             </TabList>
 
 
-            <main className={`${carrousel} carrousel_dinamic`} id="mainContainer" onScroll={()=> DetectScrollPosition()}>
+            <main className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} id="mainContainer" onScroll={()=> DetectScrollPosition()}>
 
                 <section className={section} >
                     <Section content={content.info.intro}></Section>

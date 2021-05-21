@@ -12,7 +12,7 @@ const Hero = ({header}) => {
 
             <CarouselOfHeaderImages items={header.headerImages.length} >
                 {header.headerImages.map((image)=>(
-                    <Figure src={image} className={image_header} />
+                    <Figure src={image} className={image_header} height={700} borderRadius={false}/>
                 ))}
             </CarouselOfHeaderImages>
 

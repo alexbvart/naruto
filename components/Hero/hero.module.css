@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 12px;
+    margin-left: 7.5vw;
 
 }
 .image_header{
@@ -32,6 +33,11 @@
         grid-template-columns: 1fr;
         grid-template-areas:  "carrousel" "info";
         grid-auto-flow: column;
+    }
+    .header_info{
+        position: sticky;
+        bottom: 0;
+        margin-left: 24px;
     }
 }
 @media screen and (min-width: 560px) {

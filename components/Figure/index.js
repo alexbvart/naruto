@@ -1,10 +1,13 @@
 import Image from 'next/image'
-import {figure_wrapper,figcaption} from './figure.module.css'
+import {figure_wrapper,f_w_border_radius,figcaption} from './figure.module.css'
 
-const Figure = ({src,className,description}) => {
+const Figure = ({src,className,description, height=400, borderRadius=true}) => {
+
+    const border_radius = borderRadius ? f_w_border_radius : "";
+
     
     return ( 
-        <figure className={`${className} ${figure_wrapper}`}>
+        <figure className={`${className} ${figure_wrapper} ${border_radius}`}>
 
                 <Image
                     src={src}
@@ -12,7 +15,7 @@ const Figure = ({src,className,description}) => {
                     objectFit="cover"
                     quality={100}
                     width={500}
-                    height={440}
+                    height={height}
                     layout="responsive"
                 />
                 {description&&
