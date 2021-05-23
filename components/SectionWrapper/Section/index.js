@@ -5,34 +5,20 @@ import Figure from '../../Figure';
 import {section,images_grid,rellenuto} from './section.module.css'
 
 const Section = ({content,children}) => {
-    console.log(content);
-
     if(Array.isArray(content)){
         return ( 
         <> {children} <br/>
             {content.map((twoLevel)=>(               
                 <>
                     <OneSection content={twoLevel} />
-
-                    {Array.isArray(twoLevel.relleno) && 
-                        <> 
-                            <Subtitle>Sagas de Relleno</Subtitle>
-                            {twoLevel.relleno.map((threeLevel)=>( 
-                                <OneSection content={threeLevel}  className={rellenuto}/> 
-                            ))}
-                        </>
-                    }
-
+                    {twoLevel.backfill && <Backfill body={twoLevel}/>}
                 </>
-
             ))}
         </>
         );
     }else{
         return ( <OneSection content={content}/> );
-    }
-
-    
+    }   
 }
 export default Section;
 
@@ -61,4 +47,20 @@ const OneSection = ({content,className}) => {
             </section>
         </>
     );
+}
+
+
+const Backfill = ({body}) => {
+    return ( 
+        <> 
+            {Array.isArray(body.backfill) && 
+                <> 
+                    <Subtitle>Sagas de Relleno</Subtitle>
+                    {body.backfill.map((threeLevel)=>( 
+                        <OneSection content={threeLevel}  className={rellenuto}/> 
+                    ))}
+                </>
+            }
+        </>
+    )
 }

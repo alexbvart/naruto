@@ -41,7 +41,6 @@ const SectionWrapper = ({content}) => {
                 <TabButton ScrollFromSection={ScrollFromSection} pushSlide={2}>Apariencia </TabButton>
                 <TabButton ScrollFromSection={ScrollFromSection} pushSlide={3}>Historia </TabButton>
                 <TabButton ScrollFromSection={ScrollFromSection} pushSlide={4}>Habilidades </TabButton>
-                <TabButton ScrollFromSection={ScrollFromSection} pushSlide={5}>Habilidades </TabButton>
             </TabList>
 
 
@@ -62,12 +61,11 @@ const SectionWrapper = ({content}) => {
 
                 </section>
                 <section className={section} >Habilidades {key}</section>
-                <section className={section} >Habilidades 2{key}</section>
             </main>
 
             <style jsx>{`
                 .carrousel_dinamic{
-                    grid-template-columns: repeat(5, ${widthOfWindow});
+                    grid-template-columns: repeat(4, ${widthOfWindow});
                 }
             `}</style>
 

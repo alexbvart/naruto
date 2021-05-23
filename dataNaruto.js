@@ -267,7 +267,7 @@ export const naruto ={
                 ]
             },
             {
-                relleno:[
+                backfill:[
                     {
                         title:"Misión de Investigación en el País de los Campos de Arroz",
                         paragraph:[
