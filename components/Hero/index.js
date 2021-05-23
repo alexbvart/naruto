@@ -5,8 +5,9 @@ import NinjaBadge from './NinjaBadge';
 import CarouselOfHeaderImages from './CarouselOfHeaderImages';
 
 import {main,image_header,header_info,alias} from './hero.module.css'
+
 const Hero = ({header}) => {
-    console.log({header});
+    console.log(header.headerImages);
     return ( 
         <article className={main}>
 

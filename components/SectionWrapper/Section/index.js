@@ -25,6 +25,7 @@ export default Section;
 
 
 const OneSection = ({content,className}) => {
+    console.log({content});
     return ( 
         <>
             <section className={`${section} ${className}`}>
@@ -37,13 +38,20 @@ const OneSection = ({content,className}) => {
                         <><Paragraph>{paragraph}</Paragraph> <br/></>
                     ))
                 }
-                <div className={images_grid}>
-                    {content.images && 
-                        content.images.map((img)=>(
-                            <><Figure src={img.url}  description={img.description}/> {/* {console.log({img})} */}</>
-                        ))
-                    }
-                </div>
+                
+                { (content.images &&  content.images.length > 0) &&
+                    <div className={images_grid}>
+                        {content.images && 
+                            content.images.map((img)=>(
+                                <>
+                                {img.url && 
+                                    <Figure src={img.url}  description={img.description}/> 
+                                }
+                                </>
+                            ))
+                        }
+                    </div>
+                }
             </section>
         </>
     );

@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import Title from 'Shares/Title';
 import useWindowDimensions from '../../hooks/useWindowDimension';
 import Section from './Section';
@@ -6,6 +6,7 @@ import Section from './Section';
 import TabButton from './TabButton';
 import TabList from './TabList';
 import {carrousel,section} from './wrapper.module.css'
+
 const SectionWrapper = ({content}) => {
 
     const windowSize = useWindowDimensions();
@@ -44,7 +45,10 @@ const SectionWrapper = ({content}) => {
             </TabList>
 
 
-            <main className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} ref={mainContainer} onScroll={()=> DetectScrollPosition()}>
+            <main 
+                ref={mainContainer} 
+                className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} 
+                onScroll={()=> DetectScrollPosition()}>
 
                 <section className={section} >
                     <Section content={content.info.intro}></Section>
@@ -58,8 +62,8 @@ const SectionWrapper = ({content}) => {
                 <section className={section} >
                     <Section content={content.history.history}></Section>
                     <Section content={content.history.partOne}><Title>Primera parte</Title></Section>
-
                 </section>
+                
                 <section className={section} >Habilidades {key}</section>
             </main>
 

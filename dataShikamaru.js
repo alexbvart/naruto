@@ -10,9 +10,9 @@ export const shikamaru = {
             "https://static.wikia.nocookie.net/naruto/images/5/5a/Shikamaru_Parte_III_Manga.png/revision/latest/scale-to-width-down/202?cb=20141110184205&path-prefix=es"
         ],
         alias: null,
-        affiliation: ["Konohagakure", "Fuerzas Aliadas Shinobi"],
-        affiliationIcon: ["https://static.wikia.nocookie.net/naruto/images/2/2b/S%C3%ADmbolo_de_Konohagakure.svg/revision/latest/scale-to-width-down/18?cb=20130303103502&path-prefix=es", "https://static.wikia.nocookie.net/naruto/images/1/11/S%C3%ADmbolo_de_Gran_Alianza_Shinobi.svg/revision/latest/scale-to-width-down/18?cb=20130303110751&path-prefix=es"],
-        rank: "The Last: Jōnin",
+        affiliation: "Konohagakure",
+        affiliationIcon: "https://static.wikia.nocookie.net/naruto/images/2/2b/S%C3%ADmbolo_de_Konohagakure.svg/revision/latest/scale-to-width-down/18?cb=20130303103502&path-prefix=es",
+        rank: "Jōnin",
     },
     info: {
         intro: {
@@ -159,7 +159,7 @@ export const shikamaru = {
                 ]
             },
             {
-                relleno: [
+                backfill: [
                     {
                         title: "La Venganza de Mizuki",
                         paragraph: [
@@ -189,7 +189,6 @@ export const shikamaru = {
                 title: "Doce Guardianes Ninja",
                 paragraph: [
                     'Shikamaru fue uno de los miembros del equipo Nijū Shōtai en donde se asoció con su maestro, Asuma Sarutobi, Izumo Kamizuki y Kotetsu Hagane con el propósito de buscar a los Akatsuki, que se habían infiltrado en el País del Fuego y mataron al monje del Templo del Fuego, Chiriku. Ellos, finalmente, se encuentran con Hidan y Kakuzu, teniendo una pelea con el primero, mientras que el otro se quedó fuera de la pelea. La batalla para el equipo se volvió muy difícil, ya que el Akatsuki, al ser inmortal, podía recibir y resistir cualquier ataque.',
-
                     'Cuando Asuma quedó atrapado dentro de la Técnica de Maldición: Controlando la Sangre Poseída de la Muerte, Shikamaru estaba viendo cómo su maestro estaba recibiendo lesiones graves en su cuerpo, pero cuando vio cómo funcionaba el jutsu del criminal, el ninja usó su sombra para sacarlo del círculo de sangre en que estaba. Al lograr esto, Asuma pudo cortarle la cabeza, pero todo el equipo se sorprendió al ver que aún decapitado seguía vivo. Ahí, Kakuzu le cosió la cabeza a su compañero para que siguiera luchando. Cuando Hidan se levantó volvió a hacer su jutsu e hirió a Asuma de tal forma, que lo dejó al borde de la muerte.',
                     'Cuando Asuma estaba moribundo, Ino y su equipo llegaron, ésta intentó curarlo, pero sus heridas eran demasiado profundas y se quedaron escuchando las últimas palabras de su maestro antes de su muerte. En el caso de Shikamaru, acaba diciéndole que nunca debe darse por vencido y que posee cualidades para ser Hokage. Al final, Asuma muere fumando su último cigarrillo. En el funeral de Asuma, Shikamaru decide vengar a su maestro y por eso, él junto con Ino y Chōji liderados por Kakashi, planearon una estrategia para emboscar a los Akatsuki.',
                     'En la pelea contra la pareja, Shikamaru logra separar a los dos Akatsuki, llevando a Hidan a un lugar que sólo él y su clan conocen, y donde el mismo Shikamaru preparó una estrategia para derrotar al inmortal Akatsuki. Primeramente, permitió que lo hiriera Hidan, haciendo que éste comenzara su ritual, pero todo ello era una trampa para hacer que éste matara a Kakuzu (o, al menos, a uno de sus corazones), ya que en vez de darle de su sangre, le dio la de Kakuzu.',
