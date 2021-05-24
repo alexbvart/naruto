@@ -14,8 +14,10 @@ export const shikamaru = {
         affiliationIcon: "https://static.wikia.nocookie.net/naruto/images/2/2b/S%C3%ADmbolo_de_Konohagakure.svg/revision/latest/scale-to-width-down/18?cb=20130303103502&path-prefix=es",
         rank: "Jōnin",
     },
+
     info: {
         intro: {
+            title: "Información",
             paragraph: [
                 "Shikamaru Nara (奈良シカマル, Nara Shikamaru) es un ninja de Konoha que pertenece al Clan Nara. Fue miembro del Equipo Asuma junto con sus compañeros Chōji Akimichi e Ino Yamanaka. Se casó con Temari y tuvo un hijo llamado Shikadai Nara. Shikamaru fue el subcomandante de la Cuarta División de la Gran Alianza Shinobi durante la Cuarta Guerra Mundial Shinobi. Varios años después, se convirtió en el nuevo líder del Clan Nara y en el consejero del Séptimo Hokage, Naruto Uzumaki.",
             ],
@@ -28,9 +30,151 @@ export const shikamaru = {
         information: {
             birth: '22 de septiembre',
             genre: 'Masculino',
+            age: [
+                'Parte I: 12-130',
+                'Parte II: 16-170',
+                'The Last: 190',
+                'Parte III: 320',
+            ],
+            height :[
+                'Parte I: 1,50.8 m-1,52.1 m',
+                'Parte II: 1,70 m',
+                'The Last: 1,77 m',
+            ],
+            weight: [
+                'Part I: 44.5 kg - 44.9 kg',
+                'Part II: 47.9 kg',
+            ],
+            blood : "AB",
+            ranking: [],
+            uniqueSkills: [], 
+            kekkeiGenkai: [],
+            previousBeastWithaTail: "",
+            tailedBeast: [],
+            occupation:[
+                'Examinador de los Exámenes Chūnin',
+                'Sub Comandante de la Cuarta División de la Gran Alianza Shinobi',
+                'Planificador de la Unión Shinobi',
+                'Líder del Clan Nara',
+                'Consejero del Hokage',
+            ],
+            affiliation: ["Konohagakure"],
+            team: [
+                "Equipo Asuma",
+                "11 de Konoha",
+                "Equipo de Recuperación de Sasuke",
+                "Cuarta División",
+                "Equipo de Rescate de Hanabi",
+                "Consejo de Konoha",
+            ],
+            partners:[     
+                "Ino Yamanaka",
+                "Chōji Akimichi",
+                "Asuma Sarutobi",
+            ],
+            clan: [
+                " Clan Nara",
+            ],
         },
-        creation: 'Masashi Kishimoto dijo que quería que Shikamaru sea único, a pesar de usar un chaleco táctico Chūnin de Konoha, por eso decidió poner su protector de frente alrededor de su brazo, por lo que el pelo sería visible. La forma distintiva de usar el protector de la frente refleja la personalidad del personaje. Kishimoto comenta en una entrevista que le gusta Shikamaru porque es "seco", por lo que no muestra a todos su capacidad',
+        ninjaRank: {
+            ninjaRank: [
+                "Parte II: Chūnin",
+                "The Last: Jōnin"
+            ],
+            ninjaRegistration: "012611",
+            graduationFromTheAcademy: "12",
+            promotionToChunin: "12"
+        },
+        family:[
+            {
+                name: "Shikaku Nara ",
+                relationship: "Padre",
+            },
+            {
+                name: "Yoshino Nara ",
+                relationship: "Madre",
+            },
+            {
+                name: "Temari",
+                relationship: "Esposa",
+            },
+            {
+                name: "Shikadai Nara",
+                relationship: "Hijo",
+            },
+            {
+                name: "Rasa",
+                relationship: "Suegro",
+            },
+            {
+                name: "Karura",
+                relationship: "Suegra",
+            },
+            {
+                name: "Kankurō",
+                relationship: "Cuñado",
+            },
+            {
+                name: "Gaara",
+                relationship: "Cuñado",
+            },
+            {
+                name: "Shinki",
+                relationship: "Sobrino adoptivo",
+            },
+        ],
+        natureOfTheChakra:[
+            "Fuego",
+            "Tierra",
+            "Yin",
+        ],
+        techniques:[
+            "Arte Ninja: Verdadera Captura de Espada con las Manos Desnudas",
+            "Campo de Agua Portable (Solo Anime)",
+            "Colaboración de Sombras (Solo Videojuegos)",
+            "Elemento Tierra: Jutsu Práctica de Ladrillo",
+            "Estilo Explosivo: Vuelo de la Hoja (Solo Videojuegos)",
+            "Explosión Hoz Comadreja (Solo Videojuegos)",
+            "Formación Ino-Shika-Chō",
+            "Jutsu de Sombra Estrangulante",
+            "Jutsu: Apoderación de Sombra",
+            "Jutsu: Costura de Sombra",
+            "Jutsu: Costura de Sombra: Caballero (Solo Videojuegos)",
+            "Jutsu: Costura de Sombra: Lancero (Solo Videojuegos)",
+            "Jutsu: Costura de Sombra: Promovido (Solo Videojuegos)",
+            "Jutsu: Costura de Sombra: Torre (Solo Videojuegos)",
+            "Jutsu: Imitación de Sombra Shuriken",
+            "Jutsu: Juego Final de la Sombra",
+            "Jutsu: Oveja de Sombras (Solo Videojuegos)",
+            "Jutsu: Imitación de Sombra",
+            "Jutsu: Presión de Palma de Sombra (Solo Videojuegos)",
+            "Jutsu: Puñalada de Sombra (Solo Videojuegos)",
+            "Jutsu: Simulación de Sombra Humana (Solo Videojuegos)",
+            "Jutsu: Sombra Infernal (Solo Videojuegos)",
+            "Jutsu: Unión de Sombra Demonio (Solo Videojuegos)",
+            "Sombra de Bola de Tanque Humano (Solo Videojuegos)",
+            "Técnica de la Red de Sombra (Solo Videojuegos)",
+            "Último Recurso (Solo Videojuegos)",
+            "Yo-Yo de Bola Humana",
+        ],
+        tools:[
+            "Bomba de Luz",
+            "Cuchilla de Chakra",
+            "Cuerdas de Alambre",
+            "Sellos Explosivos",
+            "Shuriken",
+            "Tantō",
+            "Pergaminos",
+            "Kunai",
+        ],
+        creation: {
+            title: "Creación",
+            paragraph: [
+                'Masashi Kishimoto dijo que quería que Shikamaru sea único, a pesar de usar un chaleco táctico Chūnin de Konoha, por eso decidió poner su protector de frente alrededor de su brazo, por lo que el pelo sería visible. La forma distintiva de usar el protector de la frente refleja la personalidad del personaje. Kishimoto comenta en una entrevista que le gusta Shikamaru porque es "seco", por lo que no muestra a todos su capacidad',
+            ],
+        }
     },
+
     appearance: {
         appearance: {
             title: "Apariencia",
@@ -159,6 +303,7 @@ export const shikamaru = {
                 ]
             },
             {
+                title: "Sagas de relleno",
                 backfill: [
                     {
                         title: "La Venganza de Mizuki",
@@ -472,4 +617,59 @@ export const shikamaru = {
         ],
     },
 
+    skills: [
+        {
+            title: "Habilidades",
+            paragraph: [
+                'A Shikamaru no le gusta pelear, ya que considera que, como lo hace con la mayoría de las cosas, es "problemático". Su inteligencia le presta un poco de ayuda en este sentido, de manera que puede evitar las lesiones cuando no es capaz de evitar una batalla. La inteligencia de Shikamaru se ha ganado el elogio de muchos, incluyendo a Kakashi, Kakuzu e incluso Obito elogió a Shikamaru, diciéndole que en la Alianza Ninja había alguien que pensaba y que era incómodo tener a alguien como él de enemigo. Incluso el Tercer Hokage se impresionó al ver sus capacidades y habilidades durante su batalla con Temari, siendo ésta la razón por la cual se convirtió en Chūnin. Cuando Shikamaru no tiene ninguna estrategia en mente, generalmente él pone sus dedos juntos para crear un círculo y luego cierra los ojos para que pueda concentrarse.',
+                'Rápidamente puede pensar en diez movimientos por delante de su oponente con más de un centenar de estrategias listas para ser utilizadas. Cuando lo hace, considera todo lo que ha tenido lugar en la batalla hasta ese momento, incluso discernir cómo las técnicas de trabajo de un oponente. Su sensei, Asuma Sarutobi, dijo que él tiene la capacidad de convertirse en Hokage, pero también dijo que va a ser demasiado perezoso para querer ese puesto. En el anime, se revela que a Shikamaru se le ha ofrecido un puesto como uno de los Doce Guardianes Ninjas, pero no quiso aceptar porque quería proteger a Konoha y a sus amigos.',
+            ],
+            images: [
+                {
+                    url: "https://static.wikia.nocookie.net/naruto/images/d/d8/Tr%C3%ADo_Ino-Shika-Ch%C5%8D_16_Gen_Anime.png/revision/latest/scale-to-width-down/180?cb=20120719185032&path-prefix=es",
+                    description: 'Formación Ino-Shika-Cho',
+                },
+            ]
+        },
+        {
+            title: "Inteligencia",
+            paragraph: [
+                'Shikamaru ha demostrado ser uno de los shinobi más inteligentes y astutos de Konoha con una inteligencia superior a los estándares humanos, poseyendo un CI de más de 200, un nivel intelectual increíblemente alto, como se vio desde su encuentro contra Kin Tsuchi, también contra Temari y posteriormente contra Tayuya, a la cuáles engaño fácilmente al hacerlas confiarse demasiado, y como se vio, también en su combate contra Hidan y Kakuzu de los cuales ya había analizado sus técnicas desde su primer encuentro para posteriormente crear un contraataque, el cuál funcionó. Incluso se le a considerado el shinobi más listo del País del Fuego a tal grado de que cuando hay una situación alarmante es llamado para crear una estrategia rápidamente según sea la situación. Es capaz de adelantarse varios movimientos a su rival, pudiendo analizar más de doscientas situaciones posibles en un instante, pero su habilidad, según Asuma, es la de elegir la mejor de ellas para vencer a su oponente y evitar riesgos.',
+                'Aunque es capaz de enfrentarse a shinobis poderosos como Hidan de Akatsuki por sí solo, su habilidades son más compatibles al trabajar en equipo con la que puede pensar la mejor manera de complementar habilidades y facilitar una victoria. En la serie, no sólo ha demostrado esto con el trío Ino-Shika-Cho, sino que lo hizo con varios personajes de la serie. Gracias a esto, él es un gran líder, por ejemplo, en la misión de traer a Sasuke, pudo pensar la formación ideal, teniendo en cuenta que había reunido a un grupo de manera improvisada para correr los menores riesgos, teniendo en cuenta las habilidades de Neji, Kiba y Akamaru, Naruto y Chōji.',
+                'Para crear sus estrategias, Shikamaru tiene en cuenta lo ocurrido en una batalla hasta los más mínimos detalles para poder conocer cómo funciona las técnicas de su oponente para poder idear un contraataque. Por ejemplo, en su pelea contra Hidan, con sólo recordar y analizar las palabras de Hidan, pudo darse cuenta de los requisitos para que funcionara su técnica.'
+            ],
+            images: [
+                {
+                    url: "https://static.wikia.nocookie.net/naruto/images/1/17/Episodio_64_de_Naruto.png/revision/latest/scale-to-width-down/180?cb=20180227210134&path-prefix=es",
+                    description: 'Shikamaru reuniendo ideas.',
+                },
+            ]
+        },
+        {
+            title: "Jutsus de Sombra",
+            paragraph: [
+                'Shikamaru, al ser del Clan Nara, tiene la capacidad de manipular su sombra de cualquier forma. Una de las primeras técnicas que aprendió fue el Jutsu: Imitación de Sombra, permitiéndole de esa forma unir su sombra con la de su oponente y así imitar todos sus movimientos. Posteriormente, aprendió a utilizar el Jutsu de Sombra Estrangulante, con el cual puede crear una mano sombra que causa daño físico a su oponente.',
+                'Después de dos años de entrenamiento, Shikamaru fue capaz de aprender el Jutsu de Costura de Sombra, otorgándole la capacidad de materializar su sombra para convertirla en tentáculos que pueden ser controlados individualmente por el ninja, ya sea para atacar blancos múltiples o realizar una estrategia y acorralar a su enemigo. También se ha visto que es capaz de utilizar simultáneamente todos sus jutsus en coordinación con los demás.',
+                'Después de la muerte de Asuma a manos de Hidan, Shikamaru heredó las Cuchillas de Chakra del ninja y con ellas fue capaz de crear una nueva técnica llamada Jutsu de la Imitación de Sombra Shuriken; con este jutsu, el ninja al infundir su chakra en la cuchillas y luego lanzarla en la sombra de su oponente, puede inmovilizarlo sin la necesidad de usar el Jutsu: Imitación de Sombra. Otra de sus técnicas es su Jutsu del Juego Final de Sombra, que le permite convocar sombras en forma de tentáculos para rodear a su oponente o para tomar o agarrar objetos múltiples y obligar a la víctima atrapada, lo cual es muy eficaz cuando se utiliza junto con Sellos Explosivos u otras armas.',
+            ],
+            images: [
+                {
+                    url: "https://static.wikia.nocookie.net/naruto/images/9/90/Jutsu_Costura_de_Sombra_Anime.jpg/revision/latest/scale-to-width-down/180?cb=20101214014822&path-prefix=es",
+                    description: 'Shikamaru usando su sombra para inmovilizar a Hidan.',
+                },
+                {
+                    url: "https://static.wikia.nocookie.net/naruto/images/4/48/Shikamaru_usa_el_Jutsu_Imitaci%C3%B3n_de_Sombra_para_atrapar_a_Kinshiki_y_Momoshiki.png/revision/latest/scale-to-width-down/180?cb=20180120024139&path-prefix=es",
+                    description: 'Shikamaru usando Jutsu: Imitación de Sombra.',
+                },
+            ]
+        },
+        {
+            title: "Otras habilidades",
+            paragraph: [
+                'Shikamaru es un experto en la trampas, utilizando estratagemas para que sus rivales caigan en ellas, demostrando un gran dominio en la utilización de herramientas ninja entre otras: Kunais, Shurikens, Bombas de Humo y Sellos Explosivos. En sus peleas, no utiliza mucho el cuerpo a cuerpo, pero demuestra la capacidad de esquivar rápidamente poderosos ataques, lleva un Tanto en su Chaleco Táctico con el que debe ser hábil. En la invasión de Konoha, demuestra la habilidad de repelar Genjutsu y de crear emboscadas, incluso a un grupo de shinobis de élite. También posee pergaminos con los que puede invocar agua y crear una técnica de barrera para defenderse de poderosos ataques.'
+            ],
+            images: [
+            ]
+        },
+    ]
 }

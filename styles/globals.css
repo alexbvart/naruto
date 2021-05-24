@@ -35,9 +35,8 @@
 
   /* * GRADIENTS */
   --dark-bg-1: #15171B;
-  --dark-bg-2: #181A22;
+  --dark-bg-2: #3B3D49;
   --dark-bg-3: #25252D;
-  --dark-bg-4: #3B3D49;
   --dark-color-1: #FFFFFF;
   --dark-color-2: #D0D0D0;
 
@@ -45,7 +44,6 @@
   --bg-1:var(--dark-bg-1);
   --bg-2:var(--dark-bg-2);
   --bg-3:var(--dark-bg-3);
-  --bg-4:var(--dark-bg-4);
   --color-1:var(--dark-color-1);
   --color-2:var(--dark-color-2);
 

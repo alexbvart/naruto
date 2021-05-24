@@ -7,13 +7,17 @@ import CarouselOfHeaderImages from './CarouselOfHeaderImages';
 import {main,image_header,header_info,alias} from './hero.module.css'
 
 const Hero = ({header}) => {
-    console.log(header.headerImages);
     return ( 
         <article className={main}>
 
             <CarouselOfHeaderImages items={header.headerImages.length} >
-                {header.headerImages.map((image)=>(
-                    <Figure src={image} className={image_header} height={700} borderRadius={false}/>
+                {header.headerImages.map((image,index)=>(
+                    <Figure 
+                        key={index}
+                        src={image} 
+                        className={image_header} 
+                        height={700} 
+                        borderRadius={false}/>
                 ))}
             </CarouselOfHeaderImages>
 

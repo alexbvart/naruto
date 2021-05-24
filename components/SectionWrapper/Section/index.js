@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import Paragraph from 'Shares/Paragraph';
 import Subtitle from '../../../Shares/Subtitle';
 import Figure from '../../Figure';
@@ -6,18 +5,21 @@ import {section,images_grid,rellenuto} from './section.module.css'
 
 const Section = ({content,children}) => {
     if(Array.isArray(content)){
-        return ( 
-        <> {children} <br/>
+        return (
+        <>  {children} <br/>
             {content.map((twoLevel)=>(               
                 <>
-                    <OneSection content={twoLevel} />
-                    {twoLevel.backfill && <Backfill body={twoLevel}/>}
+                    
+                    {twoLevel.backfill 
+                        ? <Backfill body={twoLevel}/>
+                        : <OneSection content={twoLevel} key={twoLevel.title||content.paragraph} />
+                    }
                 </>
             ))}
         </>
         );
     }else{
-        return ( <OneSection content={content}/> );
+        return ( <OneSection content={content} key={content.title||content.paragraph}/> );
     }   
 }
 export default Section;
@@ -25,7 +27,6 @@ export default Section;
 
 
 const OneSection = ({content,className}) => {
-    console.log({content});
     return ( 
         <>
             <section className={`${section} ${className}`}>
@@ -34,18 +35,18 @@ const OneSection = ({content,className}) => {
                 }
 
                 {content.paragraph && 
-                    content.paragraph.map((paragraph)=>(
-                        <><Paragraph>{paragraph}</Paragraph> <br/></>
+                    content.paragraph.map((paragraph,index)=>(
+                        <><Paragraph key={index}> {paragraph} </Paragraph> <br/></>
                     ))
                 }
                 
                 { (content.images &&  content.images.length > 0) &&
                     <div className={images_grid}>
                         {content.images && 
-                            content.images.map((img)=>(
+                            content.images.map((img,index)=>(
                                 <>
                                 {img.url && 
-                                    <Figure src={img.url}  description={img.description}/> 
+                                    <Figure src={img.url}  description={img.description} key={index}/> 
                                 }
                                 </>
                             ))
@@ -63,9 +64,8 @@ const Backfill = ({body}) => {
         <> 
             {Array.isArray(body.backfill) && 
                 <> 
-                    <Subtitle>Sagas de Relleno</Subtitle>
-                    {body.backfill.map((threeLevel)=>( 
-                        <OneSection content={threeLevel}  className={rellenuto}/> 
+                    {body.backfill.map((threeLevel,index)=>( 
+                        <OneSection content={threeLevel}  className={rellenuto} key={threeLevel.title}/> 
                     ))}
                 </>
             }

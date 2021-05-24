@@ -51,20 +51,25 @@ const SectionWrapper = ({content}) => {
                 onScroll={()=> DetectScrollPosition()}>
 
                 <section className={section} >
-                    <Section content={content.info.intro}></Section>
+                    <Section content={content.info.intro} key="intro" />
+                    <Section content={content.info.creation} key="creation" />
                 </section>
                 
                 <section className={section} >
-                    <Section content={content.appearance.appearance}></Section>
-                    <Section content={content.appearance.personality}></Section>
+                    <Section content={content.appearance.appearance}  key="appearance"/>
+                    <Section content={content.appearance.personality} key="personality"/>
                 </section>
 
                 <section className={section} >
-                    <Section content={content.history.history}></Section>
-                    <Section content={content.history.partOne}><Title>Primera parte</Title></Section>
+                    <Section content={content.history.history} key="history"/>
+                    <Section content={content.history.partOne} key="partOne">
+                        <Title>Primera parte</Title>
+                    </Section>
                 </section>
                 
-                <section className={section} >Habilidades {key}</section>
+                <section className={section} >
+                    <Section content={content.skills} key="skills"/>
+                </section>
             </main>
 
             <style jsx>{`

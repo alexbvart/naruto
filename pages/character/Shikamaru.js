@@ -1,18 +1,18 @@
 import Head from 'next/head'
 import Hero from '../../components/Hero';
 import SectionWrapper from '../../components/SectionWrapper/index,';
-import {naruto} from "../../dataNaruto";
+import {shikamaru} from "../../dataShikamaru";
 
 const Naruto = () => {
     return ( 
         <>
             <Head>
-                <title>{naruto.header.name}</title>
+                <title>{shikamaru.header.name}</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="theme-color" content="#15171B" />
             </Head>
-            <Hero header={naruto.header} />
-            <SectionWrapper content={naruto}></SectionWrapper>
+            <Hero header={shikamaru.header} />
+            <SectionWrapper content={shikamaru}></SectionWrapper>
         </>
     );
 }
