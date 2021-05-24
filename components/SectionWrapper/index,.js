@@ -1,6 +1,7 @@
 import React, {useRef, useState} from 'react';
 import Title from 'Shares/Title';
 import useWindowDimensions from '../../hooks/useWindowDimension';
+import DropDown from './DropDown';
 import Section from './Section';
 
 import TabButton from './TabButton';
@@ -53,6 +54,13 @@ const SectionWrapper = ({content}) => {
                 <section className={section} >
                     <Section content={content.info.intro} key="intro" />
                     <Section content={content.info.creation} key="creation" />
+                    <DropDown content={content.info.name} key="name" title={"Nombre"} />
+                    <DropDown content={content.info.information} key="information" title={"Información"} />
+                    <DropDown content={content.info.ninjaRank} key="ninjaRank" title={"Rango Ninja"} />
+                    <DropDown content={content.info.family} key="family" title={"Familia"} />
+                    <DropDown content={content.info.natureOfTheChakra} key="natureOfTheChakra" title={"Naturaleza del chacra"} />
+                    <DropDown content={content.info.techniques} key="techniques" title={"Técnicas"} />
+                    <DropDown content={content.info.tools} key="tools" title={"Herramientas"} />
                 </section>
                 
                 <section className={section} >
@@ -64,6 +72,15 @@ const SectionWrapper = ({content}) => {
                     <Section content={content.history.history} key="history"/>
                     <Section content={content.history.partOne} key="partOne">
                         <Title>Primera parte</Title>
+                    </Section>
+                    <Section content={content.history.partTwo} key="partTwo">
+                        <Title>Segunda parte</Title>
+                    </Section>
+                    <Section content={content.history.partChange} key="partChange">
+                        <Title>Período de Cambios</Title>
+                    </Section>
+                    <Section content={content.history.partThree} key="partThree">
+                        <Title>Tercera parte</Title>
                     </Section>
                 </section>
                 

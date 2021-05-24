@@ -23,43 +23,43 @@ export const shikamaru = {
             ],
         },
         name: {
-            kanji: "奈良シカマル",
-            romaji: "Nara Shikamaru",
-            alias: [],
+            Kanji: "奈良シカマル",
+            Romaji: "Nara Shikamaru",
+            Alias: [],
         },
         information: {
-            birth: '22 de septiembre',
-            genre: 'Masculino',
-            age: [
+            "Nacimiento": '22 de septiembre',
+            "Género": 'Masculino',
+            "Edad": [
                 'Parte I: 12-130',
                 'Parte II: 16-170',
                 'The Last: 190',
                 'Parte III: 320',
             ],
-            height :[
+            "Altura" :[
                 'Parte I: 1,50.8 m-1,52.1 m',
                 'Parte II: 1,70 m',
                 'The Last: 1,77 m',
             ],
-            weight: [
+            "Peso": [
                 'Part I: 44.5 kg - 44.9 kg',
                 'Part II: 47.9 kg',
             ],
-            blood : "AB",
-            ranking: [],
-            uniqueSkills: [], 
-            kekkeiGenkai: [],
-            previousBeastWithaTail: "",
-            tailedBeast: [],
-            occupation:[
+            "Grupo Sanguineo" : "AB",
+            "Clasificación": [],
+            "Habilidad única": [], 
+            "Kekkei Genkai": [],
+            "Anterior Bestia con Cola": "",
+            "Bestia con Cola": [],
+            "Ocupación":[
                 'Examinador de los Exámenes Chūnin',
                 'Sub Comandante de la Cuarta División de la Gran Alianza Shinobi',
                 'Planificador de la Unión Shinobi',
                 'Líder del Clan Nara',
                 'Consejero del Hokage',
             ],
-            affiliation: ["Konohagakure"],
-            team: [
+            "Afiliación": ["Konohagakure"],
+            "Equipo": [
                 "Equipo Asuma",
                 "11 de Konoha",
                 "Equipo de Recuperación de Sasuke",
@@ -67,68 +67,46 @@ export const shikamaru = {
                 "Equipo de Rescate de Hanabi",
                 "Consejo de Konoha",
             ],
-            partners:[     
+            "Compañeros":[     
                 "Ino Yamanaka",
                 "Chōji Akimichi",
                 "Asuma Sarutobi",
             ],
-            clan: [
+            "Clan": [
                 " Clan Nara",
             ],
         },
         ninjaRank: {
-            ninjaRank: [
+            "Rango Ninja": [
                 "Parte II: Chūnin",
                 "The Last: Jōnin"
             ],
-            ninjaRegistration: "012611",
-            graduationFromTheAcademy: "12",
-            promotionToChunin: "12"
+            "Registro Ninja": "012611",
+            "Graduacion de la academia": "12 años",
+            "Ascenso a chūnin": "12 años"
         },
-        family:[
-            {
-                name: "Shikaku Nara ",
-                relationship: "Padre",
-            },
-            {
-                name: "Yoshino Nara ",
-                relationship: "Madre",
-            },
-            {
-                name: "Temari",
-                relationship: "Esposa",
-            },
-            {
-                name: "Shikadai Nara",
-                relationship: "Hijo",
-            },
-            {
-                name: "Rasa",
-                relationship: "Suegro",
-            },
-            {
-                name: "Karura",
-                relationship: "Suegra",
-            },
-            {
-                name: "Kankurō",
-                relationship: "Cuñado",
-            },
-            {
-                name: "Gaara",
-                relationship: "Cuñado",
-            },
-            {
-                name: "Shinki",
-                relationship: "Sobrino adoptivo",
-            },
-        ],
-        natureOfTheChakra:[
-            "Fuego",
-            "Tierra",
-            "Yin",
-        ],
-        techniques:[
+        family:{
+            "Familia":[
+                "Shikaku Nara (Padre)",
+                "Yoshino Nara (Madre)",
+                "Temari (Esposa)",
+                "Shikadai Nara (Hijo)",
+                "Rasa (Suegro)",
+                "Karura (Suegra) ",
+                "Kankurō (Cuñado)",
+                "Gaara (Cuñado)",
+                "Shinki (Sobrino adoptivo)",
+            ]
+        },
+        "natureOfTheChakra":{
+            "Naturaleza del chacra":[
+                "Fuego",
+                "Tierra",
+                "Yin",
+            ]
+        },
+        techniques:{
+            "Teccincas":[
             "Arte Ninja: Verdadera Captura de Espada con las Manos Desnudas",
             "Campo de Agua Portable (Solo Anime)",
             "Colaboración de Sombras (Solo Videojuegos)",
@@ -156,8 +134,9 @@ export const shikamaru = {
             "Técnica de la Red de Sombra (Solo Videojuegos)",
             "Último Recurso (Solo Videojuegos)",
             "Yo-Yo de Bola Humana",
-        ],
-        tools:[
+        ]},
+        tools:{
+            "Herramientas":[
             "Bomba de Luz",
             "Cuchilla de Chakra",
             "Cuerdas de Alambre",
@@ -166,7 +145,7 @@ export const shikamaru = {
             "Tantō",
             "Pergaminos",
             "Kunai",
-        ],
+        ]},
         creation: {
             title: "Creación",
             paragraph: [
@@ -388,7 +367,6 @@ export const shikamaru = {
                 title: "Los dos salvadores",
                 paragraph: [
                     'Shikamaru es el encargado de descubrir el código de Jiraiya sobre el verdadero secreto del líder de Akatsuki. Al no saber cómo descifrarlo, trata de hablar con Naruto, pero éste está tan deprimido por la muerte del Sannin, que ni caso le hace. Hasta que, finalmente, hace que recupere sus ánimos, llevándolo al hospital de Konoha donde Kurenai se encuentra allí, dado su avanzado estado de embarazo. Naruto se sorprende por ello y hasta bromea con eso. Shikamaru le dice a Naruto que no puede estar toda su vida deprimido, que algún día ellos serían adultos y un niño los llamaría "sensei", que siempre hay que seguir adelante y tratar de ser como sus maestros: Asuma y Jiraiya, quienes quisieron que fueran, o mejores aún de lo que querían que fueran; al final, Naruto sonríe, y Shikamaru le da el código que, seguramente, está dirigido a Naruto.',
-                    'Finalmente, descifran el código con ayuda de Naruto, ya que el primer número del código es reconocido por Naruto como un katakana y no como un número. Con base a esto, con la katakana y el libro Icha Icha número tres, que tiene la katakana en la portada, utilizan los demás números con las páginas y las primeras frases de cada una de éstas. El mensaje es: El verdadero no está entre ellos. Al no saber lo que significa, deciden llamar a Fukasaku, quien, junto con Jiraiya, luchó contra Pain, pero tampoco sabía.',
                     'Finalmente, descifran el código con ayuda de Naruto, ya que el primer número del código es reconocido por Naruto como un katakana y no como un número. Con base a esto, con la katakana y el libro Icha Icha número tres, que tiene la katakana en la portada, utilizan los demás números con las páginas y las primeras frases de cada una de éstas. El mensaje es: El verdadero no está entre ellos. Al no saber lo que significa, deciden llamar a Fukasaku, quien, junto con Jiraiya, luchó contra Pain, pero tampoco sabía.',
                     'Después de una charla con Inoichi, Ino, Shikaku, Shiho y unos ANBU, ellos llegaron a la conclusión de que alguien está controlando los cuerpos de "Pain", y que está en el lugar más alto de Konoha.',
                 ],

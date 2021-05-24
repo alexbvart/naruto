@@ -1,4 +1,5 @@
 import Paragraph from 'Shares/Paragraph';
+import Title from 'Shares/Title';
 import Subtitle from '../../../Shares/Subtitle';
 import Figure from '../../Figure';
 import {section,images_grid,rellenuto} from './section.module.css'
@@ -19,7 +20,7 @@ const Section = ({content,children}) => {
         </>
         );
     }else{
-        return ( <OneSection content={content} key={content.title||content.paragraph}/> );
+        return ( <OneSection content={content} key={content.title||content.paragraph.slice(0, 5)}/> );
     }   
 }
 export default Section;
@@ -63,7 +64,7 @@ const Backfill = ({body}) => {
     return ( 
         <> 
             {Array.isArray(body.backfill) && 
-                <> 
+                <>  <Title>Sagas de relleno</Title> <br/><br/>
                     {body.backfill.map((threeLevel,index)=>( 
                         <OneSection content={threeLevel}  className={rellenuto} key={threeLevel.title}/> 
                     ))}

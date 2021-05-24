@@ -1,0 +1,52 @@
+.drop_down{
+    background-color: var(--bg-2);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-bottom: 72px;
+}
+.dropdown_header{
+    height: 96px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon_select_false{
+    transform: rotate(0);
+    transition: all ease-in .4s;
+}
+.icon_select_true{
+    transform: rotate(180deg);
+    transition: all ease-in .4s;
+}
+.pd_0{
+    padding: 0;
+}
+.wrapper_down{
+    height: 0;
+    opacity: 0;
+    transition: all ease-in 0s;
+
+}
+.wrapper_down_active{
+
+    opacity: 1;
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    transition: all ease-in .3s;
+}
+.card_data{
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    background-color: var(--bg-3);
+    border-radius: var(--border-radius);
+}
+
+@media screen and (max-width: 560px) {
+
+    .wrapper_down_active{
+        grid-template-columns: 1fr;
+    }
+}
