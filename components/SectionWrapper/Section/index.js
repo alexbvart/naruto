@@ -20,7 +20,7 @@ const Section = ({content,children}) => {
         </>
         );
     }else{
-        return ( <OneSection content={content} key={content.title||content.paragraph.slice(0, 5)}/> );
+        return ( <OneSection content={content} key={content.title||content.paragraph}/> );
     }   
 }
 export default Section;
@@ -69,7 +69,7 @@ const Backfill = ({body}) => {
                         <OneSection content={threeLevel}  className={rellenuto} key={threeLevel.title}/> 
                     ))}
                 </>
-            }
+            } <br/>
         </>
     )
 }

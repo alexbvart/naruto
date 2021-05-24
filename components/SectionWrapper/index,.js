@@ -39,7 +39,7 @@ const SectionWrapper = ({content}) => {
                     setKey(keyOfChild);
                 }
             }>
-                <TabButton ScrollFromSection={ScrollFromSection} pushSlide={1}>Información </TabButton>
+                {<TabButton ScrollFromSection={ScrollFromSection} pushSlide={1}>Información </TabButton>}
                 <TabButton ScrollFromSection={ScrollFromSection} pushSlide={2}>Apariencia </TabButton>
                 <TabButton ScrollFromSection={ScrollFromSection} pushSlide={3}>Historia </TabButton>
                 <TabButton ScrollFromSection={ScrollFromSection} pushSlide={4}>Habilidades </TabButton>
@@ -51,41 +51,63 @@ const SectionWrapper = ({content}) => {
                 className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} 
                 onScroll={()=> DetectScrollPosition()}>
 
-                <section className={section} >
-                    <Section content={content.info.intro} key="intro" />
-                    <Section content={content.info.creation} key="creation" />
-                    <DropDown content={content.info.name} key="name" title={"Nombre"} />
-                    <DropDown content={content.info.information} key="information" title={"Información"} />
-                    <DropDown content={content.info.ninjaRank} key="ninjaRank" title={"Rango Ninja"} />
-                    <DropDown content={content.info.family} key="family" title={"Familia"} />
-                    <DropDown content={content.info.natureOfTheChakra} key="natureOfTheChakra" title={"Naturaleza del chacra"} />
-                    <DropDown content={content.info.techniques} key="techniques" title={"Técnicas"} />
-                    <DropDown content={content.info.tools} key="tools" title={"Herramientas"} />
+                
+                <section className={section} key="info">
+                    {content.info.intro && 
+                        <Section  content={content.info.intro} key="intro" />}
+                    {content.info.creation && 
+                        <Section  content={content.info.creation} key="creation" />}
+                    {content.info.name && 
+                        <DropDown 
+                            content={content.info.name} 
+                            key="name" 
+                            title={"Nombre"} 
+                            status={true}/>}
+                    {content.info.information && 
+                        <DropDown content={content.info.information} key="information" title={"Información"} />}
+                    {content.info.ninjaRank && 
+                        <DropDown content={content.info.ninjaRank} key="ninjaRank" title={"Rango Ninja"} />}
+                    {content.info.family && 
+                        <DropDown content={content.info.family} key="family" title={"Familia"} />}
+                    {content.info.natureOfTheChakra && 
+                        <DropDown content={content.info.natureOfTheChakra} key="natureOfTheChakra" title={"Naturaleza del chacra"} />}
+                    {content.info.techniques && 
+                        <DropDown content={content.info.techniques} key="techniques" title={"Técnicas"} />}
+                    {content.info.tools && 
+                        <DropDown content={content.info.tools} key="tools" title={"Herramientas"} />}
                 </section>
                 
+                
                 <section className={section} >
-                    <Section content={content.appearance.appearance}  key="appearance"/>
-                    <Section content={content.appearance.personality} key="personality"/>
+                    {content.appearance.appearance &&
+                        <Section content={content.appearance.appearance}  key="appearance"/>}
+                    {content.appearance.personality &&
+                        <Section content={content.appearance.personality} key="personality"/>}
                 </section>
 
                 <section className={section} >
-                    <Section content={content.history.history} key="history"/>
+                    {content.history.history &&
+                        <Section content={content.history.history} key="history"/>}
+                    {content.history.partOne &&
                     <Section content={content.history.partOne} key="partOne">
                         <Title>Primera parte</Title>
-                    </Section>
+                    </Section>}
+                    {content.history.partTwo &&
                     <Section content={content.history.partTwo} key="partTwo">
                         <Title>Segunda parte</Title>
-                    </Section>
+                    </Section>}
+                    {content.history.partChange&&
                     <Section content={content.history.partChange} key="partChange">
                         <Title>Período de Cambios</Title>
-                    </Section>
+                    </Section>}
+                    {content.history.partThree &&
                     <Section content={content.history.partThree} key="partThree">
                         <Title>Tercera parte</Title>
-                    </Section>
+                    </Section>}
                 </section>
                 
                 <section className={section} >
-                    <Section content={content.skills} key="skills"/>
+                    { content.skills && <Section content={content.skills} key="skills"/>}
                 </section>
             </main>
 
