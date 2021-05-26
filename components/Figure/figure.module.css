@@ -35,25 +35,27 @@
 }
 .img{
   border-radius: 5px;
+  
 }
+
 /* =========== = =======================*/
 /* 		 FULL SCREEN   
 /* =========== = =======================*/
 
+.modal_screen, .closeModal,.containerCarrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .modal_screen {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.96);
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: all 0.5s ease-in-out;
-  flex-direction: column;
   padding: 0 1em;
-
   animation-duration: .5s;
   animation-name: showModal;
 }
@@ -68,11 +70,6 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   transition: all .3s ease;
   border: 3px solid transparent;
   transform: scale(1);
@@ -84,6 +81,17 @@
   background-color: rgb(105, 104, 104);
   transform: scale(1.2);
 }
+
+.containerCarrousel{
+  background-color: rgba(0, 0, 0, 0.212);
+  width: 600px;
+  height: 90vh;
+  flex-direction: row;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+
 .descriptionFullScreen {
   margin-top: 1.5em;
   font-size: 1.2em;
@@ -91,6 +99,30 @@
   width: 100%;
   font-weight: bold;
   line-height: 1.5em;
+  min-height: 58px;
+}
+
+.btn{
+  position: absolute;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  z-index: 10;
+  background-color: rgb(134, 134, 134);
+  font-size: 2em;
+}
+.btnLeft{
+  left: 25%;
+}
+.btnRight{
+right: 25%;
+}
+.count{
+  text-align: center;
+  font-size: .9em;
+  color: rgba(158, 155, 155, 0.623);
 }
 
 @media screen and (min-width: 768px) {
@@ -98,7 +130,31 @@
     width: 500px;
   }
 }
-
+@media screen and (max-width: 768px) {
+  .btn{
+    bottom:10%;
+  }
+  .btnLeft{
+    left: 5%;
+  }
+  .btnRight{
+  right: 5%;
+  }
+  .count{
+    margin-top: 1.5em;
+  }
+  .closeModal{
+    top: 10px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .btnLeft{
+    left: 10%;
+  }
+  .btnRight{
+  right: 10%;
+  }
+}
 @keyframes showModal {
   from {
     opacity: 0;
