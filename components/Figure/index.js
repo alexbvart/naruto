@@ -1,14 +1,31 @@
 import Image from 'next/image'
-import {figure_wrapper,f_w_border_radius,figcaption} from './figure.module.css'
+import { useEffect, useState } from 'react';
 
-const Figure = ({src,className,description, height=400, borderRadius=true}) => {
+import { FullScreen } from './fullScreen'
+
+import { figure_wrapper, f_w_border_radius, figcaption } from './figure.module.css'
+
+let i = []
+
+const Figure = ({ src, className, description, height = 400, borderRadius = true }) => {
 
     const border_radius = borderRadius ? f_w_border_radius : "";
 
-    
-    return ( 
-        <figure className={`${className} ${figure_wrapper} ${border_radius}`}>
+    const [activeFullScreen, setActiveFullScreen] = useState(false)
 
+    useEffect(() => {
+        if(description){
+            i = [...new Set(i), {src, description}]
+        }
+        console.log('object')
+    }, [])
+
+    return (
+        <>
+            <figure
+                className={`${className} ${figure_wrapper} ${border_radius}`}
+                onClick={() => setActiveFullScreen(!activeFullScreen)}
+            >
                 <Image
                     src={src}
                     alt={description}
@@ -17,11 +34,28 @@ const Figure = ({src,className,description, height=400, borderRadius=true}) => {
                     width={500}
                     height={height}
                     layout="responsive"
+
                 />
-                {description&&
+                {description &&
                     <figcaption className={figcaption}>{description}</figcaption>}
 
-        </figure>
+            </figure>
+
+
+            {
+                (activeFullScreen) &&
+                <FullScreen
+                    activeFullScreen={activeFullScreen}
+                    setActiveFullScreen={setActiveFullScreen}
+                    height={height}
+                    description={description}
+                    src={src}
+                    arrayImg={i}
+                />
+            }
+
+        </>
+
     );
 }
 export default Figure;

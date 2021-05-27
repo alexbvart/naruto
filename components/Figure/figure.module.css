@@ -1,31 +1,166 @@
-.figure_wrapper{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
+.figure_wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
 }
-.f_w_border_radius{
-    border-radius: 12px;
+.f_w_border_radius {
+  border-radius: 12px;
+}
+
+.figure_wrapper::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(16, 16, 18, 0) 50%,
+    rgb(16, 16, 18) 100%
+  );
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*     mix-blend-mode: lighten; */
+  filter: contrast(80%) brightness(80%) opacity(80%);
+  z-index: 1;
+}
+.figcaption {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  z-index: 1;
+  font-weight: 500;
+}
+.img{
+  border-radius: 5px;
+  
+}
+
+/* =========== = =======================*/
+/* 		 FULL SCREEN   
+/* =========== = =======================*/
+
+.modal_screen, .closeModal,.containerCarrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_screen {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+  padding: 0 1em;
+  animation-duration: .5s;
+  animation-name: showModal;
+}
+
+.closeModal {
+  position: absolute;
+  font-size: 1.3em;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.555);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: all .3s ease;
+  border: 3px solid transparent;
+  transform: scale(1);
+
+}
+.closeModal:hover,
+.closeModal:active {
+  border: 3px solid rgba(255, 255, 255, 0.479);
+  background-color: rgb(105, 104, 104);
+  transform: scale(1.2);
+}
+
+.containerCarrousel{
+  background-color: rgba(0, 0, 0, 0.212);
+  width: 600px;
+  height: 90vh;
+  flex-direction: row;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 
-.figure_wrapper::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(180deg, rgba(16, 16, 18, 0) 50%, rgb(16, 16, 18) 100%);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-/*     mix-blend-mode: lighten; */
-    filter: contrast(80%)  brightness(80%) opacity(80%);
-    z-index: 1;
+.descriptionFullScreen {
+  margin-top: 1.5em;
+  font-size: 1.2em;
+  padding: 0 .5em;
+  width: 100%;
+  font-weight: bold;
+  line-height: 1.5em;
+  min-height: 58px;
 }
-.figcaption{
-    position: absolute;
-    bottom: 24px;
-    left: 24px;
-    z-index: 1;
-    font-weight: 500;
+
+.btn{
+  position: absolute;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  z-index: 10;
+  background-color: rgb(134, 134, 134);
+  font-size: 2em;
+}
+.btnLeft{
+  left: 25%;
+}
+.btnRight{
+right: 25%;
+}
+.count{
+  text-align: center;
+  font-size: .9em;
+  color: rgba(158, 155, 155, 0.623);
+}
+
+@media screen and (min-width: 768px) {
+  .descriptionFullScreen {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn{
+    bottom:10%;
+  }
+  .btnLeft{
+    left: 5%;
+  }
+  .btnRight{
+  right: 5%;
+  }
+  .count{
+    margin-top: 1.5em;
+  }
+  .closeModal{
+    top: 10px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .btnLeft{
+    left: 10%;
+  }
+  .btnRight{
+  right: 10%;
+  }
+}
+@keyframes showModal {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  } 
 }
