@@ -48,7 +48,6 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
                     activeFullScreen={activeFullScreen}
                     setActiveFullScreen={setActiveFullScreen}
                     height={height}
-                    description={description}
                     src={src}
                     arrayImg={i}
                 />
