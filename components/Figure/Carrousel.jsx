@@ -25,8 +25,8 @@ export const Carrousel = ({ height, index_img, images }) => {
                     "type": "fraction"
                 }}
                 navigation={{
-                    prevEl: ".btnRight",
-                    nextEl: ".btnLeft",
+                    prevEl: ".btnLeft",
+                    nextEl: ".btnRight",
                 }}
                 keyboard={{
                     enabled: true,
