@@ -42,7 +42,7 @@
 /* 		 FULL SCREEN   
 /* =========== = =======================*/
 
-.modal_screen, .closeModal,.containerCarrousel {
+.modal_screen, .closeModal,.containerCarrousel, .btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,7 +84,8 @@
 
 .containerCarrousel{
   background-color: rgba(0, 0, 0, 0.212);
-  width: 600px;
+  width: 700px;
+  padding:0 30px;
   height: 90vh;
   flex-direction: row;
   overflow: hidden;
@@ -94,6 +95,7 @@
 
 .descriptionFullScreen {
   margin-top: 1.5em;
+  margin-bottom: 2em;
   font-size: 1.2em;
   padding: 0 .5em;
   width: 100%;
@@ -105,25 +107,35 @@
 .btn{
   position: absolute;
   cursor: pointer;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   border: none;
   z-index: 10;
-  background-color: rgb(134, 134, 134);
+  background-color: rgba(68, 67, 67, 0.836);
+  transition: all .3s ease;
   font-size: 2em;
 }
+.btn:hover{
+  background-color: rgb(37, 36, 36);
+}
+.btn:active{
+  outline: none;
+  border: none;
+  background: none;
+}
 .btnLeft{
-  left: 25%;
+  left: 20.5%;
+}
+.btnLeft:active{
+  outline: none;
+  border: none;
+  background: none;
 }
 .btnRight{
-right: 25%;
+right: 20.5%;
 }
-.count{
-  text-align: center;
-  font-size: .9em;
-  color: rgba(158, 155, 155, 0.623);
-}
+
 
 @media screen and (min-width: 768px) {
   .descriptionFullScreen {
