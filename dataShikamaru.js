@@ -3,6 +3,10 @@ export const shikamaru = {
     header: {
         name: "Shikamaru Nara",
         headerImages: [
+            "https://w0.peakpx.com/wallpaper/196/445/HD-wallpaper-einstein-of-konoha-japan-nature-shikamaru-nara-anime-aesthetic-naruto-shippuden-team-10-thumbnail.jpg",
+            "https://w0.peakpx.com/wallpaper/406/208/HD-wallpaper-shikamaru-nara-anime-forest-green-light-naruto-nature-hop-plants-trees-thumbnail.jpg",
+            "https://w0.peakpx.com/wallpaper/797/731/HD-wallpaper-shikamaru-akatsuki-naruto-naruto-shippuden-sasuke-shikamaru-nara-thumbnail.jpg",
+            "https://w0.peakpx.com/wallpaper/579/96/HD-wallpaper-shikamaru-nara-cartoon-hero-king-thumbnail.jpg",
             "https://static.wikia.nocookie.net/naruto/images/c/c3/Shikamaru_Nara_Parte_III_Anime.png/revision/latest/scale-to-width-down/350?cb=20171225212823&path-prefix=es",
             "https://static.wikia.nocookie.net/naruto/images/f/f9/Shikamaru_Nara_Periodo_de_Cambios_Anime.png/revision/latest/scale-to-width-down/350?cb=20170210134016&path-prefix=es",
             "https://static.wikia.nocookie.net/naruto/images/e/e3/Shikamaru_Nara_Parte_II_Anime.png/revision/latest/scale-to-width-down/350?cb=20130106033642&path-prefix=es",

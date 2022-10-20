@@ -23,8 +23,8 @@
     overflow: hidden;
 }
 .alias{
-    margin-top: 2px;
-    margin-bottom: 28px;
+    /* margin-top: 2px; */
+    margin-bottom: 12px;
 }
 
 @media screen and (max-width: 760px) {

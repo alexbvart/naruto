@@ -23,7 +23,7 @@ const Hero = ({header}) => {
 
             <div className={header_info}>
                 <Title>{header.name}</Title>
-                <Subtitle className={alias}> {header.alias}</Subtitle>
+                {header.alias && <Subtitle className={alias}> {header.alias}</Subtitle>}
                 <NinjaBadge
                     affiliation={header.affiliation} 
                     affiliationUrl={header.affiliationIcon} 

@@ -26,7 +26,7 @@ const CarouselOfHeaderImages = ({children,items}) => {
                     position: fixed;
                     width: ${items}00%;
                     height: 100%;
-                    background-image: linear-gradient(180deg, rgba(16, 16, 18, 0) 50%, #15171B 100%);
+                    background-image: linear-gradient(180deg, rgba(16, 16, 18, 0) 50%, #151515 100%);
                     background-position: center;
                     background-size: cover;
                     background-repeat: no-repeat;
