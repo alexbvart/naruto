@@ -14,7 +14,7 @@ const SectionWrapper = ({content}) => {
     const mainContainer = useRef(null)
     const wrapperContainer = mainContainer.current;
     const [key, setKey] = useState(1);
-    const widthOfWindow = windowSize.width > 560 ? "85vw" : "calc(100vw - 48px) ";
+    const widthOfWindow = windowSize.width > 560 ? "900px" : "calc(100vw - 48px) ";
 
     const ScrollFromSection = (value)=>{
         wrapperContainer.scrollLeft = (value - 1 ) * wrapperContainer.clientWidth;

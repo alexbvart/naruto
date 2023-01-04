@@ -1,4 +1,5 @@
 .section{
+    max-width: var(--max-w);
     margin-bottom: 72px;
 }
 

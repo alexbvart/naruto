@@ -74,6 +74,7 @@
 
 
   --border-radius: 12px;
+  --max-w : 900px;
 
   /* * z-index  */
   --z-nav: 1;
@@ -143,6 +144,7 @@ a {
 
 .wrapper_margin_globals{
   width: calc(100% - 15%);
+  max-width: var(--max-w);
   margin: auto;
   height: 100%; 
 }
