@@ -1,0 +1,15 @@
+.span_text{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.defectPadding{
+    padding-bottom: 2px;
+}
+
+@media screen and (max-width: 560px) {
+
+    .span_text{
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+}

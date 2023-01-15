@@ -5,9 +5,6 @@
     justify-content: center;
     margin: 22px auto;
 
-
-
-
     position: sticky;
     top: 0;
     background-color: var(--bg-1);
@@ -15,16 +12,17 @@
 }
 .navigation{
     display: flex;
-
+    align-items: center;
     margin-bottom: 12px;
     margin-right: 8px;
 }
 .tab_element{
-    font-size: 22px;
+    font-size: 2rem;
     font-weight: 400;
     margin-right: 12px;
 }
 .tab_element_active{
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
@@ -32,13 +30,12 @@
 .navigation_buuble{
     display: flex;
     position: sticky;
-
     left: 0;
 }
 
 .bubble{
     width: 20px;
-    height: 12px;
+    height: 8px;
     background-color: #ffffff60;
     border-radius: 35px;
     margin-right: 8px;
@@ -46,7 +43,7 @@
 }
 .bubble_active{
     width: 80px;
-    height: 12px;
+    height: 8px;
     background-color: #ffffff90;
 }
 
@@ -68,5 +65,11 @@
     }
     .nav::-webkit-scrollbar-thumb {
         background: var(--card-background);
+    }
+    .tab_element{
+        font-size: 1.8rem;
+    }    
+    .tab_element_active{
+        font-size: 2.0rem;
     }
 }

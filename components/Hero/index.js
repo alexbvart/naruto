@@ -5,6 +5,8 @@ import NinjaBadge from './NinjaBadge';
 import CarouselOfHeaderImages from './CarouselOfHeaderImages';
 
 import {main,image_header,header_info,alias} from './hero.module.css'
+import Paragraph from 'Shares/Paragraph';
+import Span from 'Shares/Span/Span';
 
 const Hero = ({header}) => {
     return ( 
@@ -22,13 +24,14 @@ const Hero = ({header}) => {
             </CarouselOfHeaderImages>
 
             <div className={header_info}>
+                {header.alias && <Span className={alias}> {header.alias}</Span>}
                 <Title>{header.name}</Title>
-                {header.alias && <Subtitle className={alias}> {header.alias}</Subtitle>}
-                <NinjaBadge
+                <Paragraph>{header.affiliation} </Paragraph>
+                {/* <NinjaBadge
                     affiliation={header.affiliation} 
                     affiliationUrl={header.affiliationIcon} 
                     rank={header.rank} 
-                ></NinjaBadge>  
+                ></NinjaBadge>   */}
             </div> 
             
         </article>

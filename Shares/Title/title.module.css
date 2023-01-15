@@ -1,12 +1,12 @@
 .title{
-    font-size: 48px;
+    font-size: 4rem;
     font-weight: 600;
 }
 
 @media screen and (max-width: 560px) {
 
     .title{
-        font-size: 44px;
+        font-size: 3rem;
         font-weight: 500;
     }
 }

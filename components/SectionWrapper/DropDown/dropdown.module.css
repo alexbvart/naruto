@@ -1,6 +1,6 @@
 .drop_down{
     background-color: var(--bg-2);
-    padding: 20px;
+    padding: 12px;
     border-radius: var(--border-radius);
     margin-bottom: 72px;
 }
@@ -8,6 +8,7 @@
     height: 96px;
     width: 100%;
     display: flex;
+    padding: 0 4px;
     justify-content: space-between;
     align-items: center;
 }

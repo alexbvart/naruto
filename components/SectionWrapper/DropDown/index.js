@@ -18,7 +18,6 @@ const DropDown = ({title,content,status=false}) => {
             <header className={dropdown_header} onClick={()=>setDrop(!drop)}>
                 <Subtitle className={pd_0}>{title}</Subtitle>
                 <div 
-                    
                     className={`${drop ? icon_select_true : icon_select_false}`}
                 > 
                     <Arrow />
