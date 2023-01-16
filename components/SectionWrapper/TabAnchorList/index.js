@@ -1,21 +1,20 @@
-import React, {Children} from 'react';
+import React from 'react';
 import {nav,
         navigation,tab_element,tab_element_active,
         navigation_buuble,bubble,bubble_active} from './tablist.module.css'
 
-const TabList = ({activeKey, onSelect, children}) => {
-    console.log(children);
+const TabAnchorList = ({activeKey, onSelect, children}) => {
     return ( 
         <nav className={`${nav} wrapper_margin_globals`}>
         <div className={navigation}>
         
-            {Children.map(children, (child, i) => (
+            {children.map((child, i) => (
                 <div
                     key={child.props.pushSlide}
                     className={`${tab_element} ${activeKey === child.props.pushSlide && tab_element_active} }`}
                     onClick={() => {
                         onSelect(child.props.pushSlide);
-                        child.props.ScrollFromSection(child.props.pushSlide);
+                        // child.props.ScrollFromSection(child.props.pushSlide);
                     }}
                 >
                     {child.props.children}
@@ -24,13 +23,13 @@ const TabList = ({activeKey, onSelect, children}) => {
         </div>
 
         <div className={navigation_buuble}>
-            {Children.map(children, (child) => (
+            {children.map((child, i) => (
                 <div
                     className={`${bubble} ${activeKey === child.props.pushSlide && bubble_active}`}
                 ></div>
             ))}
-        </div>
+        </div> 
         </nav>
     );
 }
-export default TabList;
+export default TabAnchorList;

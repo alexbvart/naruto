@@ -3,7 +3,7 @@ const Span = ({children,className}) => {
     const padding = className ?`${className}`: defectPadding;
     return ( 
         <>
-            <h2 className={`${span_text} ${padding}`}> {children} </h2>
+            <span className={`${span_text} ${padding}`}> {children} </span>
         </>
     );
 }

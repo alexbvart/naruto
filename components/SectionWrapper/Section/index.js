@@ -1,10 +1,11 @@
 import Paragraph from 'Shares/Paragraph';
+import Span from 'Shares/Span/Span';
 import Title from 'Shares/Title';
 import Subtitle from '../../../Shares/Subtitle';
 import Figure from '../../Figure';
-import {section,images_grid,rellenuto} from './section.module.css'
+import {section,images_grid,rellenuto,abstractSection,miniInfo} from './section.module.css'
 
-const Section = ({content,children}) => {
+export const Section = ({content,children}) => {
     if(Array.isArray(content)){
         return (
         <>  {children} <br/>
@@ -23,18 +24,18 @@ const Section = ({content,children}) => {
         return ( <OneSection content={content} key={content.title||content.paragraph}/> );
     }   
 }
-export default Section;
 
 
 
-const OneSection = ({content,className}) => {
+
+export const OneSection = ({content,className, title}) => {
     return ( 
         <>
             <section className={`${section} ${className}`}>
                 {content.title && 
                     <Subtitle>{content.title}</Subtitle>
                 }
-
+                
                 {content.paragraph && 
                     content.paragraph.map((paragraph,index)=>(
                         <><Paragraph key={index}> {paragraph} </Paragraph> <br/></>
@@ -72,4 +73,38 @@ const Backfill = ({body}) => {
             } <br/>
         </>
     )
+}
+
+
+export const AbstractSection = ({content,className, title}) => {
+    return ( 
+        <>
+            <section className={`${abstractSection} ${className}`}>
+                {title && 
+                    <Subtitle>{title}</Subtitle>
+                }
+                
+                {content && 
+                    <Paragraph > {content} </Paragraph>
+                }
+            </section>
+        </>
+    );
+}
+export const MiniInfo = ({clan,range,birth,age,className}) => {
+    console.log(clan,range,birth,age);
+    return ( 
+        <>
+            <section className={`${miniInfo} ${className}`}>
+                
+                <Span> 
+                    {clan?.length>0 && <>{`${clan}, `}</>  }
+                    {range?.length>0 && <>{`${range}, `}</>  }
+                    {birth?.length>0 && <>{`${birth}, `}</>  }
+                    {age?.length>0 && <>{age} </> }
+                </Span>
+                
+            </section>
+        </>
+    );
 }

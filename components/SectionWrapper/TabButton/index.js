@@ -1,7 +1,7 @@
 const TabButton = ({children}) => {
     return ( 
         <>
-            <button  >
+            <button>
                 {children}
             </button>
         </>

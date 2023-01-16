@@ -11,7 +11,7 @@ const CarouselOfHeaderImages = ({children,items}) => {
                 .wrapper{
                     width:100%;
                     height:100%;
-                    max-height:700px;
+                    max-height:600px;
                     overflow:hidden;
                     grid-area:carrousel;
                     position: sticky;

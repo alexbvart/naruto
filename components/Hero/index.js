@@ -9,11 +9,12 @@ import Paragraph from 'Shares/Paragraph';
 import Span from 'Shares/Span/Span';
 
 const Hero = ({header}) => {
+    console.log(header);
     return ( 
         <article className={main}>
 
-            <CarouselOfHeaderImages items={header.headerImages.length} >
-                {header.headerImages.map((image,index)=>(
+            <CarouselOfHeaderImages items={header.photos.length} >
+                {header.photos.map((image,index)=>(
                     <Figure 
                         key={index}
                         src={image} 
@@ -24,16 +25,15 @@ const Hero = ({header}) => {
             </CarouselOfHeaderImages>
 
             <div className={header_info}>
-                {header.alias && <Span className={alias}> {header.alias}</Span>}
+                {header.alias && <Span className={alias}> {header.alias[0]}</Span>}
                 <Title>{header.name}</Title>
-                <Paragraph>{header.affiliation} </Paragraph>
+                <Paragraph>{header.affiliation[0].affiliationName} </Paragraph>
                 {/* <NinjaBadge
                     affiliation={header.affiliation} 
                     affiliationUrl={header.affiliationIcon} 
                     rank={header.rank} 
                 ></NinjaBadge>   */}
             </div> 
-            
         </article>
     );
 }

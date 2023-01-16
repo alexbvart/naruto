@@ -1,0 +1,265 @@
+{
+    "header": {
+      "name": "Obito Uchiha",
+      "icon": "https://static.wikia.nocookie.net/naruto/images/9/95/S%C3%ADmbolo_de_Clan_Uchiha.svg/revision/latest/scale-to-width-down/18?cb=20130403185501&path-prefix=es",
+      "photos": [
+        "https://static.wikia.nocookie.net/naruto/images/3/3b/Obito_Uchiha_Parte_II_Anime.png/revision/latest/scale-to-width-down/350?cb=20160325191408&path-prefix=es",
+        "https://static.wikia.nocookie.net/naruto/images/3/37/Obito_Uchiha_como_Tobi_Anime.png/revision/latest/scale-to-width-down/350?cb=20140518061842&path-prefix=es",
+        "https://static.wikia.nocookie.net/naruto/images/3/3d/La_cara_de_Tobi_es_revelada.png/revision/latest/scale-to-width-down/350?cb=20151205055344&path-prefix=es"
+      ],
+      "alias": [
+        "Tobi (トビ,Tobi)",
+        "Madara Uchiha (うちはマダラ, Uchiha Madara)",
+        "Madara Enmascarado (仮面のマダラ, Kamen no Madara)",
+        "Oscuridad (闇, Yami)",
+        "Hombre Enmascarado (仮面の男, Kamen no Otoko)",
+        "Nadie (誰も, Dare mo)",
+        "Salvador (救世主, Kyūseishu)"
+      ],
+      "clan": [
+        {
+          "clanName": "Clan Uchiha",
+          "clanIcon": "https://static.wikia.nocookie.net/naruto/images/9/95/S%C3%ADmbolo_de_Clan_Uchiha.svg/revision/latest/scale-to-width-down/18?cb=20130403185501&path-prefix=es"
+        }
+      ],
+      "affiliation": [
+        {
+          "affiliationName": "Konohagakure",
+          "affiliationIcon": "https://static.wikia.nocookie.net/naruto/images/2/2b/S%C3%ADmbolo_de_Konohagakure.svg/revision/latest/scale-to-width-down/18?cb=20130303103502&path-prefix=es"
+        },
+        {
+          "affiliationName": "Kirigakure",
+          "affiliationIcon": "https://static.wikia.nocookie.net/naruto/images/3/30/S%C3%ADmbolo_de_Kirigakure.svg/revision/latest/scale-to-width-down/18?cb=20130303103501&path-prefix=es"
+        },
+        {
+          "affiliationName": "Akatsuki",
+          "affiliationIcon": "https://static.wikia.nocookie.net/naruto/images/9/96/S%C3%ADmbolo_de_Akatsuki.svg/revision/latest/scale-to-width-down/18?cb=20130303103416&path-prefix=es"
+        }
+      ],
+      "element": [
+        {
+          "elementName": "Elemento Fuego",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/4/4e/Elemento_Fuego.svg/revision/latest/scale-to-width-down/18?cb=20130303095521&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Viento",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/6/68/Elemento_Viento.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Rayo",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/f/ff/Elemento_Rayo.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Tierra",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/0/01/Elemento_Tierra.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Agua",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/e/ea/Elemento_Agua.svg/revision/latest/scale-to-width-down/18?cb=20130303092733&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Madera",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/2/25/Elemento_Madera.svg/revision/latest/scale-to-width-down/18?cb=20130303092734&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Yin",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/d/d3/Elemento_Yin.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Yang",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/d/d9/Elemento_Yang.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Yin-Yang",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/f/f7/Elemento_Yin-Yang.svg/revision/latest/scale-to-width-down/18?cb=20130303093819&path-prefix=es"
+        }
+      ],
+      "antKekkeiGenkai": [
+        {
+          "antKekkeiGenkaiName": "Rinnegan",
+          "antKekkeiGenkaiIcon": "https://static.wikia.nocookie.net/naruto/images/7/7e/Rinnegan.svg/revision/latest/scale-to-width-down/18?cb=20130303101054&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [
+        {
+          "kekkeiGenkaiName": "Sharingan",
+          "kekkeiGenkaiIcon": "https://static.wikia.nocookie.net/naruto/images/7/71/Sharingan_de_3_aspas.svg/revision/latest/scale-to-width-down/18?cb=20130427184047&path-prefix=es"
+        },
+        {
+          "kekkeiGenkaiName": "Mangekyō Sharingan",
+          "kekkeiGenkaiIcon": "https://static.wikia.nocookie.net/naruto/images/8/89/Mangeky%C5%8D_Sharingan_de_Kakashi.svg/revision/latest/scale-to-width-down/18?cb=20130303100953&path-prefix=es"
+        },
+        {
+          "kekkeiGenkaiName": "Elemento Madera",
+          "kekkeiGenkaiIcon": "https://static.wikia.nocookie.net/naruto/images/2/25/Elemento_Madera.svg/revision/latest/scale-to-width-down/18?cb=20130303092734&path-prefix=es"
+        }
+      ],
+      "abstract": "Obito Uchiha (うちはオビト, Uchiha Obito   ) era compañero de Kakashi Hatake y , Rin Nohara   alumno de Minato Namikaze y fue quien le dio a Kakashi su Sharingan izquierdo. Después de su supuesta muerte, Tobi   reapareció como Tobi (トビ, Akatsuki   ). Él era el verdadero líder de Alianza Shinobi .  Era uno de los antagonistas principales de la serie, hasta su derrota a manos de la Naruto Uzumaki y su redención a manos de Madara Uchiha .  Él mismo se había auto-proclamado como Jinchūriki para provocar temor en sus contrarios. Además de esto, Diez Colas   fue el segundo  del"
+    },
+    "info": {
+      "birth": "10 de febrero[5]",
+      "age": [ "Parte II: 29-31 años" ],
+      "height": "Juventud: 1,54.2 mAdolescente: 1,75 mAdulto: 1,82 m",
+      "weight": "44.5kg 70.3 kg",
+      "blood": "O[5]",
+      "range": [ "Chūnin" ],
+      "classifications": [
+        "Ninja Renegado",
+        "Rango S",
+        "Jinchūriki",
+        "Sabio",
+        "Jinchūriki",
+        "Tipo Sensor"
+      ],
+      "uniquePersonality": [ "Visión Espacial", "Habilidad de Regeneración" ],
+      "familyMembers": [],
+      "teams": [ "Equipo Minato" ],
+      "teamMates": [
+        "Kakashi Hatake",
+        "Rin Nohara",
+        "Zetsu Blanco",
+        "Tobi (Zetsu)",
+        "Zetsu Negro",
+        "Deidara",
+        "Madara Uchiha"
+      ],
+      "tailedBeast": "Diez Colas, Shukaku, Gyūki, Kurama (Mitad Yin)",
+      "antTailedBeast": "",
+      "jutsus": [
+        "Apertura y Cierre del Universo",
+        "Bola Bestia con Cola",
+        "Bola de la Búsqueda de la Verdad",
+        "¡Bomba Colocada con Gran Éxito!",
+        "Brazos de Chakra de Bestia con Cola",
+        "Cadenas de la Estatua Demoníaca",
+        "Camino Animal",
+        "Camino Asura",
+        "Camino Deva",
+        "Camino Exterior",
+        "Camino Exterior — Jutsu de la Vida Celestial de Saṃsāra",
+        "Camino Humano",
+        "Camino Naraka",
+        "Camino Preta",
+        "Carrera Kamui",
+        "Castigo Celestial",
+        "Elemento Fuego: Avivado Siniestro de las Llamas",
+        "Elemento Fuego: Bala de Fuego",
+        "Elemento Fuego: Danza Salvaje de Vientos Explosivos",
+        "Elemento Fuego: Frontera de Llamas Asesinas",
+        "Elemento Fuego: Jutsu Gran Bola de Fuego",
+        "Elemento Fuego: Jutsu Gran Bola de Fuego Flama Rotatoria",
+        "Elemento Fuego: Jutsu Llamas del Sabio Fénix",
+        "Elemento Madera: Gran Lanza de Árbol",
+        "Elemento Madera: Jutsu de Estaca",
+        "Elemento Madera: Jutsu de Raíces Subterráneas",
+        "Elemento Madera: Jutsu del Gran Bosque",
+        "Elemento Madera: Rafflesiaceae",
+        "Elemento Madera: Revuelta del Infierno",
+        "Elemento Tierra: Jutsu de Ocultación como un Topo",
+        "Enterramiento del Cielo y la Tierra",
+        "Estacas de la Estatua Demoníaca",
+        "Formación de las Llamas Uchiha",
+        "Formación de los Seis Yang Rojos",
+        "Genjutsu: Sharingan",
+        "Gran Incendio Aventado",
+        "Héroe del Sharingan",
+        "Inserción Celestial de la Estrella Martillante",
+        "Invocación Rinnegan",
+        "Invocación: Estatua Demoníaca del Camino Exterior",
+        "Invocación: Estatua Gedō",
+        "Invocación: Kyūbi",
+        "Izanagi",
+        "Jutsu: Campo de Minas Terrestres",
+        "Jutsu de Shuriken Espacio-Temporal",
+        "Jutsu: Golpes de Topo",
+        "Jutsu: Gran Campo de Minas Terrestres",
+        "Jutsu: Linterna Mágica Corporal",
+        "Jutsu: Nube de Polvo Encendida",
+        "Jutsu: Posesión de Obito",
+        "Jutsu: Seis Caminos",
+        "Jutsu: Transferencia de Bestia con Cola",
+        "Jutsu Desconocido de Obito",
+        "Jutsu de Detección",
+        "Jutsu de Invocación",
+        "Kurama",
+        "Jutsu de Sellado: Nueve Sellos Consumidores de los Dragones Fantasmas (Jutsu)",
+        "Jutsu de Shuriken Espacio-Temporal",
+        "Jutsu de Telescopio",
+        "Kamui",
+        "Método de Liberación de Cola",
+        "Ráfaga del Abanico",
+        "Receptor Negro",
+        "Regreso de los Uchiha",
+        "Seis Caminos del Dolor",
+        "Sello Ataúd del Diez Colas de los Seis Caminos",
+        "Técnica de la llegada del Fénix Relámpago",
+        "Técnica de Llamas del Relámpago de Loto Carmesí",
+        "Tenpenchii",
+        "Transformación de Bestia con Cola",
+        "Transformación del Sabio de los Seis Caminos",
+        "Tsukuyomi Infinito (Jutsu)",
+        "Tsukuyomi Limitado"
+      ],
+      "weapons": [
+        "Bomba de Luz",
+        "Cadenas",
+        "Cuerpo Artificial de Hashirama",
+        "Espada",
+        "Espada de Nunoboko",
+        "Gunbai",
+        "Sellos Explosivos"
+      ]
+    },
+    "information": [
+        {
+          "title": "Apariencia",
+          "paragraphsp": [
+            "A lo largo de su vida, Obito sufrió una serie de transformaciones y empleó una rica variedad de atuendos durante las diferentes etapas que sucedieron. Cuando era niño, Obito tenía pelo negro y puntiagudo, y ojos oscuros. Llevaba un uniforme de manga larga azul con placas de metal en la parte que alcanzó el dorso de las manos, así como una chaqueta azul con adornos de color naranja y el cuello. La chaqueta fue fijada al resto del equipo por dos botones en el cuello. También llevaba un cinturón blanco, sandalias shinobi, el estándar protector de Konoha en la frente, y un par de gafas con lentes naranjas conectados a los protectores para los oídos.",
+            "Tras la catástrofe en el Puente Kannabi, la mitad de su cuerpo quedó gravemente dañada, a la vez que perdió su ojo izquierdo al cederlo a Kakashi. Sin embargo, Madara, tras rescatarlo de los escombros sustituyó todo el hemisferio izquierdo con un cuerpo artificial de Hashirama, otorgándole un color blanco perpetuo en este lado, el lado derecho de su rostro quedó marcado por profundas cicatrices, similar a arrugas profundas, otorgándole una apariencia de anciano a simple vista. Durante su rehabilitación, Obito dejó crecer su cabello de manera muy similar a Madara en su juventud. Durante un periodo de tiempo, empleó el cuerpo de Tobi para moverse, adoptando la forma espiral de su rostro, usaba una larga túnica negra para cubrir su cuerpo.",
+            "Tiempo después, totalmente recuperado, empezaría a moverse usando su propio cuerpo. Obito cortó su pelo a uno más corto, emulando su apariencia de siempre, con ésta empezó a usar una máscara de color naranja (gris en el manga) con un solo agujero en su ojo derecho, rodeado de un patrón de marcas que hacían alusión a las cicatrices de su rostro. Durante esta etapa, llevaba una larga y gruesa túnica negra sobre un traje de cuerpo completo oscuro. Solía emplear unas largas cadenas si necesitaba luchar en corto alcance.",
+            "Posteriormente, dejó crecer su pelo nuevamente, dando una imagen espectral de Madara en su juventud, seguía cubriendo su rostro con la máscara usada durante el ataque a Konoha. Durante el tiempo que controló a Yagura en Kirigakure, vestía con un largo kimono azul de bordes púrpuras que dejaba al descubierto su pecho, éste estaba ceñido a la cintura con un cinturón simple color oliva, incluía también unos pantalones negros holgados. Llevaba gran parte de su cuerpo vendado, incluidas sus piernas, brazo y mano derecha. Más adelante, durante la Masacre del Clan Uchiha, usaba un traje negro debajo de una túnica larga de cuello alto color azul marino que estaba sujetada a su cintura por una tela blanca, llevaba una bolsa beige en la parte trasera, y llevaba una larga Katana ceñida a su cintura.",
+            "Una vez como Tobi, al principio de la serie, usaba el uniforme de Akatsuki, una larga túnica negra cubierta con nubes rojas y se cubría su rostro con una máscara naranja con un patrón espiral que emulaba el espiral formado por su Kamui. Bajo su capa de Akatsuki, lleva un traje negro de manga larga que cubría también su cuello y barbilla, un par de guantes negros y un pantalón negro, junto con los zapatos de Akatsuki y estribos blancos. En la cintura, lleva un cinturón negro y espeso, con una armadura metálica, como las placas que se le atribuye. Antes de revelar su supuesta identidad, llevaba el anillo de Sasori en el pulgar izquierdo. Aunque no se viera, en las manos utilizaba esmalte de uñas azul (negro en el manga).",
+            "Después de conseguir el Rinnegan, su vestuario cambió a una nueva máscara que deja al descubierto los dos ojos, a diferencia de su antigua máscara que solo mostraba uno, ésta era de un color blanco y tenía la parte trasera cubierta de una tela color púrpura claro, ésta tenía un diseño de tres tomoe con un pequeño punto en el centro y un patrón de ondas extendiéndose a través de ella, haciendo alusión al Sharingan y Rinnegan. Está máscara era de un material muy resistente, que, según él, era más adecuado para la guerra, llegando incluso a soportar un choque a toda velocidad con Naruto en su Modo Chakra del Nueve Colas sin siquiera sufrir algún rasguño. Acompañaba esta máscara con una ropa traje similar al atuendo tradicional del Clan Uchiha durante el Era de Guerra entre Clanes. Este traje incluía un par de pantalones y guantes de color negro con una camisa negra de mangas blancas, sobre ésta llevaba una gran túnica púrpura de cuello alto y manga larga y tenía grabado el símbolo Uchiha en la espalda. Alrededor de su cintura, llevaba una sencilla obi morado y un cinturón. Portaba consigo el Gunbai de Madara en la espalda.",
+            "Obito después de convertirse en el Jinchūriki del Diez Colas, sufre una serie de cambios en su cuerpo: Su cabello se vuelve color blanco, le aparecen diez salientes en su espalda, cinco en la parte superior de su espalda y otros cinco cerca de su cadera, así como una serie de magatamas, siendo nueve pequeñas y una grande con la forma del Rinnegan, pero con dos líneas a los lados. Además, la parte derecha de su cuerpo parece estar cubierta por la piel de la bestia. Ahora solo lleva el pantalón del traje que llevaba al inicio de la Guerra. Al acostumbrarse al poder del Diez Colas, Obito cambia su apariencia notablemente: le salen seis magatamas en el pecho y los salientes de su espalda se desplazan colocándose alrededor del cuello. También se forma una capa a partir de su piel y le crecen dos cuernos de la frente, siendo el izquierdo más pequeño. Además, mientras está en esta forma, Obito puede crear un Shakujō a partir de su Chakra y crear un halo de esferas detrás de él.",
+            "Tras perder a las Bestias con Cola, el atuendo y la apariencia de Obito se volvieron más simples, tras dejar de ser Jinchūriki, su cabello siguió de una tonalidad gris blanquecino, denotando una gran pérdida de vitalidad, y su atuendo consistía en un sencillo pantalón negro, dejando toda la parte superior de su cuerpo al descubierto, notándose que la mitad del mismo era blanco debido a estar formado artificialmente de células de Hashirama. Posteriormente, obtendría su ojo izquierdo."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Personalidad",
+          "paragraphsp": [
+            "Cuando era niño, Obito llegaba tarde con la excusa de estar haciendo una buena obra, como ayudar a una anciana a llevar su equipaje. Minato se refiere a esto como verdad, aunque Kakashi nunca le creyó. Obito también era un poco obstinado pero, a diferencia de Kakashi (quien era muy estricto por las normas y reglamentos), por lo general, no tenía mayores preocupaciones y prefería ayudar a un compañero que completar una misión al igual que Sakumo Hatake -a quien veía como un héroe-. También mentía para salir de situaciones incómoda; cada vez que tenía ganas de llorar, afirmaba que había 'algo en su ojo', aunque siempre llevara sus gafas puestas. Obito tenía fuertes sentimientos románticos por su compañera de equipo, Rin Nohara, pero nunca se atrevió a decirle lo que sentía por ella (ni siquiera cuando estaba 'muriendo').",
+            "Años después, con su cambio, Obito expresó que su razón para no revelar su identidad fue a que Kakashi no cumplió su promesa, la cual era la de proteger a Rin. A pesar de esto, Obito no parece culpar a Kakashi, sino a la 'realidad sin valor' que ambos viven y asegura debe ser destruida. Sin embargo, su amor por Rin parece ser uno de los motivos de su cambio y su muerte tuvo un papel primordial en la creación de su personalidad actual, llegando a creer que la realidad no es más que un 'infierno'. En el momento en que él se convirtió en un adulto, después de los sucesos del Puente Kannabi y la muerte de Rin, la personalidad de Obito cambió drásticamente y se convirtió en una persona centrada, tranquila y seria, quedando en el pasado su antigua lealtad, cuidado y compañerismo propios de la Voluntad de Fuego. Ahora afirma haber heredado la Maldición del Odio del clan Uchiha.",
+            "Aunque con frecuencia se muestra arrogante acerca de sus propias habilidades y falta el respeto de aquellos a los que considera débiles, no está por encima de alabar a sus enemigos, como a su antiguo maestro, Minato, cuando logró herirlo. Asimismo, ha abandonado su sueño de ser Hokage y los ideales de compañerismo, llegando al punto de ridiculizar a Naruto por poseer dichos atributos. Esta arrogancia se extendió hacia Kakashi Hatake, a pesar de los dos son antiguos amigos y compañeros de equipo, alabando su velocidad, luego reprenderlo por abrir la boca tan fácilmente. De adulto, Obito también se lleva bien con Zetsu, que data a su amistad con el Zetsu Blanco cuando Madara lo salvó. Se ríe de Kakashi, burlándose de él cuando le dice que aún puede cambiar para bien, mostrándole una ilusión de sí mismo con el ataque de Kakashi en su corazón, declarando estar vacío.",
+            "Obito también ha desarrollado un lado agresivo y asesino, un contraste directo con su juventud, tras presenciar la muerte de su amor platónico y encabezar una matanza él solo contra varios ninjas de Kirigakure. Esto fue mostrado por primera vez cuando atacó a su pueblo natal y mantuvo como rehenes a su antiguo maestro de la infancia, y a su hijo antes de la extracción del Nueve Colas del jinchūriki, una acción que llevó a la muerte de Minato y Kushina. Él, despiadadamente, asesinó a Torune para reencarnarlo momentos más tarde mediante el Edo Tensei, haciendo uso de Fu como sacrificio con tal de probar las habilidades de Kabuto. Después de haber sido expuesto como el falso 'Madara' por Naruto, Obito se muestra con una personalidad más nihilista, como él declaró que su nombre no tenía sentido, ya sea como 'Madara', 'Tobi' u 'Obito', que ha sido y será 'Nadie', y que no le importa nada quién era él. Él, sin embargo, sigue ferozmente comprometido con el Plan Ojo de Luna, prometiéndose hacer cualquier cosa para verlo terminado, a pesar de sus opiniones en conflicto, y que nada más importa. Este carácter continúa después de que su máscara fuera destruida, después de decirle a Kakashi que su nombre no tenía significado para él, así como también si sobrevivió o no.",
+            "Como Tobi, era despreocupado, ridículo e infantil, algo que molestaba a gran parte de los miembros (especialmente a Deidara). Él está muy comprometido a mantener su identidad secreta, incluso actuando de esa forma cuando no había nadie a su alrededor (por lo menos, durante el arco de relleno del anime). Kisame y Zetsu, por el contrario, aprecian un poco la capacidad de Tobi para 'alegrar' el tétrico contexto de la organización. Finalmente, Obito descarta su papel infantil después de la muerte de Deidara y lo usó una última vez para distraer al Escuadrón de Ocho Hombres durante la batalla de Sasuke contra Itachi. Obito ha demostrado ser bastante paciente, estuvo por años preparando paso a paso el plan Ojo de Luna, lo que además demuestra que es muy calculador y meticuloso. Esto se ve reforzado con el hecho de que, hasta bien avanzada la Cuarta Guerra Ninja, Obito no participa directamente en combates y prefiere simplemente observar desde lejos, con la excepción de situaciones imprevistas e inesperadas, como su enfrentamiento contra Minato y Konan.",
+            "Obito es un maestro de la manipulación. Él ha omitido partes de historias o acontecimientos en su propio beneficio, tal y como lo hizo con Sasuke o Nagato. Esto se ve reflejado en la existencia de los Akatsuki, los cuales son miembros completamente diferentes trabajando juntos por creer que la organización promueve el 'logro de sus fines', cuando en realidad son meras 'herramientas' que el mismo Obito programa. A menudo evita la responsabilidad por la influencia que tiene sobre los demás, reclamando a los coaccionados y manipulados de buena gana, revelando la verdadera historia de Itachi y los motivos de ésta para ganar los servicios de Sasuke fue la primera de las muchas apuestas de Obito. A pesar de que Sasuke no siempre está a la altura de sus expectativas, Obito está contento con su 'desarrollo'. Aunque él ha amenazado con matar a Sasuke en algunas ocasiones -incluso llegando a 'ofrecerlo' a los demás-, Obito permanece estar 'unido' a Sasuke, por lo menos hasta que ya no tenga un uso para él.",
+            "Durante la batalla contra Naruto, va recordando aspectos de su infancia, y se plantea si de verdad escogió el camino correcto. Al ver la personalidad de Naruto, muy parecida a la suya cuando era niño, se da cuenta de que podía haberse convertido en un ninja bueno y no un cruel criminal. Cuando habla con su antiguo compañero de equipo, éste le insiste en que aún puede cambiar, pero él se niega a cambiar a esas alturas; su odio y el sueño de recuperar a Rin es la razón por la que sigue así. Más tarde, se imagina a sí mismo si se hubiera quedado en Konoha, con sus compañeros y convertido en Hokage. A medida que avanza la batalla, se cuestiona más y más su elección.",
+            "Al tener una charla a solas con Naruto en su subconsciente, comienza a darse cuenta de que estaba equivocado, de que se había convertido en un monstruo y que había perdido por completo su identidad. Además, los continuos recuerdos de su pasado y la presencia de Rin en su mente, lo llevó a un estado de confusión y depresión que dio lugar a su derrota contra la Gran Alianza Shinobi. Antes de desvanecerse alentó a Naruto a convertirse en Hokage, a toda costa, muriendo con una sonrisa."
+          ],
+          "pictures": [
+            "https://static.wikia.nocookie.net/naruto/images/c/ca/Obito_de_ni%C3%B1o_ayudando_a_una_anciana.png/revision/latest/scale-to-width-down/180?cb=20171103121700&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/f/f0/Obito_en_el_%22Infierno%22_tras_la_muerte_de_Rin.png/revision/latest/scale-to-width-down/180?cb=20170125054537&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/9/98/Obito_se_rie_de_las_palabras_de_Kakashi.png/revision/latest/scale-to-width-down/180?cb=20140807154106&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/f/fb/Agujero_de_Obito.png/revision/latest/scale-to-width-down/180?cb=20140807140947&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/f/fb/Tobi_dedo.jpg/revision/latest/scale-to-width-down/180?cb=20100915201939&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/e/e6/Obito_manipulando_a_Nagato.png/revision/latest/scale-to-width-down/180?cb=20140123141838&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/5/5e/Obito_se_imagina_como_Hokage.png/revision/latest/scale-to-width-down/180?cb=20141030155645&path-prefix=es"
+          ]
+        },
+        {
+          "title": "Legado",
+          "paragraphsp": [
+            "La influencia de Obito en el mundo fue una de las más largas de la historia del Mundo Shinobi. Su ideal de la Voluntad de Fuego, cuando era un niño, fue transmitida a Kakashi, dándole como regalo su Sharingan izquierdo, después de que todos creyeran que había muerto y que de la misma forma, su voluntad fue transmitida a su alumno, Naruto, quien es el Jinchūriki del Nueve Colas, cosa que sucedió gracias a su padre Minato, quien a su vez fue el sensei de Obito, quien lo hizo para impedir que el Nueve Colas destruyera Konoha mientras era controlado por Obito. También adoptó y empezó el Plan Ojo de Luna de Madara, manipulando y convirtiendo a Akatsuki en una organización criminal, además de que mantenía cierta vigilancia sobre el Rinnegan de Nagato. Además, junto a Itachi, comenzó y participó en la Masacre del Clan Uchiha, dando lugar a la búsqueda de venganza de Sasuke, algo que siguió siendo alimentado por el mismo Obito luego de la muerte de Itachi. Cuando declaró la Cuarta Guerra Mundial Shinobi, provocó que las Cinco Grandes Naciones Shinobi se unieran, formando la Gran Alianza Shinobi, una hazaña que nunca antes se había pensado. Sin embargo, también causó una guerra, provocando la muerte de más de 40.000 shinobis.",
+            "Mientras luchaba contra Naruto en el segundo día de la guerra, los viejos ideales de Obito empezaron a surgir nuevamente, cosa que le hizo cuestionar sus acciones actuales, algo que provocó su derrota, a pesar de que pudo eludir ser controlado por Madara, convertirse en el Jinchūriki del Diez Colas y haber estado a pocos minutos de lanzar el Tsukuyomi Infinito. Posterior a su derrota y que las Bestias con Cola fueran extraídas de él, un debilitado Obito fue obligado por Zetsu Negro a revivir a Madara, utilizando el Camino Exterior — Jutsu de la Vida Celestial de Saṃsāra y gracias a que Zetsu Negro se unió a Obito para que no lo eliminaran, Obito lo pudo controlar durante el tiempo suficiente como para luchar contra Madara, estando del lado de la Gran Alianza Shinobi.",
+            "Durante este mismo tiempo, Obito ayudó a salvar la vida de Naruto, enviándolo a la Espacio–Tiempo del Kamui junto a Sakura, transfiriendo la mitad Yin del Nueve Colas junto con un poco del Chakra del Una Cola y el Ocho Colas que había robado de Madara cuando éste se convirtió en el nuevo Jinchūriki del Diez Colas. Además, ayudó a traer de regreso a Sasuke cuando fue enviado a otro espacio-tiempo por Kaguya Ōtsutsuki, y en última instancia, sacrificó su vida para salvar a Kakashi y a Naruto. A éste, último le dio sus últimas palabras, animándolo a que se convirtiera en Hokage a toda costa, sin importar lo que pasara.",
+            "Tras su muerte definitiva, Obito pudo regresar utilizando el Kamui, hablando con Kakashi en su subconsciente en donde le concedió su Chakra, logrando que éste pudiera utilizar su Mangekyō Sharingan en ambos ojos volviendo a ser, temporalmente, Kakashi del Sharingan. También recibió el Senjutsu de los Seis Caminos, logrando perfeccionar el Susanoo, y utilizar una serie de técnicas que fueron indispensables para la derrota y posterior sellado de Kaguya.",
+            ""
+          ],
+          "pictures": [
+            "https://static.wikia.nocookie.net/naruto/images/3/3c/Obito.png/revision/latest/scale-to-width-down/180?cb=20120216232513&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/1/19/Cuerpo_Completo_Susanoo_de_Kakashi.png/revision/latest/scale-to-width-down/180?cb=20160825135448&path-prefix=es"
+          ]
+        }
+      ]
+  }

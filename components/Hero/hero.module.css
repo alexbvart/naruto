@@ -8,10 +8,11 @@
     gap: 12px;
     overflow: hidden;
     margin: auto;
-
+    position: relative;
 }
 
 .header_info {
+    width: 100%;
     grid-area: "info";
     display: flex;
     flex-direction: column;
@@ -41,9 +42,11 @@
     }
 
     .header_info {
-        position: sticky;
+        /* position: sticky; */
         bottom: 0;
         margin-left: 24px;
+        position: absolute;
+
     }
 }
 

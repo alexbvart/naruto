@@ -12,3 +12,14 @@
 .rellenuto{
     padding-left: 10%;
 }
+
+.abstractSection{
+    max-width: var(--max-w);
+    margin: 32px 0;
+}
+
+.miniInfo{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}

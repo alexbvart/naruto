@@ -1,22 +1,20 @@
 import React, {useRef, useState} from 'react';
-import Paragraph from 'Shares/Paragraph';
 import Title from 'Shares/Title';
 import useWindowDimensions from '../../hooks/useWindowDimension';
 import DropDown from './DropDown';
-import Section, { AbstractSection, MiniInfo, OneSection } from './Section';
-import TabAnchor from './TabAnchor';
-import TabAnchorList from './TabAnchorList';
+import Section from './Section';
 
 import TabButton from './TabButton';
 import TabList from './TabList';
 import {carrousel,section} from './wrapper.module.css'
 
-const SectionWrapper = ({abstract,content,clan,info}) => {
+const SectionWrapper = ({content}) => {
+
     const windowSize = useWindowDimensions();
     const mainContainer = useRef(null)
     const wrapperContainer = mainContainer.current;
-    const [key, setKey] = useState(-1);
-    // const widthOfWindow = windowSize.width > 560 ? "900px" : "calc(100vw - 48px) ";
+    const [key, setKey] = useState(1);
+    const widthOfWindow = windowSize.width > 560 ? "85vw" : "calc(100vw - 48px) ";
 
     const ScrollFromSection = (value)=>{
         wrapperContainer.scrollLeft = (value - 1 ) * wrapperContainer.clientWidth;
@@ -35,38 +33,26 @@ const SectionWrapper = ({abstract,content,clan,info}) => {
 
     return ( 
         <>
-            {console.log(info.range,info.birth,info.age )}
-            <section className={"wrapper_margin_globals"} key="abstract">
-                <MiniInfo 
-                    clan={clan && clan[0]} 
-                    range={info?.range?.at(-1)} 
-                    birth={info?.birth} 
-                    age={info?.age?.at(-1)} />
-                <AbstractSection content={abstract} title={"Resumen"} />
-            </section>
-            
-            <TabAnchorList
+            <TabList
                 activeKey={key}
                 onSelect={(keyOfChild) => {
                     setKey(keyOfChild);
                 }
             }>
-                {   content && 
-                    content.map(( {title}, index) => ( 
-                        <TabAnchor pushSlide={index-1} >{title.substring(0, 12)}</TabAnchor>
-                    ))
-                }
-            </TabAnchorList>
+                {<TabButton ScrollFromSection={ScrollFromSection} pushSlide={1}>Información </TabButton>}
+                <TabButton ScrollFromSection={ScrollFromSection} pushSlide={2}>Apariencia </TabButton>
+                <TabButton ScrollFromSection={ScrollFromSection} pushSlide={3}>Historia </TabButton>
+                <TabButton ScrollFromSection={ScrollFromSection} pushSlide={4}>Habilidades </TabButton>
+            </TabList>
 
 
             <main 
-                // ref={mainContainer} 
-                // className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} 
-                // onScroll={()=> DetectScrollPosition()}
-                >
+                ref={mainContainer} 
+                className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} 
+                onScroll={()=> DetectScrollPosition()}>
 
                 
-                {/* <section className={section} key="info">
+                <section className={section} key="info">
                     {content.info.intro && 
                         <Section  content={content.info.intro} key="intro" />}
                     {content.info.creation && 
@@ -89,17 +75,17 @@ const SectionWrapper = ({abstract,content,clan,info}) => {
                         <DropDown content={content.info.techniques} key="techniques" title={"Técnicas"} />}
                     {content.info.tools && 
                         <DropDown content={content.info.tools} key="tools" title={"Herramientas"} />}
-                </section> */}
+                </section>
                 
                 
-                {/* <section className={section} >
+                <section className={section} >
                     {content.appearance.appearance &&
                         <Section content={content.appearance.appearance}  key="appearance"/>}
                     {content.appearance.personality &&
                         <Section content={content.appearance.personality} key="personality"/>}
-                </section> */}
+                </section>
 
-                {/* <section className={section} >
+                <section className={section} >
                     {content.history.history &&
                         <Section content={content.history.history} key="history"/>}
                     {content.history.partOne &&
@@ -122,14 +108,14 @@ const SectionWrapper = ({abstract,content,clan,info}) => {
                 
                 <section className={section} >
                     { content.skills && <Section content={content.skills} key="skills"/>}
-                </section> */}
-            </main> 
+                </section>
+            </main>
 
-            {/* <style jsx>{`
+            <style jsx>{`
                 .carrousel_dinamic{
                     grid-template-columns: repeat(4, ${widthOfWindow});
                 }
-            `}</style> */}
+            `}</style>
 
         </>
     );
