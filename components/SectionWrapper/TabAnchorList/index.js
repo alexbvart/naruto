@@ -10,11 +10,12 @@ const TabAnchorList = ({activeKey, onSelect, children}) => {
         
             {children.map((child, i) => (
                 <div
+                    href={`#${child.props.title}`}
                     key={child.props.pushSlide}
                     className={`${tab_element} ${activeKey === child.props.pushSlide && tab_element_active} }`}
                     onClick={() => {
                         onSelect(child.props.pushSlide);
-                        // child.props.ScrollFromSection(child.props.pushSlide);
+                        child.props.ScrollFromSection(child.props.pushSlide);
                     }}
                 >
                     {child.props.children}
@@ -25,6 +26,7 @@ const TabAnchorList = ({activeKey, onSelect, children}) => {
         <div className={navigation_buuble}>
             {children.map((child, i) => (
                 <div
+                    key={'buble'+i}
                     className={`${bubble} ${activeKey === child.props.pushSlide && bubble_active}`}
                 ></div>
             ))}

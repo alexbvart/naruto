@@ -3,7 +3,7 @@ import Paragraph from 'Shares/Paragraph';
 import Title from 'Shares/Title';
 import useWindowDimensions from '../../hooks/useWindowDimension';
 import DropDown from './DropDown';
-import Section, { AbstractSection, MiniInfo, OneSection } from './Section';
+import { Section, AbstractSection, MiniInfo, OneSection } from './Section';
 import TabAnchor from './TabAnchor';
 import TabAnchorList from './TabAnchorList';
 
@@ -11,16 +11,23 @@ import TabButton from './TabButton';
 import TabList from './TabList';
 import {carrousel,section} from './wrapper.module.css'
 
-const SectionWrapper = ({abstract,content,clan,info}) => {
+const SectionWrapper = ({content}) => {
+
     const windowSize = useWindowDimensions();
     const mainContainer = useRef(null)
     const wrapperContainer = mainContainer.current;
     const [key, setKey] = useState(-1);
     // const widthOfWindow = windowSize.width > 560 ? "900px" : "calc(100vw - 48px) ";
 
-    const ScrollFromSection = (value)=>{
-        wrapperContainer.scrollLeft = (value - 1 ) * wrapperContainer.clientWidth;
-        wrapperContainer.scrollTop  = 0;
+    const ScrollFromSection = (id)=>{
+        const section = wrapperContainer.children[id+1];
+        // section.scrollIntoView( {block: "start", inline: "nearest"})   
+        window.scrollTo({
+            top: section.offsetTop - 120,
+            left: 0,
+            behavior: "auto",
+            // behavior: "smooth",
+        });
     }
     const DetectScrollPosition = () => {
         const {scrollLeft,clientWidth} = wrapperContainer;
@@ -35,16 +42,6 @@ const SectionWrapper = ({abstract,content,clan,info}) => {
 
     return ( 
         <>
-            {console.log(info.range,info.birth,info.age )}
-            <section className={"wrapper_margin_globals"} key="abstract">
-                <MiniInfo 
-                    clan={clan && clan[0]} 
-                    range={info?.range?.at(-1)} 
-                    birth={info?.birth} 
-                    age={info?.age?.at(-1)} />
-                <AbstractSection content={abstract} title={"Resumen"} />
-            </section>
-            
             <TabAnchorList
                 activeKey={key}
                 onSelect={(keyOfChild) => {
@@ -53,18 +50,26 @@ const SectionWrapper = ({abstract,content,clan,info}) => {
             }>
                 {   content && 
                     content.map(( {title}, index) => ( 
-                        <TabAnchor pushSlide={index-1} >{title.substring(0, 12)}</TabAnchor>
+                        <TabAnchor 
+                            key={title+index}
+                            title={title} 
+                            pushSlide={index-1}  
+                            ScrollFromSection={ScrollFromSection}
+                        >
+                            {title.substring(0, 12)}
+                        </TabAnchor>
                     ))
                 }
             </TabAnchorList>
 
-
             <main 
-                // ref={mainContainer} 
-                // className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} 
+                ref={mainContainer} 
+                className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} 
                 // onScroll={()=> DetectScrollPosition()}
                 >
-
+                { content.map((c, index) => (
+                    <Section content={c} key={index}/>
+                ))}
                 
                 {/* <section className={section} key="info">
                     {content.info.intro && 
@@ -92,12 +97,7 @@ const SectionWrapper = ({abstract,content,clan,info}) => {
                 </section> */}
                 
                 
-                {/* <section className={section} >
-                    {content.appearance.appearance &&
-                        <Section content={content.appearance.appearance}  key="appearance"/>}
-                    {content.appearance.personality &&
-                        <Section content={content.appearance.personality} key="personality"/>}
-                </section> */}
+
 
                 {/* <section className={section} >
                     {content.history.history &&

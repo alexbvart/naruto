@@ -38,7 +38,9 @@ export const Carrousel = ({ height, index_img, images }) => {
                 initialSlide={Number(index_img)}
             >
                 {
-                    images.map((img_item, index) => (
+                    images
+                        .filter((img_item)=>{ img_item.src && img_item})   
+                        .map((img_item, index) => (
 
                         <SwiperSlide key={index} style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column' }}>
                             <Image

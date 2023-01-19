@@ -3,16 +3,15 @@ import React, {useState} from 'react';
 import H3 from 'Shares/H3';
 import Paragraph from 'Shares/Paragraph';
 import Subtitle from 'Shares/Subtitle';
+import { toTitleCase } from 'utils/formatTitles';
 import {drop_down,dropdown_header,icon_select_false, icon_select_true,pd_0,wrapper_down,wrapper_down_active,card_data} from './dropdown.module.css'
 
 const DropDown = ({title,content,status=false}) => {
 
     const [drop, setDrop] = useState(status)
-    console.log(drop);
-
+    
     let keysBody = Object.keys(content);
-    /*let valuesBody =  Object.values(content);
-     console.log({valuesBody},"___",{keysBody}); */
+
     return ( 
         <section className={drop_down} >
             <header className={dropdown_header} onClick={()=>setDrop(!drop)}>
@@ -41,7 +40,7 @@ const CardData = ({title,body}) => {
     if (body.length>0 && body!==null) {    
         return ( 
             <article className={card_data}> 
-                <H3>{title}</H3>
+                <H3>{toTitleCase(title)}</H3>
                 
                 {Array.isArray(body) ? 
                         body.map((b)=>( 
@@ -50,7 +49,7 @@ const CardData = ({title,body}) => {
                             } </>
                         ))
                         :<Paragraph>{body}</Paragraph>
-                }___
+                }
             </article>
         );
     }else{

@@ -1,10 +1,7 @@
-
-
-
-const TabAnchor = ({children}) => {
+const TabAnchor = ({title,children}) => {
     return ( 
-            <a href="#">
-                {children}
+            <a href={`#${title}`}>
+                {children} {title}
             </a>
     );
 }

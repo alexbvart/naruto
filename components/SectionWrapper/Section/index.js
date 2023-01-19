@@ -14,14 +14,14 @@ export const Section = ({content,children}) => {
                     
                     {twoLevel.backfill 
                         ? <Backfill body={twoLevel}/>
-                        : <OneSection content={twoLevel} key={twoLevel.title||content.paragraph} />
+                        : <OneSection content={twoLevel} key={twoLevel.title||content.paragraphsp} />
                     }
                 </>
             ))}
         </>
         );
     }else{
-        return ( <OneSection content={content} key={content.title||content.paragraph}/> );
+        return ( <OneSection content={content} key={content.title||content.paragraphsp}/> );
     }   
 }
 
@@ -29,29 +29,34 @@ export const Section = ({content,children}) => {
 
 
 export const OneSection = ({content,className, title}) => {
+    console.log(content.pictures);
     return ( 
         <>
-            <section className={`${section} ${className}`}>
+            <section 
+                id={content.title}
+                className={`${section} ${className}`}
+                >
                 {content.title && 
                     <Subtitle>{content.title}</Subtitle>
                 }
                 
-                {content.paragraph && 
-                    content.paragraph.map((paragraph,index)=>(
-                        <><Paragraph key={index}> {paragraph} </Paragraph> <br/></>
+                {content.paragraphsp && 
+                    content.paragraphsp.map((paragraph,index)=>(
+                        <Paragraph key={index}> {paragraph} </Paragraph>
                     ))
                 }
                 
-                { (content.images &&  content.images.length > 0) &&
+                { (content.pictures &&  content.pictures.length > 0) &&
                     <div className={images_grid}>
-                        {content.images && 
-                            content.images.map((img,index)=>(
-                                <>
-                                {img.url && 
-                                    <Figure src={img.url}  description={img.description} key={index}/> 
-                                }
-                                </>
-                            ))
+                        {content.pictures.map((img,index)=>
+                                // img.url && 
+                                img && 
+                                
+                                (
+                                    // <Figure src={img.url}  description={img.description} key={index}/> 
+                                    <Figure src={img}  description="" key={index}/>
+                                )
+                            )
                         }
                     </div>
                 }
@@ -96,7 +101,6 @@ export const MiniInfo = ({clan,range,birth,age,className}) => {
     return ( 
         <>
             <section className={`${miniInfo} ${className}`}>
-                
                 <Span> 
                     {clan?.length>0 && <>{`${clan}, `}</>  }
                     {range?.length>0 && <>{`${range}, `}</>  }

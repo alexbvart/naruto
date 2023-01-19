@@ -30,7 +30,7 @@
 
 .alias {
     /* margin-top: 2px; */
-    margin-bottom: 12px;
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 760px) {
