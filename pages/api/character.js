@@ -1,12 +1,13 @@
-import { readFile } from 'fs/promises'
+import path from 'path';
+import { promises as fs } from 'fs';
+// import { readFile } from 'fs/promises'
 
 const getCharacter = async (req, res) => {
     
-    const file = await readFile('./character.json', 'utf-8')
-    const json = JSON.parse(file)
-    // const body = JSON.parse(req.body)
-    // const {input} = body;
+    const jsonDirectory = path.join(process.cwd(), 'json');
+    const fileContents = await fs.readFile(jsonDirectory + '/character.json', 'utf8');
+    // const json = JSON.parse(file)
 
-    res.status(200).json(json)
+    res.status(200).json(fileContents)
 }
 export default getCharacter;
