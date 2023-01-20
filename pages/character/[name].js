@@ -125,7 +125,7 @@ export default character;
 
 
 export async function getStaticProps({ params }) {
-    const res = await fetch(`http://localhost:3000/api/character/${params.name}`)
+    const res = await fetch(`${process.env.API_URL}/character/${params.name}`)
     const character = await res.json()
 
     console.log(character.header.name,"param:", params.name);
@@ -136,7 +136,7 @@ export async function getStaticProps({ params }) {
     }
 }
 export async function getStaticPaths() { 
-    const res = await fetch('http://localhost:3000/api/character/')
+    const res = await fetch(`${process.env.API_URL}/character/`)
     const character = await res.json()
     const paths = character.map((character) => ({
         params: { name : toSnakeCase(character.header.name.toString()) }
