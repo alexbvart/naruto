@@ -7,7 +7,8 @@ import SectionWrapper from '../../components/SectionWrapper/index,';
 
 
 const character = ({character}) => {
-    const { birth, blood, age, height, weight, uniquePersonality} = character.info
+    // console.log("character",character);
+    const { birth, blood, age, height, weight, uniquePersonality} = character?.info
     return ( 
         <>
             <Head>
@@ -127,8 +128,6 @@ export default character;
 export async function getStaticProps({ params }) {
     const res = await fetch(`${process.env.API_URL}/character/${params.name}`)
     const character = await res.json()
-
-    console.log(character.header.name,"param:", params.name);
     return {
             props: {
                 character,
@@ -144,7 +143,7 @@ export async function getStaticPaths() {
     // console.log(paths);
     return{
         paths,
-        fallback: true
+        fallback: false
     }
 
 }

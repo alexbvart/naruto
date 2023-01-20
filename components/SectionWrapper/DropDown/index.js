@@ -40,7 +40,7 @@ const CardData = ({title,body}) => {
     // console.log(body);
     if (body?.length>0 && body!==null) {    
         return ( 
-            <article className={card_data}> 
+            <article className={card_data} key={`${title}___#`}> 
                 <H3>{toTitleCase(title)}</H3>
                 
                 {Array.isArray(body) ? 
