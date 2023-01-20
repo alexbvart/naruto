@@ -1,0 +1,24 @@
+.badge{
+    display: flex;
+    gap: 12px;
+    grid-template-columns: 34px 1fr;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 2px 0;
+}
+
+.badge figure{
+    width: 34px;
+    height: 34px;
+    background-color: var(--bg-2);
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

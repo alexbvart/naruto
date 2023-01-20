@@ -1,4 +1,5 @@
 import Arrow from 'assets/Arrow';
+import Badge from 'components/Hero/Badge';
 import React, {useState} from 'react';
 import H3 from 'Shares/H3';
 import Paragraph from 'Shares/Paragraph';
@@ -24,8 +25,8 @@ const DropDown = ({title,content,status=false}) => {
             </header>
             <div className={` ${drop ? wrapper_down_active : wrapper_down}`}>
                 {    
-                    keysBody.map((keyB)=>(
-                        <CardData title={keyB} body={content[keyB]}/>
+                    keysBody.map((keyB,index)=>(
+                        <CardData key={`${keyB}_${index}`} title={keyB} body={content[keyB]}/>
                     ))
                 }
             </div>
@@ -36,19 +37,23 @@ const DropDown = ({title,content,status=false}) => {
 export default DropDown;
 
 const CardData = ({title,body}) => {
-
-    if (body.length>0 && body!==null) {    
+    // console.log(body);
+    if (body?.length>0 && body!==null) {    
         return ( 
             <article className={card_data}> 
                 <H3>{toTitleCase(title)}</H3>
                 
                 {Array.isArray(body) ? 
-                        body.map((b)=>( 
-                            <> { b &&
-                                    <Paragraph>{b}</Paragraph> 
-                            } </>
+                        body.map((b,index)=>(
+                            
+                            <> {
+                                    typeof b === 'string' 
+                                    ? <Paragraph key={`${title}__${index+1}`} >{b}</Paragraph> 
+                                    : <Badge key={`${title}__${index+1}`}  text={Object.values(b)[0]} url={Object.values(b)[1]} />
+                                } 
+                            </>
                         ))
-                        :<Paragraph>{body}</Paragraph>
+                        :<Paragraph key={`${title}__01`} >{body}</Paragraph>
                 }
             </article>
         );

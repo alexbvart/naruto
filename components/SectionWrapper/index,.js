@@ -56,7 +56,7 @@ const SectionWrapper = ({content}) => {
                             pushSlide={index-1}  
                             ScrollFromSection={ScrollFromSection}
                         >
-                            {title.substring(0, 12)}
+                            {title}
                         </TabAnchor>
                     ))
                 }
@@ -70,67 +70,7 @@ const SectionWrapper = ({content}) => {
                 { content.map((c, index) => (
                     <Section content={c} key={index}/>
                 ))}
-                
-                {/* <section className={section} key="info">
-                    {content.info.intro && 
-                        <Section  content={content.info.intro} key="intro" />}
-                    {content.info.creation && 
-                        <Section  content={content.info.creation} key="creation" />}
-                    {content.info.name && 
-                        <DropDown 
-                            content={content.info.name} 
-                            key="name" 
-                            title={"Nombre"} 
-                            status={true}/>}
-                    {content.info.information && 
-                        <DropDown content={content.info.information} key="information" title={"Información"} />}
-                    {content.info.ninjaRank && 
-                        <DropDown content={content.info.ninjaRank} key="ninjaRank" title={"Rango Ninja"} />}
-                    {content.info.family && 
-                        <DropDown content={content.info.family} key="family" title={"Familia"} />}
-                    {content.info.natureOfTheChakra && 
-                        <DropDown content={content.info.natureOfTheChakra} key="natureOfTheChakra" title={"Naturaleza del chacra"} />}
-                    {content.info.techniques && 
-                        <DropDown content={content.info.techniques} key="techniques" title={"Técnicas"} />}
-                    {content.info.tools && 
-                        <DropDown content={content.info.tools} key="tools" title={"Herramientas"} />}
-                </section> */}
-                
-                
-
-
-                {/* <section className={section} >
-                    {content.history.history &&
-                        <Section content={content.history.history} key="history"/>}
-                    {content.history.partOne &&
-                    <Section content={content.history.partOne} key="partOne">
-                        <Title>Primera parte</Title>
-                    </Section>}
-                    {content.history.partTwo &&
-                    <Section content={content.history.partTwo} key="partTwo">
-                        <Title>Segunda parte</Title>
-                    </Section>}
-                    {content.history.partChange&&
-                    <Section content={content.history.partChange} key="partChange">
-                        <Title>Período de Cambios</Title>
-                    </Section>}
-                    {content.history.partThree &&
-                    <Section content={content.history.partThree} key="partThree">
-                        <Title>Tercera parte</Title>
-                    </Section>}
-                </section>
-                
-                <section className={section} >
-                    { content.skills && <Section content={content.skills} key="skills"/>}
-                </section> */}
             </main> 
-
-            {/* <style jsx>{`
-                .carrousel_dinamic{
-                    grid-template-columns: repeat(4, ${widthOfWindow});
-                }
-            `}</style> */}
-
         </>
     );
 }

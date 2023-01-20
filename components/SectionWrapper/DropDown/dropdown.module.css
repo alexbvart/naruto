@@ -2,13 +2,13 @@
     background-color: var(--bg-2);
     padding: 12px;
     border-radius: var(--border-radius);
-    margin-bottom: 72px;
+    margin-bottom: 32px;
 }
 .dropdown_header{
     height: 96px;
     width: 100%;
     display: flex;
-    padding: 0 4px;
+    padding: 0 8px;
     justify-content: space-between;
     align-items: center;
 }
@@ -27,26 +27,28 @@
     height: 0;
     opacity: 0;
     transition: all ease-in 0s;
-
 }
 .wrapper_down_active{
-
     opacity: 1;
     display: grid;
-    grid-gap: 24px;
+    grid-gap: 16px;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     transition: all ease-in .3s;
 }
 .card_data{
     width: 100%;
     max-width: 100%;
-    padding: 20px;
+    padding: 16px;
     background-color: var(--bg-3);
     border-radius: var(--border-radius);
 }
-
+.card_data h3{
+    margin-bottom: 14px;
+}
+.card_data p{
+    margin: 0;
+}
 @media screen and (max-width: 560px) {
-
     .wrapper_down_active{
         grid-template-columns: 1fr;
     }

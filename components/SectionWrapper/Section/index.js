@@ -1,6 +1,7 @@
 import Paragraph from 'Shares/Paragraph';
 import Span from 'Shares/Span/Span';
 import Title from 'Shares/Title';
+import { toText2Case, toTextCase } from 'utils/formatTitles';
 import Subtitle from '../../../Shares/Subtitle';
 import Figure from '../../Figure';
 import {section,images_grid,rellenuto,abstractSection,miniInfo} from './section.module.css'
@@ -8,7 +9,8 @@ import {section,images_grid,rellenuto,abstractSection,miniInfo} from './section.
 export const Section = ({content,children}) => {
     if(Array.isArray(content)){
         return (
-        <>  {children} <br/>
+        <>  
+            {/* {children} <br/> */}
             {content.map((twoLevel)=>(               
                 <>
                     
@@ -29,7 +31,6 @@ export const Section = ({content,children}) => {
 
 
 export const OneSection = ({content,className, title}) => {
-    console.log(content.pictures);
     return ( 
         <>
             <section 
@@ -37,12 +38,12 @@ export const OneSection = ({content,className, title}) => {
                 className={`${section} ${className}`}
                 >
                 {content.title && 
-                    <Subtitle>{content.title}</Subtitle>
+                    <Subtitle>{toText2Case(content.title)}</Subtitle>
                 }
                 
                 {content.paragraphsp && 
                     content.paragraphsp.map((paragraph,index)=>(
-                        <Paragraph key={index}> {paragraph} </Paragraph>
+                        <Paragraph key={index}>{paragraph}</Paragraph>
                     ))
                 }
                 
@@ -90,14 +91,14 @@ export const AbstractSection = ({content,className, title}) => {
                 }
                 
                 {content && 
-                    <Paragraph > {content} </Paragraph>
+                    <Paragraph >{content}</Paragraph>
                 }
             </section>
         </>
     );
 }
 export const MiniInfo = ({clan,range,birth,age,className}) => {
-    console.log(clan,range,birth,age);
+    // console.log(clan,range,birth,age);
     return ( 
         <>
             <section className={`${miniInfo} ${className}`}>
@@ -105,9 +106,8 @@ export const MiniInfo = ({clan,range,birth,age,className}) => {
                     {clan?.length>0 && <>{`${clan}, `}</>  }
                     {range?.length>0 && <>{`${range}, `}</>  }
                     {birth?.length>0 && <>{`${birth}, `}</>  }
-                    {age?.length>0 && <>{age} </> }
+                    {age?.length>0 && <>{age} años</> }
                 </Span>
-                
             </section>
         </>
     );

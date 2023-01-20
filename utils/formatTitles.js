@@ -37,3 +37,20 @@ export const toTitleCase = (string) => {
         .replace(/\w\S*/g, (m) => m.charAt(0).toUpperCase() 
                                 + m.substr(1).toLowerCase())
 }
+
+export const toTextCase = (string) => {
+    return string &&
+        string
+            // .replace(/\d+/g, '')
+            // .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()[]]/g,"")
+            .replace(/\[[0-9]+\]/g, '')
+            // .replace(/\[1]\[2]\[3]\[4]/g, '')
+}
+
+export const toText2Case = (string) => {
+    return string &&
+        string
+            .replace(/\[\]/g,'')
+            .replace('[','')
+            // .replace(']','')
+}

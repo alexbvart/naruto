@@ -1,4 +1,5 @@
 import React from 'react';
+import { toText2Case } from 'utils/formatTitles';
 import {nav,
         navigation,tab_element,tab_element_active,
         navigation_buuble,bubble,bubble_active} from './tablist.module.css'
@@ -18,7 +19,7 @@ const TabAnchorList = ({activeKey, onSelect, children}) => {
                         child.props.ScrollFromSection(child.props.pushSlide);
                     }}
                 >
-                    {child.props.children}
+                    {toText2Case(child.props.children)}
                 </div>
             ))}
         </div>

@@ -8,7 +8,7 @@ import { figure_wrapper, f_w_border_radius, figcaption } from './figure.module.c
 let i = []
 
 const Figure = ({ src, className, description, height = 400, borderRadius = true }) => {
-    console.log(src);
+    // console.log(src);
     const border_radius = borderRadius ? f_w_border_radius : "";
 
     const [activeFullScreen, setActiveFullScreen] = useState(false)
@@ -17,7 +17,7 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
         if(description){
             i = [...new Set(i), {src, description}]
         }
-        console.log('object')
+        // console.log('object')
     }, [])
 
     return (

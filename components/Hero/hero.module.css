@@ -43,6 +43,7 @@
 
     .header_info {
         /* position: sticky; */
+        width: calc( 100% - 48px);
         bottom: 0;
         margin-left: 24px;
         position: absolute;
