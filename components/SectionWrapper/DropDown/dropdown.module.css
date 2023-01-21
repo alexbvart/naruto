@@ -48,6 +48,11 @@
 .card_data p{
     margin: 0;
 }
+
+.hidden{
+    display: none;
+}
+
 @media screen and (max-width: 560px) {
     .wrapper_down_active{
         grid-template-columns: 1fr;

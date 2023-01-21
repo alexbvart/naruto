@@ -65,7 +65,7 @@ const character = ({character}) => {
                     title={"Naturaleza del chacra"} 
                     status={true}
                 />}
-                { (character?.info?.classifications?.length > 0 || character?.info?.range?.length > 0) && 
+                {/* { (character?.info?.classifications?.length > 0 || character?.info?.range?.length > 0) &&  */}
                 <DropDown 
                     content={{
                         "Clasificaciones" : character.info.classifications || "",
@@ -74,7 +74,8 @@ const character = ({character}) => {
                     key="Jerarquia" 
                     title={"Jerarquia Ninja"} 
                     status={false}
-                />}
+                />
+                {/* } */}
 
                 { (character?.info?.familyMembers?.length > 0 || character?.info?.familyMembers?.length > 0) && 
                 <DropDown 

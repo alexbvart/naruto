@@ -5,14 +5,14 @@ import H3 from 'Shares/H3';
 import Paragraph from 'Shares/Paragraph';
 import Subtitle from 'Shares/Subtitle';
 import { toTitleCase } from 'utils/formatTitles';
-import {drop_down,dropdown_header,icon_select_false, icon_select_true,pd_0,wrapper_down,wrapper_down_active,card_data} from './dropdown.module.css'
+import {drop_down,dropdown_header,icon_select_false, icon_select_true,pd_0,wrapper_down,wrapper_down_active,card_data, hidden} from './dropdown.module.css'
 
 const DropDown = ({title,content,status=false}) => {
 
     const [drop, setDrop] = useState(status)
     
     let keysBody = Object.keys(content);
-
+    // console.log(content)
     return ( 
         <section className={drop_down} >
             <header className={dropdown_header} onClick={()=>setDrop(!drop)}>
@@ -24,7 +24,7 @@ const DropDown = ({title,content,status=false}) => {
                 </div>
             </header>
             <div className={` ${drop ? wrapper_down_active : wrapper_down}`}>
-                {    
+                {   keysBody.length > 0 &&
                     keysBody.map((keyB,index)=>(
                         <CardData key={`${keyB}_${index}`} title={keyB} body={content[keyB]}/>
                     ))
@@ -58,6 +58,6 @@ const CardData = ({title,body}) => {
             </article>
         );
     }else{
-        return null
+        return <p className={hidden}>no me vere</p>
     }  
 }
