@@ -7,8 +7,13 @@ import SectionWrapper from '../../components/SectionWrapper/index,';
 
 
 const character = ({character}) => {
-    // console.log("character",character);
-    const { birth, blood, age, height, weight, uniquePersonality} = character?.info
+    const { birth, blood, age, height, weight, uniquePersonality,
+            range, classifications, familyMembers, teamMates, teams,
+            weapons, jutsus
+    } = character?.info
+
+    const { alias, clan, affiliation, kekkeiGenkai, element  } = character?.header
+    console.log({ birth, blood, age, height, weight, uniquePersonality} );
     return ( 
         <>
             <Head>
@@ -18,17 +23,16 @@ const character = ({character}) => {
             </Head>
             <Hero header={character.header} />
             <section className={"wrapper_margin_globals"}>
-            {   (character?.header?.clan?.length > 0 ||
-                character?.info?.range?.length > 0 ||
-                character?.info?.birth ||
-                character.info?.age) &&
+            {   (   clan?.length > 0 ||
+                    range?.length > 0 ||
+                    birth || age) &&
                 <MiniInfo 
-                    clan={character?.header?.clan?.length > 0 && character?.header?.clan[0].clanName} 
-                    range={character?.info?.range?.length > 0 && character?.info?.range?.at(-1)} 
-                    birth={character?.info?.birth} 
-                    age={typeof character.info?.age === 'string' 
-                            ? character.info?.age
-                            : character.info?.age?.at(-1)
+                    clan={ clan?.length > 0 && clan[0].clanName} 
+                    range={ range?.length > 0 && range?.at(-1)} 
+                    birth={ birth} 
+                    age={typeof age === 'string' 
+                            ? age
+                            : age?.at(-1)
                         } 
                 />
             }
@@ -39,43 +43,43 @@ const character = ({character}) => {
                 ) &&
                 <DropDown 
                     content={{
-                        "Nacimiento" : character?.info?.birth || '',
-                        "Sangre" : character?.info?.blood || '',
-                        "Edad" : character?.info?.age || '',
-                        "Altura" : character?.info?.height || '',
-                        "Peso" : character?.info?.weight || '',
-                        "Habilidad unica" : character?.info?.uniquePersonality || '',
+                        "Nacimiento" : birth || '',
+                        "Sangre" : blood || '',
+                        "Edad" : age || '',
+                        "Altura" : height || '',
+                        "Peso" : weight || '',
+                        "Habilidad unica" : uniquePersonality || '',
                     }} 
                     key="Generalidades" 
                     title={"Generalidades"} 
                     status={false}
                 />
                 }
-                { (character?.header?.clan?.length > 0 || character?.header?.affiliation?.length > 0) && 
+                { (clan?.length > 0 || affiliation?.length > 0) && 
                 <DropDown 
                     content={{
-                        "Alistamiento" : character.header?.affiliation|| "",
-                        "Clan" : character.header?.clan  || ""
+                        "Alistamiento" : affiliation || "",
+                        "Clan" : clan  || ""
                     }} 
                     key="Afiliacion" 
                     title={"Afiliación"} 
                     status={true}
                 />}
-                { (character?.header?.kekkeiGenkai?.length > 0 || character?.header?.element?.length > 0) && 
+                { (kekkeiGenkai?.length > 0 || element?.length > 0) && 
                 <DropDown 
                     content={{
-                        "Elementos" : character.header?.element|| "",
-                        "Kekkei Genkai" : character.header?.kekkeiGenkai  || ""
+                        "Elementos" : element || "",
+                        "Kekkei Genkai" : kekkeiGenkai  || ""
                     }} 
                     key="Naturaleza del chacra" 
                     title={"Naturaleza del chacra"} 
                     status={true}
                 />}
-                { (character?.info?.classifications?.length > 0 || character?.info?.range?.length > 0) && 
+                { ( classifications?.length > 0 || range?.length > 0) && 
                 <DropDown 
                     content={{
-                        "Clasificaciones" : character.info.classifications || "",
-                        "Rangos" : character.info.range || ""
+                        "Clasificaciones" : classifications || "",
+                        "Rangos" : range || ""
                     }} 
                     key="Jerarquia" 
                     title={"Jerarquia Ninja"} 
@@ -83,40 +87,40 @@ const character = ({character}) => {
                 />
                 }
 
-                { (character?.info?.familyMembers?.length > 0 || character?.info?.familyMembers?.length > 0) && 
+                { (familyMembers?.length > 0 || familyMembers?.length > 0) && 
                 <DropDown 
                     content={{
-                        "Familiares" : character.info.familyMembers || "",
-                        "Colegas" : character.info.teamMates || ""
+                        "Familiares" : familyMembers || "",
+                        "Colegas" : teamMates || ""
                     }} 
                     key="Compañeros" 
                     title={"Compañeros"} 
                     status={false}
                 />}
 
-                { (character?.header?.alias?.length > 0 || character?.info?.teams?.length > 0) && 
+                { (alias?.length > 0 || teams?.length > 0) && 
                 <DropDown 
                     content={{
-                        'Integrar' : character.info.teams,
-                        Alias : character.header.alias
+                        'Integrar' : teams,
+                        Alias : alias
                     }} 
                     key="Alias" 
                     title={"Conocido por"} 
                     status={false}
                 />}
-                { character?.info?.weapons?.length > 0 && 
+                { weapons?.length > 0 && 
                 <DropDown 
                     content={{
-                        '' : character.info.weapons,
+                        '' : weapons,
                     }} 
                     key="weapons" 
                     title={"Herramientas"} 
                     status={false}
                 />}
-                { character?.info?.jutsus?.length > 0 && 
+                { jutsus?.length > 0 && 
                 <DropDown 
                     content={{
-                        '' : character.info.jutsus,
+                        '' : jutsus,
                     }} 
                     key="jutsus" 
                     title={"Arte ninja"} 

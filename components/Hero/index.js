@@ -1,7 +1,5 @@
-import Subtitle from '../../Shares/Subtitle';
 import Title from '../../Shares/Title';
 import Figure from '../Figure';
-import NinjaBadge from './NinjaBadge';
 import CarouselOfHeaderImages from './CarouselOfHeaderImages';
 
 import {main,image_header,header_info,alias} from './hero.module.css'

@@ -98,7 +98,7 @@ export const AbstractSection = ({content,className, title}) => {
     );
 }
 export const MiniInfo = ({clan,range,birth,age,className}) => {
-    // console.log({clan,range,birth,age});
+    console.log({clan,range,birth,age});
     return ( 
         <>
             <section className={`${miniInfo} ${className}`}>
