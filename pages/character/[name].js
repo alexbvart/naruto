@@ -13,10 +13,10 @@ const character = ({character}) => {
     } = character?.info
 
     const { alias, clan, affiliation, kekkeiGenkai, element  } = character?.header
-    console.log(range?.length > 0 ? range?.at(-1) : "no hay rango");
-    console.log({ birth, blood, age, height, weight, uniquePersonality,
-        range, classifications, familyMembers, teamMates, teams,
-        weapons, jutsus, alias, clan, affiliation, kekkeiGenkai, element} );
+    console.log(range, age);
+    // console.log({ birth, blood, age, height, weight, uniquePersonality,
+    //     range, classifications, familyMembers, teamMates, teams,
+    //     weapons, jutsus, alias, clan, affiliation, kekkeiGenkai, element} );
     return ( 
         <>
             <Head>
@@ -26,20 +26,18 @@ const character = ({character}) => {
             </Head>
             <Hero header={character.header} />
             <section className={"wrapper_margin_globals"}>
-            {/* {   
-            (   clan?.length > 0 ||
-                    range?.length > 0 ||
-                    birth || age) && */}
+            {   
+                (   clan.length > 0 ||  range.length > 0 ||  birth || age) && 
                 <MiniInfo 
                     clan={ clan?.length > 0 && clan[0].clanName} 
-                    range={ range?.length > 0 ? range.at(-1) : ""} 
+                    range={ range?.length > 0 ? range[range.length-1] : ""} 
                     birth={ birth} 
                     age={typeof age === 'string' 
                             ? age
-                            : age?.at(-1)
+                            : age[age.length-1] 
                         } 
                 />
-            {/* } */}
+            } 
                 <AbstractSection content={character.header.abstract} title={"Resumen"} />
 
                 { (     birth === null || blood === null ||  age === null ||
