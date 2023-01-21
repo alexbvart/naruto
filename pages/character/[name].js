@@ -20,7 +20,7 @@ const character = ({character}) => {
             <section className={"wrapper_margin_globals"}>
                 <MiniInfo 
                     clan={character?.header?.clan?.length > 0 && character.header.clan[0].clanName} 
-                    range={character.info?.range?.at(-1)} 
+                    range={character.info?.range.length > 0 && character.info?.range?.at(-1)} 
                     birth={character.info?.birth} 
                     age={typeof character.info?.age === 'string' 
                             ? character.info?.age
