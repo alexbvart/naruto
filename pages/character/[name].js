@@ -18,14 +18,20 @@ const character = ({character}) => {
             </Head>
             <Hero header={character.header} />
             <section className={"wrapper_margin_globals"}>
+            {   (character?.header?.clan?.length > 0 ||
+                character?.info?.range?.length > 0 ||
+                character?.info?.birth ||
+                character.info?.age) &&
                 <MiniInfo 
-                    clan={character?.header?.clan?.length > 0 && character.header.clan[0].clanName} 
-                    range={character.info?.range.length > 0 && character.info?.range?.at(-1)} 
-                    birth={character.info?.birth} 
+                    clan={character?.header?.clan?.length > 0 && character?.header?.clan[0].clanName} 
+                    range={character?.info?.range?.length > 0 && character?.info?.range?.at(-1)} 
+                    birth={character?.info?.birth} 
                     age={typeof character.info?.age === 'string' 
                             ? character.info?.age
                             : character.info?.age?.at(-1)
-                        } />
+                        } 
+                />
+            }
                 <AbstractSection content={character.header.abstract} title={"Resumen"} />
 
                 { (     birth === null || blood === null ||  age === null ||
@@ -65,7 +71,7 @@ const character = ({character}) => {
                     title={"Naturaleza del chacra"} 
                     status={true}
                 />}
-                {/* { (character?.info?.classifications?.length > 0 || character?.info?.range?.length > 0) &&  */}
+                { (character?.info?.classifications?.length > 0 || character?.info?.range?.length > 0) && 
                 <DropDown 
                     content={{
                         "Clasificaciones" : character.info.classifications || "",
@@ -75,7 +81,7 @@ const character = ({character}) => {
                     title={"Jerarquia Ninja"} 
                     status={false}
                 />
-                {/* } */}
+                }
 
                 { (character?.info?.familyMembers?.length > 0 || character?.info?.familyMembers?.length > 0) && 
                 <DropDown 
