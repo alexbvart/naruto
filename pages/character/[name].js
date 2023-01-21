@@ -132,8 +132,10 @@ const character = ({character}) => {
 export default character;
 
 export async function getStaticProps({ params }) {
-    const res = await fetch(`${process.env.API_URL}/character/${params.name}`)
-    const character = await res.json()
+    const character = await fetch(`${process.env.API_URL}/character/${params.name}`)
+                        .then( res => res.json())
+                        .catch(error => console.log("getStaticProps", error))
+    // const character = await res.json()
     return {
             props: {
                 character,
@@ -143,7 +145,7 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() { 
     const character = await fetch(`${process.env.API_URL}/characterPaths/`)
                             .then( res => res.json())
-                            .catch(error => console.error(error))
+                            .catch(error => console.log("getStaticPaths", error))
     // const character = await res.json()
     const paths = character.map((character) => ({
         // params: { name : toSnakeCase(character.header.name.toString()) }
