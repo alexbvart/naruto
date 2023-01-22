@@ -151,12 +151,12 @@ export async function getStaticPaths() {
                             .then( res => res.json())
                             .catch(error => console.log("|getStaticPaths: ", error))
     // const character = await res.json()
-    console.log(character);
+    // console.log(character);
     const paths = character.map((character) => ({
         // params: { name : toSnakeCase(character.header.name.toString()) }
         params: { name : toSnakeCase(character.name.toString()) }
     }))
-    // console.log(paths);
+    console.log(paths);
     return{
         paths,
         fallback: false
