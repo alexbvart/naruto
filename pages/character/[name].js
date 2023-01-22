@@ -149,8 +149,9 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() { 
     const character = await fetch(`${process.env.API_URL}/characterPaths/`)
                             .then( res => res.json())
-                            .catch(error => console.log("getStaticPaths", error))
+                            .catch(error => console.log("|getStaticPaths: ", error))
     // const character = await res.json()
+    console.log(character);
     const paths = character.map((character) => ({
         // params: { name : toSnakeCase(character.header.name.toString()) }
         params: { name : toSnakeCase(character.name.toString()) }
