@@ -18,7 +18,7 @@ const Badge = ({text, url}) => {
                             height={24}
                             quality={100}
                             objectFit
-                            placeholder='blur'
+                            // placeholder='blur'
                         />
                     }
                 </figure>

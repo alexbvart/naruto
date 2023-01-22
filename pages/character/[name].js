@@ -1,8 +1,8 @@
-import DropDown from 'components/SectionWrapper/DropDown';
-import { AbstractSection, MiniInfo } from 'components/SectionWrapper/Section';
 import Head from 'next/head'
-import { toSnakeCase } from 'utils/formatTitles';
 import Hero from '../../components/Hero';
+import { toSnakeCase } from 'utils/formatTitles';
+import { AbstractSection, MiniInfo } from 'components/SectionWrapper/Section';
+import DropDown from 'components/SectionWrapper/DropDown';
 import SectionWrapper from '../../components/SectionWrapper/index,';
 
 
@@ -11,9 +11,7 @@ const character = ({character}) => {
             range, classifications, familyMembers, teamMates, teams,
             weapons, jutsus
     } = character?.info
-
     const { alias, clan, affiliation, kekkeiGenkai, element  } = character?.header
-    console.log(range, age);
     // console.log({ birth, blood, age, height, weight, uniquePersonality,
     //     range, classifications, familyMembers, teamMates, teams,
     //     weapons, jutsus, alias, clan, affiliation, kekkeiGenkai, element} );

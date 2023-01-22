@@ -3,12 +3,22 @@ import { useEffect, useState } from 'react';
 
 import { FullScreen } from './fullScreen'
 
-import { figure_wrapper, f_w_border_radius, figcaption } from './figure.module.css'
+import { figure_wrapper, f_w_border_radius, figcaption, loading} from './figure.module.css'
+import { useImage } from 'hooks/useImage';
+
+
+
 
 let i = []
 
 const Figure = ({ src, className, description, height = 400, borderRadius = true }) => {
     // console.log(src);
+    const [isLoadingImage, setIsLoadingImage] = useState(true)
+    const {lowQuality, highQuality} = useImage({src})
+
+    const customLoader = ({ src, width, quality }) => {
+        return `http://localhost:3000/_next/image?url=${encodeURIComponent(highQuality)}&w=${width}&q=50`
+    }
     const border_radius = borderRadius ? f_w_border_radius : "";
 
     const [activeFullScreen, setActiveFullScreen] = useState(false)
@@ -27,20 +37,23 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
                 onClick={() => setActiveFullScreen(!activeFullScreen)}
             >
                 <Image
-                    src={src}
+                    src={highQuality}
+                    placeholder="blur"
+                    blurDataURL={`${process.env.APP_URL}/_next/image?url=${encodeURIComponent(lowQuality)}&w=640&q=10`}
+                    // loader={customLoader}
+                    onLoadingComplete={ () => setIsLoadingImage(false)}
+                    className={ isLoadingImage ? `${loading} blur` : ``}
+                    // className={loading}
                     alt={description}
                     objectFit="cover"
                     quality={100}
                     width={500}
                     height={height}
                     layout="responsive"
-
                 />
                 {description &&
                     <figcaption className={figcaption}>{description}</figcaption>}
-
             </figure>
-
 
             {
                 (activeFullScreen) &&
@@ -52,9 +65,7 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
                     arrayImg={i}
                 />
             }
-
         </>
-
     );
 }
 export default Figure;

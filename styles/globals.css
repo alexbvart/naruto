@@ -160,6 +160,9 @@ a {
   box-sizing: border-box;
 }
 
+.blur{
+  filter: blur(40px);
+}
 .wrapper_margin_globals{
   width: calc(100% - 15%);
   max-width: var(--max-w);
