@@ -6,7 +6,9 @@ const Character = ({characters}) => {
         <div className={"wrapper_margin_globals"}>  
             <Title>Personajes del anime</Title>
             { characters.length > 0 &&
-                characters.slice(0, 100).map( (character) => 
+                characters
+                    // .slice(0, 100)
+                    .map( (character) => 
                         <Link 
                             key={`/character/${removeAccents(character.name.toString())}`} 
                             href={`/character/${removeAccents(character.name.toString())}`} >

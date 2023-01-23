@@ -1,11 +1,12 @@
 .h3{
-    font-size: 2.4rem;
+    font-size: var(--sub2title);
+    /* font-size: 2.4rem; */
     font-weight: 500;
 }
 
 @media screen and (max-width: 560px) {
 
     .h3{
-        font-size: 2.2rem;
+        /* font-size: 2.2rem; */
     }
 }

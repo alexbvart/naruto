@@ -11,7 +11,8 @@ const character = ({character}) => {
             range, classifications, familyMembers, teamMates, teams,
             weapons, jutsus
     } = character?.info
-    const { alias, clan, affiliation, kekkeiGenkai, element  } = character?.header
+    const { name, alias, clan, affiliation, kekkeiGenkai, element  } = character?.header
+    console.log(name);
     // console.log({ birth, blood, age, height, weight, uniquePersonality,
     //     range, classifications, familyMembers, teamMates, teams,
     //     weapons, jutsus, alias, clan, affiliation, kekkeiGenkai, element} );
