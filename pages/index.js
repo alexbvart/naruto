@@ -13,25 +13,9 @@ export default function Home({ datalist }) {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="theme-color" content="#15171B" />
       </Head>
-
-
-  
-        <style global jsx>{`
-              :root{
-                  --z-nav: 100;
-              }
-        `}</style>
+      <p>Inicio</p>
     </>
 
   )
-}
-
-export async function getServerSideProps(context) {
-    return fetch(`https://api.deezer.com/chart/`)
-    .then(res => res.json())
-    .then(response => {
-      const datalist = response;
-      return { props: {datalist} }
-    })
 }
 
