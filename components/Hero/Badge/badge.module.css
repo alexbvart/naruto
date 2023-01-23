@@ -22,3 +22,8 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.badge p {
+    margin: 0;
+    display: 0;
+}

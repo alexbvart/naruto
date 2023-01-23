@@ -54,3 +54,18 @@ export const toText2Case = (string) => {
             .replace('[','')
             // .replace(']','')
 }
+
+// export const toLatinCase = (string) => {
+//     return string &&
+//             greekUtils.toLatin(string).replace('','-')
+// }
+
+export const removeAccents = (string) => {
+    return string &&
+        string
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace("'",'')
+            .replaceAll(" ",'-')
+            .toLowerCase()
+} 
