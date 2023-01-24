@@ -2,7 +2,7 @@
     background-color: var(--bg-2);
     padding: 12px;
     border-radius: var(--border-radius);
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 .dropdown_header{
     height: 52px;

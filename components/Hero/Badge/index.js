@@ -20,8 +20,8 @@ const Badge = ({text, url}) => {
                             height={24}
                             quality={100}
                             objectFit
-                            placeholder='blur'
-                            blurDataURL={`${process.env.APP_URL}/_next/image?url=${encodeURIComponent(lowQuality)}&w=640&q=10`}
+                            // placeholder='blur'
+                            // blurDataURL={`${process.env.APP_URL}/_next/image?url=${encodeURIComponent(lowQuality)}&w=640&q=10`}
                         />
                     }
                 </figure>

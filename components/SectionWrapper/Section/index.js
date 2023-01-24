@@ -2,6 +2,7 @@ import Paragraph from 'Shares/Paragraph';
 import Span from 'Shares/Span/Span';
 import Title from 'Shares/Title';
 import { toText2Case, toTextCase } from 'utils/formatTitles';
+import { isEmpty } from 'utils/isEmpty';
 import Subtitle from '../../../Shares/Subtitle';
 import Figure from '../../Figure';
 import {section,images_grid,rellenuto,abstractSection,miniInfo} from './section.module.css'
@@ -98,15 +99,29 @@ export const AbstractSection = ({content,className, title}) => {
     );
 }
 export const MiniInfo = ({clan,range,birth,age,className}) => {
-    // console.log({clan,range,birth,age});
+    // console.log(isEmpty(clan) && isEmpty(range) && isEmpty(birth) && isEmpty(age));
+
+    if (isEmpty(clan) && isEmpty(range) && isEmpty(birth) && isEmpty(age)) {
+        return null
+    }
+
+    const miniInfoArray = [clan,range,birth, age && `${age} años`]
+                            .filter((i) => i.length > 0)
+    const isThereNextItemExist = (nextItem) =>  miniInfoArray[nextItem] ? ', ' : ''
+
     return ( 
         <>
             <section className={`${miniInfo} ${className}`}>
                 <Span> 
-                    {clan?.length>0 && <>{`${clan}, `}</>  }
-                    {range?.length>0 && <>{`${range}, `}</>  }
-                    {birth?.length>0 && <>{`${birth}, `}</>  }
-                    {age?.length>0 && <>{age} años</> }
+                    { miniInfoArray.map((info,index)=>(
+                        <span key={`miniInfoArray_${info}`}>
+                            {`${toTextCase(info)}${isThereNextItemExist(index+1)} `}
+                        </span> 
+                    ))}
+                    {/* {clan?.length>0 && <>{`${toTextCase(clan)}, `}</>  }
+                    {range?.length>0 && <>{`${toTextCase(range)}, `}</>  }
+                    {birth?.length>0 && <>{`${toTextCase(birth)}, `}</>  }
+                    {age?.length>0 && <>{`${toTextCase(age)} años`} </> } */}
                 </Span>
             </section>
         </>
