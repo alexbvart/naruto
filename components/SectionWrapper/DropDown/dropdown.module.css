@@ -2,10 +2,11 @@
     background-color: var(--bg-2);
     padding: 12px;
     border-radius: var(--border-radius);
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 .dropdown_header{
-    height: 96px;
+    height: 52px;
+    /* height: 96px; */
     width: 100%;
     display: flex;
     padding: 0 8px;
@@ -29,11 +30,13 @@
     transition: all ease-in 0s;
 }
 .wrapper_down_active{
+    height: 100%;
     opacity: 1;
     display: grid;
     grid-gap: 16px;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
     transition: all ease-in .3s;
+    margin-top: 12px;
 }
 .card_data{
     width: 100%;

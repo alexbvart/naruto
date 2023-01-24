@@ -1,5 +1,6 @@
 .span_text{
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
+    font-size: var(--spantext);
     font-weight: 300;
     margin: 0;
     color: var(--dark-color-2);
@@ -12,7 +13,7 @@
 @media screen and (max-width: 560px) {
 
     .span_text{
-        font-size: 1.6rem;
+        /* font-size: 1.6rem; */
         font-weight: 300;
         margin: 0;
     }

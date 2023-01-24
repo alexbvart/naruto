@@ -13,6 +13,7 @@ const Hero = ({header}) => {
                 { (header?.photos && header?.photos?.length > 0 ) &&
                 header.photos
                     .filter((image) => image !== null)
+                    .reverse()
                     .map((image,index)=>(
                     // (image !== null) && (
                     <Figure 
@@ -30,7 +31,7 @@ const Hero = ({header}) => {
                 }
                 { header?.name && <Title>{header?.name}</Title> }
                 {header?.affiliation?.length > 0 && 
-                    <Paragraph>{header?.affiliation[0].affiliationName} </Paragraph>
+                    <Paragraph>{header?.affiliation[0].affiliationName}</Paragraph>
                 }
             </div> 
         </article>

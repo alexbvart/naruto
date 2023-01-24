@@ -1,12 +1,13 @@
 .title{
-    font-size: 4rem;
+    font-size:var(--title);
+    /* font-size: 4rem; */
     font-weight: 600;
 }
 
 @media screen and (max-width: 560px) {
 
     .title{
-        font-size: 3rem;
+        /* font-size: 3rem; */
         font-weight: 500;
     }
 }

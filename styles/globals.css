@@ -21,6 +21,12 @@
   --description-weight-medium: 500;
   --description-weight-semi-bold: 600;
 
+  --title: 3rem;
+  --subtitle: 2.4rem;
+  --sub2title: 2.2rem;
+  --paragraph: 1.8rem;
+  --spantext: 1.6rem;
+
 
   /* * COLORS AND BACKGROUND */
 
@@ -32,12 +38,13 @@
 
 --coloraction1: #ff9a72; 
 --coloraction1: #e9fc6f; 
---googleradial: linear-gradient(90deg, #ea4335 0%, #fbbc05 43.23%, #3cab59 66.15%, #4285f4 100%); 
---h2: 500 1.25rem/normal Inter; 
+--googleradial: linear-gradient(90deg, #ea4335 0%, #fbbc05 43.23%, #3cab59 66.15%, #4285f4 100%);
+
+/* --h2: 500 1.25rem/normal Inter; 
 --h1: 700 1.5rem/normal Inter; 
 --h3: 500 1rem/normal Inter; 
 --parragraph: 400 0.875rem/normal Inter; 
---span: 400 0.75rem/normal Inter; 
+--span: 400 0.75rem/normal Inter;  */
 
 
   /* --nav-bar-background: #000; */

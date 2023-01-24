@@ -10,7 +10,7 @@
 .badge figure{
     width: 34px;
     height: 34px;
-    background-color: var(--bg-2);
+    background-color: var(--color-2);
     border-radius: var(--border-radius);
     display: flex;
     justify-content: center;

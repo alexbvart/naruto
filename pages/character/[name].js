@@ -11,7 +11,9 @@ const character = ({character}) => {
             range, classifications, familyMembers, teamMates, teams,
             weapons, jutsus
     } = character?.info
-    const { alias, clan, affiliation, kekkeiGenkai, element  } = character?.header
+    const { name, alias, clan, affiliation, kekkeiGenkai, element  } = character?.header
+    // console.log({name, clan, range, birth, age});
+
     // console.log({ birth, blood, age, height, weight, uniquePersonality,
     //     range, classifications, familyMembers, teamMates, teams,
     //     weapons, jutsus, alias, clan, affiliation, kekkeiGenkai, element} );
@@ -25,7 +27,7 @@ const character = ({character}) => {
             <Hero header={character.header} />
             <section className={"wrapper_margin_globals"}>
             {   
-                (   clan.length > 0 ||  range.length > 0 ||  birth || age) && 
+                (   clan.length > 0 ||  range.length > 0 ||  birth.length > 0 || age.length > 0) && 
                 <MiniInfo 
                     clan={ clan?.length > 0 && clan[0].clanName} 
                     range={ range?.length > 0 ? range[range.length-1] : ""} 
@@ -38,8 +40,8 @@ const character = ({character}) => {
             } 
                 <AbstractSection content={character.header.abstract} title={"Resumen"} />
 
-                { (     birth === null || blood === null ||  age === null ||
-                        height === null ||  weight === null ||  uniquePersonality === null
+                { (     birth.length > 0 || blood.length > 0 ||  age.length > 0 ||
+                        height.length > 0 || weight.length > 0 ||  uniquePersonality.length > 0
                 ) &&
                 <DropDown 
                     content={{
@@ -90,8 +92,9 @@ const character = ({character}) => {
                 { (familyMembers?.length > 0 || familyMembers?.length > 0) && 
                 <DropDown 
                     content={{
-                        "Familiares" : familyMembers || "",
-                        "Colegas" : teamMates || ""
+                        "Familiares" : { body:familyMembers, src:'character' } || "",
+                        // "Familiares" : familyMembers || "",
+                        "Colegas"    : {body: teamMates, src:'character'} || ""
                     }} 
                     key="Compañeros" 
                     title={"Compañeros"} 

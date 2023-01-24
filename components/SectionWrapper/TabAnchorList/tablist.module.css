@@ -9,6 +9,12 @@
     top: 0;
     background-color: var(--bg-1);
     z-index: 2;
+    overflow: scroll hidden;
+}
+
+.nav::-webkit-scrollbar{
+    width: 0 !important;
+    /* display: none; */
 }
 .navigation{
     display: flex;
@@ -17,17 +23,23 @@
     margin-right: 8px;
 }
 .tab_element{
-    font-size: 2rem;
+    width: auto;
+    font-size: var(--paragraph);
     font-weight: 400;
     margin-right: 12px;
     transition: all ease 0.3s;
     color: var(--color-2);
+    cursor: pointer;
+    white-space: nowrap;
 }
+.tab_element:hover{
+    color: var(--color-1);
+}
+.tab_element:active,
 .tab_element_active{
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--color-1);
-
 }
 
 
@@ -71,10 +83,10 @@
     .nav::-webkit-scrollbar-thumb {
         background: var(--card-background);
     }
-    .tab_element{
+    /* .tab_element{
         font-size: 1.8rem;
     }    
     .tab_element_active{
         font-size: 2.0rem;
-    }
+    } */
 }
