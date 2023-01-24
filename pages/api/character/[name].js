@@ -1,6 +1,6 @@
 import path from 'path';
 import { promises as fs } from 'fs';
-import { toSnakeCase } from 'utils/formatTitles'
+import { removeAccents, toSnakeCase } from 'utils/formatTitles'
 
     const getCharacter = async (req, res) => {
         //   const body = JSON.parse(req.body)
@@ -11,7 +11,7 @@ import { toSnakeCase } from 'utils/formatTitles'
         // const file = await readFile('./character.json', 'utf-8')
         const json = JSON.parse(fileContents)
 
-        const person = json.find((p) => toSnakeCase(p.header.name) === name)
+        const person = json.find((p) => removeAccents(p.header.name) === name)
 
         return person
             ? res.status(200).json(person)

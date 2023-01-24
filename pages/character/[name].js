@@ -92,8 +92,9 @@ const character = ({character}) => {
                 { (familyMembers?.length > 0 || familyMembers?.length > 0) && 
                 <DropDown 
                     content={{
-                        "Familiares" : familyMembers || "",
-                        "Colegas" : teamMates || ""
+                        "Familiares" : { body:familyMembers, src:'character' } || "",
+                        // "Familiares" : familyMembers || "",
+                        "Colegas"    : {body: teamMates, src:'character'} || ""
                     }} 
                     key="Compañeros" 
                     title={"Compañeros"} 
