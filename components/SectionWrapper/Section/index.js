@@ -5,7 +5,8 @@ import { toText2Case, toTextCase } from 'utils/formatTitles';
 import { isEmpty } from 'utils/isEmpty';
 import Subtitle from '../../../Shares/Subtitle';
 import Figure from '../../Figure';
-import {section,images_grid,rellenuto,abstractSection,miniInfo} from './section.module.css'
+import {section,images_grid,rellenuto,abstractSection,
+        miniInfo, miniInfo_span} from './section.module.css'
 
 export const Section = ({content,children}) => {
     if(Array.isArray(content)){
@@ -112,7 +113,7 @@ export const MiniInfo = ({clan,range,birth,age,className}) => {
     return ( 
         <>
             <section className={`${miniInfo} ${className}`}>
-                <Span> 
+                <Span className={miniInfo_span}>  
                     { miniInfoArray.map((info,index)=>(
                         <span key={`miniInfoArray_${info}`}>
                             {`${toTextCase(info)}${isThereNextItemExist(index+1)} `}

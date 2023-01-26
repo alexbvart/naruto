@@ -24,3 +24,9 @@
     justify-content: center;
     margin-top: 24px;
 }
+
+.miniInfo_span{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
