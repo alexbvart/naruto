@@ -1,24 +1,19 @@
+import Head from 'next/head'
 
-const Character = ({characters}) => {
+const Character = ({ characters }) => {
     return (
-        <div className={"wrapper_margin_globals"}>  
-            <Title>Personajes del anime</Title>
-            {/* { characters.length > 0 &&
-                characters
-                    // .slice(0, 100)
-                    .map( (character) => 
-                        <Link 
-                            key={`/character/${removeAccents(character.name.toString())}`} 
-                            href={`/character/${removeAccents(character.name.toString())}`} >
-                            <Subtitle> 
-                                <p>{character.name} </p>
-                            </Subtitle>  
-                        </Link>
-                )
-            } */}
+        <>
+            <Head>
+                <title>Personajes</title>
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <meta name="theme-color" content="#171516" />
+            </Head>
+            <div className={"wrapper_margin_globals"}>  
+                <Title>Personajes del anime</Title>
+                <GridCharacter characters={characters} />
+            </div>
+        </>
 
-            <GridCharacter characters={characters} />
-        </div>
     )
 }
 
@@ -33,11 +28,11 @@ import Figure from 'components/Figure';
 import { GridCharacter } from 'components/GridCharacter/GridCharacter';
 
 export async function getStaticProps() {
-//   const filePath = path.join(process.cwd(), 'json/character.json');
-  const filePath = path.join(process.cwd(), 'json/pathCharacter.json');
-  const jsonData = await fsPromises.readFile(filePath);
-  const objectData = JSON.parse(jsonData);
-  return {
-    props: {characters : objectData}
-  }
+    //   const filePath = path.join(process.cwd(), 'json/character.json');
+    const filePath = path.join(process.cwd(), 'json/pathCharacter.json');
+    const jsonData = await fsPromises.readFile(filePath);
+    const objectData = JSON.parse(jsonData);
+    return {
+        props: { characters: objectData }
+    }
 }

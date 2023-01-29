@@ -11,7 +11,7 @@ import { useImage } from 'hooks/useImage';
 
 let i = []
 
-const Figure = ({ src, className, description, height = 400, borderRadius = true }) => {
+const Figure = ({ src, className, description, height = 400, borderRadius = true, nofullScreen = true}) => {
     // console.log(src);
     const [isLoadingImage, setIsLoadingImage] = useState(true)
     const {lowQuality, highQuality} = useImage({src})
@@ -35,7 +35,7 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
             <figure
                 className={ isLoadingImage ? `${figure_wrapper_loading} ${loading}` : `${className} ${figure_wrapper} ${border_radius}`}
                 // className={`${className} ${figure_wrapper} ${border_radius}`}
-                onClick={() => setActiveFullScreen(!activeFullScreen)}
+                onClick={() => setActiveFullScreen(nofullScreen? !activeFullScreen : activeFullScreen)}
             >
                 <Image
                     src={highQuality}

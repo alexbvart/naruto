@@ -108,7 +108,7 @@ export const MiniInfo = ({clan,range,birth,age,className}) => {
 
     const miniInfoArray = [clan,range,birth, age && `${age} años`]
                             .filter((i) => i.length > 0)
-    const isThereNextItemExist = (nextItem) =>  miniInfoArray[nextItem] ? ', ' : ''
+    const isThereNextItemExist = (nextItem) =>  miniInfoArray[nextItem] ? `,` : ''
 
     return ( 
         <>
@@ -116,7 +116,7 @@ export const MiniInfo = ({clan,range,birth,age,className}) => {
                 <Span className={miniInfo_span}>  
                     { miniInfoArray.map((info,index)=>(
                         <span key={`miniInfoArray_${info}`}>
-                            {`${toTextCase(info)}${isThereNextItemExist(index+1)} `}
+                            {`${toTextCase(info)}${isThereNextItemExist(index+1)}`}&nbsp;
                         </span> 
                     ))}
                     {/* {clan?.length>0 && <>{`${toTextCase(clan)}, `}</>  }
