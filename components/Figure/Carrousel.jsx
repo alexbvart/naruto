@@ -3,10 +3,15 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Keyboard, Pagination, Navigation } from 'swiper/core';
 import Image from 'next/image'
 
-// install Swiper modules
-import "swiper/swiper.min.css";
-import "swiper/components/pagination/pagination.min.css"
-import "swiper/components/navigation/navigation.min.css"
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// // install Swiper modules
+// import "swiper/swiper.min.css";
+// import "swiper/components/pagination/pagination.min.css"
+// import "swiper/components/navigation/navigation.min.css"
 
 import { descriptionFullScreen, img,btn,btnRight,btnLeft } from './figure.module.css';
 

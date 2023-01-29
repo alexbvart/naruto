@@ -9,9 +9,9 @@ import Span from 'Shares/Span/Span';
 const Hero = ({header}) => {
     return ( 
         <article className={main}>
-            <CarouselOfHeaderImages items={header.photos.length} >
-                { (header?.photos && header?.photos?.length > 0 ) &&
-                header.photos
+            <CarouselOfHeaderImages items={header.photos} >
+                {/* { (header?.photos && header?.photos?.length > 0 ) &&
+                    header.photos
                     .filter((image) => image !== null)
                     .reverse()
                     .map((image,index)=>(
@@ -22,7 +22,7 @@ const Hero = ({header}) => {
                         className={image_header} 
                         height={700} 
                         borderRadius={false}/>)
-            )}
+            )} */}
             </CarouselOfHeaderImages>
 
             <div className={header_info}>
