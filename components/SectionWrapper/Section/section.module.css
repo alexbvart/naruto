@@ -6,7 +6,9 @@
 .images_grid{
     min-width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    /* grid-template-rows: minmax(230px, 250px); */
+    justify-content: center;
     grid-gap: 12px;
 }
 

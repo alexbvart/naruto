@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 
 import { FullScreen } from './fullScreen'
 
-import { figure_wrapper, f_w_border_radius, figcaption, loading} from './figure.module.css'
+import { figure_wrapper,figure_wrapper_loading, f_w_border_radius, figcaption, loading} from './figure.module.css'
 import { useImage } from 'hooks/useImage';
 
 
@@ -33,7 +33,8 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
     return (
         <>
             <figure
-                className={`${className} ${figure_wrapper} ${border_radius}`}
+                className={ isLoadingImage ? `${figure_wrapper_loading} ${loading}` : `${className} ${figure_wrapper} ${border_radius}`}
+                // className={`${className} ${figure_wrapper} ${border_radius}`}
                 onClick={() => setActiveFullScreen(!activeFullScreen)}
             >
                 <Image
@@ -42,7 +43,7 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
                     blurDataURL={`${process.env.APP_URL}/_next/image?url=${encodeURIComponent(lowQuality)}&w=640&q=10`}
                     // loader={customLoader}
                     onLoadingComplete={ () => setIsLoadingImage(false)}
-                    className={ isLoadingImage ? `${loading} blur` : ``}
+                    className={ isLoadingImage ? `${loading}` : ``}
                     // className={loading}
                     alt={description}
                     objectFit="cover"
