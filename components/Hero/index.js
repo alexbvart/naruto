@@ -2,11 +2,14 @@ import Title from '../../Shares/Title';
 import Figure from '../Figure';
 import CarouselOfHeaderImages from './CarouselOfHeaderImages';
 
-import {main,image_header,header_info,alias} from './hero.module.css'
+import {main,image_header, backDirection,header_info,alias} from './hero.module.css'
 import Paragraph from 'Shares/Paragraph';
 import Span from 'Shares/Span/Span';
+import { BackArrow } from 'icon/BackArrow';
+import { useRouter } from 'next/router';
 
 const Hero = ({header}) => {
+    const router = useRouter()
     return ( 
         <article className={main}>
             <CarouselOfHeaderImages items={header.photos} >
@@ -26,13 +29,18 @@ const Hero = ({header}) => {
             </CarouselOfHeaderImages>
 
             <div className={header_info}>
-                {header?.alias?.length > 0 && 
-                    <Span className={alias}> {header.alias[0]}</Span>
-                }
-                { header?.name && <Title>{header?.name}</Title> }
-                {header?.affiliation?.length > 0 && 
-                    <Paragraph>{header?.affiliation[0].affiliationName}</Paragraph>
-                }
+                <div>
+                    {header?.alias?.length > 0 && 
+                        <Span className={alias}> {header.alias[0]}</Span>
+                    }
+                    { header?.name && <Title>{header?.name}</Title> }
+                    {header?.affiliation?.length > 0 && 
+                        <Paragraph>{header?.affiliation[0].affiliationName}</Paragraph>
+                    }
+                </div>
+                <div className={backDirection}>
+                    <BackArrow onClick={() => router.back()}/>
+                </div>
             </div> 
         </article>
     );

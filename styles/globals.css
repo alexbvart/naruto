@@ -83,7 +83,7 @@
   --icon-wrapper: 40px;
   --nav-bar-width: 230px;
   --main-width: calc(100vw - var(--nav-bar-width));
-
+  --header-h: 64px;
 
   /*  * PADDING */
 
@@ -178,6 +178,11 @@ img{
   margin: auto;
   height: 100%; 
 }
+
+.gap_layout_header{
+  margin-top: calc( var(--header-h) + var(--padding-between-sections));
+}
+
 .title-headers{
   font-size: var(--title-headers-font-size);
   font-weight: var(--title-headers-weight-bold);

@@ -8,7 +8,7 @@ const Character = ({ characters }) => {
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="theme-color" content="#171516" />
             </Head>
-            <div className={"wrapper_margin_globals"}>  
+            <div className={"wrapper_margin_globals gap_layout_header"}>  
                 <Title>Personajes del anime</Title>
                 <GridCharacter characters={characters} />
             </div>
