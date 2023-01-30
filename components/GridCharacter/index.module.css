@@ -8,7 +8,7 @@
   }
   
 .images_grid img{
-    filter: brightness(75%)  contrast(140%)  saturate(1)
+    /* filter: brightness(75%)  contrast(140%)  saturate(1) */
 }
 /* .images_grid ::after {
   content: "";
@@ -31,5 +31,5 @@
   }
 } */
 .images_grid figure:hover img {
-  filter: contrast(135%)  saturate(1.35)  brightness(90%)
+  filter: contrast(105%)  saturate(1.35)  brightness(90%)
 }

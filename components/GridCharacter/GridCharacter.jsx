@@ -10,7 +10,7 @@ export const GridCharacter = ({ characters }) => {
             {(characters && characters.length > 0) &&
                 <div className={images_grid}>
                     {characters
-                        .slice(0,100)
+                        .slice(0,500)
                         .map((c, index) =>
                         // img.url && 
                         c &&

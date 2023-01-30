@@ -4,8 +4,9 @@
   width: 100%;
   height: 100%;
   cursor: pointer;
-  /* filter: contrast(100%) saturate(1.2); */
-  filter: contrast(100%) saturate(1.35);
+  filter: brightness(90%)  contrast(125%)  saturate(1.25);
+  /* filter: contrast(75%)  saturate(1.35)  brightness(90%) */
+  
   display: block;
   background-color: rgba(34, 34, 34, 0.262);
 }

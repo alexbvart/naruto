@@ -171,6 +171,8 @@ a {
 }
 img{
   display: block;
+  filter: contrast(75%)  saturate(1.35)  brightness(90%)
+
 }
 .wrapper_margin_globals{
   width: calc(100vw - ( 2 * var(--wrapper-margin)));
