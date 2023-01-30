@@ -1,19 +1,20 @@
 .nav{
-    height: 100px;
+    /* height: 100px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 22px auto;
+    margin: 32px auto;
 
     position: sticky;
-    top: 0;
+    padding-bottom: 12px;
+    top: var(--header-h);
     background-color: var(--bg-1);
     z-index: 2;
     overflow: scroll hidden;
 }
 
 .nav::-webkit-scrollbar{
-    width: 0 !important;
+    width: 0px !important;
     /* display: none; */
 }
 .navigation{
@@ -51,7 +52,7 @@
 
 .bubble{
     width: 20px;
-    height: 8px;
+    height: 6px;
     background-color: var(--color-2);
     border-radius: 35px;
     margin-right: 8px;
@@ -59,14 +60,14 @@
 }
 .bubble_active{
     width: 80px;
-    height: 8px;
+    height: 6px;
     background-color: #ffffff90;
     background-color: var(--color-1);
 }
 
 @media screen and (max-width: 560px) {
     .nav{
-        height: 100px;
+        /* height: 100px; */
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -18,6 +18,10 @@
     padding: 0 var(--wrapper-margin);
 }
 
+.bg_hard{
+    background: var(--bg-1)
+}
+
 .header_icons{
     display: flex;
     gap: 2px;
