@@ -97,6 +97,8 @@
 
 
   --border-radius: 12px;
+  /* --gap-exterior: 12px; */
+  --gap-exterior: 16px;
   --max-w : 900px;
 
   /* * z-index  */
@@ -171,7 +173,7 @@ img{
   display: block;
 }
 .wrapper_margin_globals{
-  width: calc(100% - 15%);
+  width: calc(100vw - ( 2 * var(--wrapper-margin)));
   max-width: var(--max-w);
   margin: auto;
   height: 100%; 
@@ -221,13 +223,14 @@ img{
 @media screen and (max-width: 560px) {
 
   :root{
-    --wrapper-margin: 24px;
+    --wrapper-margin: 16px;
     --main-width: 100vw;
     --z-nav: -1;
 
   }
   .wrapper_margin_globals{
-    width: calc(100vw - 48px);
+    width: 100%;
+    max-width: calc(100vw - ( 2 * var(--wrapper-margin)));
     margin: auto;
   }
 

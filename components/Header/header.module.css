@@ -1,0 +1,19 @@
+.header{
+    width: 100%;
+    max-width: var(--max-w);
+    height: 100%;
+    max-height: 64px;
+    background: linear-gradient(180deg, #171516 0%, rgba(23, 21, 22, 0.473958) 55.21%, rgba(23, 21, 22, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: auto;
+    /* position: sticky; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 4;
+    padding: 0 var(--wrapper-margin);
+}
