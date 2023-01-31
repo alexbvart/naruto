@@ -130,6 +130,7 @@ const character = ({character}) => {
                     status={false}
                 />}
             </section>
+            <BackNavHeader title={name}/>
             <SectionWrapper 
                 content={character.information}
             />
@@ -153,6 +154,7 @@ export default character;
 
 import fsPromises from 'fs/promises';
 import path from 'path'
+import { BackNavHeader } from 'components/Header/BackNavHeader/BackNavHeader';
 
 export async function getStaticProps({ params }) {
   const filePath = path.join(process.cwd(), 'json/character.json');

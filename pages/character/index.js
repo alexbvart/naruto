@@ -30,6 +30,7 @@ const Character = ({ characters }) => {
                     text2="Personajes"
                     text3="de la serie"
                 />
+                <BackNavHeader title="Personajes" />
                 <GridCharacter characters={characters} />
             </div>
         </>
@@ -45,6 +46,7 @@ import path from 'path'
 import { GridCharacter } from 'components/GridCharacter/GridCharacter';
 import { TitleHero } from 'components/Hero/TitleHero/TitleHero';
 import { Recommendations } from 'components/Hero/Recommendations/Recommendations';
+import { BackNavHeader } from 'components/Header/BackNavHeader/BackNavHeader'
 
 export async function getStaticProps() {
     //   const filePath = path.join(process.cwd(), 'json/character.json');

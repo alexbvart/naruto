@@ -7,10 +7,13 @@
 
     position: sticky;
     padding-bottom: 12px;
-    top: var(--header-h);
-    background-color: var(--bg-1);
+    /* top: var(--header-h); */
+    top: var(--header-h-max);
     z-index: 2;
     overflow: scroll hidden;
+    background-color: var(--bg-1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 .nav::-webkit-scrollbar{

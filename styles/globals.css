@@ -84,6 +84,7 @@
   --nav-bar-width: 230px;
   --main-width: calc(100vw - var(--nav-bar-width));
   --header-h: 64px;
+  --header-h-max: 96px;
 
   /*  * PADDING */
 
