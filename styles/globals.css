@@ -182,7 +182,7 @@ img{
 }
 
 .gap_layout_header{
-  margin-top: calc( var(--header-h) + var(--padding-between-sections));
+  /* margin-top: calc( var(--header-h) + var(--padding-between-sections)); */
 }
 
 .title-headers{
@@ -225,6 +225,9 @@ img{
   color: #fff;
 }
 
+.header_space{
+  height: calc( var(--header-h) + var(--padding-between-sections) );
+}
 
 
 @media screen and (max-width: 560px) {

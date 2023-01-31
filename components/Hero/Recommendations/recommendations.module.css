@@ -1,0 +1,11 @@
+.badgeContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    gap: 12px;
+    padding-bottom: var(--padding-between-sections);
+}
+.badgeItem{
+    padding: 6px;
+    background-color: var(--bg-2);
+    border-radius: var(--border-radius);
+}

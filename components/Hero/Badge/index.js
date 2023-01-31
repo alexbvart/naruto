@@ -5,7 +5,7 @@ import Paragraph from '../../../Shares/Paragraph';
 
 import {badge} from './badge.module.css'
 
-const Badge = ({text, url}) => {
+const Badge = ({text, url, width="24", height="24" }) => {
     const {lowQuality, highQuality} = useImage({src:url, max:"300"})
 
     return ( 
@@ -16,10 +16,10 @@ const Badge = ({text, url}) => {
                         <Image 
                             src={highQuality}
                             alt={text}
-                            width={24}
-                            height={24}
+                            width={width}
+                            height={height}
                             quality={100}
-                            objectFit
+                            objectFit = "cover"
                             // placeholder='blur'
                             // blurDataURL={`${process.env.APP_URL}/_next/image?url=${encodeURIComponent(lowQuality)}&w=640&q=10`}
                         />
