@@ -12,21 +12,7 @@ const Hero = ({header}) => {
     const router = useRouter()
     return ( 
         <article className={main}>
-            <CarouselOfHeaderImages items={header.photos} >
-                {/* { (header?.photos && header?.photos?.length > 0 ) &&
-                    header.photos
-                    .filter((image) => image !== null)
-                    .reverse()
-                    .map((image,index)=>(
-                    // (image !== null) && (
-                    <Figure 
-                        key={index}
-                        src={image} 
-                        className={image_header} 
-                        height={700} 
-                        borderRadius={false}/>)
-            )} */}
-            </CarouselOfHeaderImages>
+            <CarouselOfHeaderImages items={header.photos} />
 
             <div className={header_info}>
                 <div>
