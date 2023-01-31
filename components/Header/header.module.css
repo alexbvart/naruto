@@ -32,12 +32,11 @@
 
 .header_icons{
     display: flex;
-    gap: 2px;
 }
 
 .icon_button{
-    min-width: 56px;
-    min-height: 56px;
+    min-width: 48px;
+    min-height: 48px;
     /* margin: auto; */
     border-radius: 50%;
     display: flex;

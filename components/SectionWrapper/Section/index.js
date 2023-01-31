@@ -57,7 +57,7 @@ export const OneSection = ({content,className, title}) => {
                                 
                                 (
                                     // <Figure src={img.url}  description={img.description} key={index}/> 
-                                    <Figure src={img}  description="" key={index}/>
+                                    <Figure src={img}  description="" key={index} height="305"/>
                                 )
                             )
                         }

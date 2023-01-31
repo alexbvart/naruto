@@ -7,7 +7,8 @@
     min-width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
-    /* grid-template-rows: minmax(230px, 250px); */
+    /* grid-template-rows: repeat(auto-fit,250px); */
+    grid-auto-rows: 1fr;
     justify-content: center;
     grid-gap: 12px;
 }
@@ -32,3 +33,11 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+
+/* @media screen and (max-width: 600px) {
+    .images_grid{
+        grid-template-rows: 250px;
+    }
+} */

@@ -41,15 +41,15 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
                 <Image
                     src={srcImage}
                     onError={() => setSrc('https://i.postimg.cc/ryPtffNW/error-image.png')}
-                    // onError={() => setSrc('https://static.wikia.nocookie.net/naruto/images/c/c0/Karui_Parte_III_Anime.png/revision/latest/scale-to-width-down/1000?cb=20180524143326&path-prefix=es')}
                     placeholder="blur"
                     blurDataURL={`${process.env.APP_URL}/_next/image?url=${encodeURIComponent(lowQuality)}&w=640&q=10`}
                     // loader={customLoader}
                     onLoadingComplete={ () => setIsLoadingImage(false)}
                     className={ isLoadingImage ? `${loading}` : ``}
-                    // className={loading}
                     alt={description}
+                    objectPosition="center"
                     objectFit="cover"
+                    // objectPosition="top"
                     quality={100}
                     width={500}
                     height={height}
