@@ -8,6 +8,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
  import "swiper/css";
  import "swiper/css/pagination";
  import "swiper/css/navigation";
+import { isEmpty } from "utils/isEmpty";
 
 const CarouselOfHeaderImages = ({ children, items }) => {
     return (
@@ -26,7 +27,7 @@ const CarouselOfHeaderImages = ({ children, items }) => {
                 // }}
                 modules={[Autoplay, Pagination, Navigation]}
                 className={wrapper}>
-                {(items && items.length > 0) &&
+                {(!isEmpty(items)) &&
                     items
                         .filter((image) => image !== null)
                         .reverse()

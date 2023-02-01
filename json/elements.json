@@ -1,0 +1,1073 @@
+[
+  {
+    "header": {
+      "name": "Elemento Agua",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "El agua es naturalmente fuerte contra el Fuego (aún así, un jutsu de fuego poderoso puede evaporar el agua) pero del mismo modo, el Agua también es naturalmente débil contra la Tierra. Aunque, generalmente, se necesita estar cerca de un cuerpo de agua, usuarios expertos como los son: Kisame Hoshigaki, un miembro de Akatsuki, Mei Terumī, la Quinta Mizukage y Tobirama Senju, el Segundo Hokage, son capaces de crear su propia agua al transformar su chakra en agua."
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [],
+      "information": [
+        {
+          "title": "Combinaciones[]",
+          "paragraphsp": [
+            "Combinándolo con Tierra se forma Elemento Madera.",
+            " Combinándolo con Tierra se forma Elemento Barro.",
+            " Combinándolo con Fuego se forma Elemento Ebullición.",
+            " Combinándolo con Viento se forma Elemento Hielo.",
+            " Combinándolo con Rayo se forma Elemento Tormenta."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Barro",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Tierra",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/0/01/Elemento_Tierra.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Agua",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/e/ea/Elemento_Agua.svg/revision/latest/scale-to-width-down/18?cb=20130303092733&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "Debido a que son las mismas naturalezas que forman el Elemento Madera, y debido a que dicho elemento es famoso, pocas personas habían oído hablar del Elemento Barro, hasta el punto de que Hidan creía que no existía. Además de la persecución que normalmente sufren las personas con algún Kekkei Genkai, los usuarios del Elemento Barro estén atascados con la idea de ser y estar sucios debido a que su habilidad tiende a dejar las manos llenas de barro.[1]"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Elemento Barro: Agujero de Barro Sin Fondo",
+        "Elemento Barro: Deslizamiento de Tierra",
+        "Elemento Barro: Muñeco de Barro",
+        "Elemento Barro: Pared de Agua Fangosa"
+      ],
+      "information": []
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Cristal",
+      "img": "https://static.wikia.nocookie.net/naruto/images/e/ea/Elemento_Cristal_Prisi%C3%B3n_de_Cristal_de_Jade.jpg/revision/latest?cb=20110226143728&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Tierra",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/0/01/Elemento_Tierra.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "De acuerdo a los rumores que había oído Tsunade, esta naturaleza de chakra puede cristalizar cualquier sustancia, incluso sangre,[3] por lo tanto, las técnicas de tierra, agua y madera son inútiles contra él.[1] Con el uso de ninjutsu de cristal, el usuario puede cristalizar cualquier material físico e incluso la humedad en el aire alrededor de ellos, convirtiéndolos en un arma.[3][4] En el caso de los blancos humanos, el elemento puede solidificar sus objetivos hasta el nivel celular, encarcelar e incluso matar a la víctima. Si el cristal alguna vez es golpeado con un humano atrapado, se reduce la masa del cristal y de la víctima hasta un polvo cristalino.[3]\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Armadura de Cristal",
+        "Cristal: Shuriken Hexagonales",
+        "Cristal: Shuriken Hexagonal Gigante",
+        "Cristal: Shurikens Hexagonales: Danza Salvaje",
+        "Elemento Cristal: Agujas de Cristal",
+        "Elemento Cristal: Campamento de Paredes de Cristal",
+        "Elemento Cristal: Carmesí de Frutas",
+        "Elemento Cristal: Crecimiento de Espinas de Cristal",
+        "Elemento Cristal: Cruce de los Dioses",
+        "Elemento Cristal: Danza Salvaje de Shurikens",
+        "Elemento Cristal: Dragón Desgarrante de Cristal",
+        "Elemento Cristal: Espada de Cristal de Jade",
+        "Elemento Cristal: Espejo de Cristal de Jade",
+        "Elemento Cristal: Formación de Ocho Paredes de Cristal de Jade",
+        "Elemento Cristal: Flecha de Luz",
+        "Elemento Cristal: Lanza de Cristal",
+        "Elemento Cristal: Pilares Hexagonales de Cristal de Jade",
+        "Elemento Cristal: Prisión de Cristal de Jade",
+        "Elemento Cristal: Prisión de Cristal Pentagonal",
+        "Elemento Cristal: Prisión de Olas de Cristal",
+        "Elemento Cristal: Rueda de Cristal",
+        "Elemento Cristal: Técnica del Laberinto de Cristal de Jade",
+        "Jutsu: Clon de Cristal de Jade"
+      ],
+      "information": [
+        {
+          "title": "Curiosidades",
+          "paragraphsp": [
+            "Se dice que con este elemento se destruyó una aldea entera sin dejar sobrevivientes.[3]"
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Disolución",
+      "img": "https://static.wikia.nocookie.net/naruto/images/f/f9/Elemento_Disoluci%C3%B3n_Explosi%C3%B3n_Marca_Estrella_Anime.png/revision/latest/scale-to-width-down/350?cb=20210718202828&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Fuego",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/4/4e/Elemento_Fuego.svg/revision/latest/scale-to-width-down/18?cb=20130303095521&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Tierra",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/0/01/Elemento_Tierra.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Disolución (溶遁, Yōton; literalmente «Liberación de Disolución») es un elemento kekkei genkai que surge de la combinación del Elemento Fuego y el Elemento Tierra,[1] siendo uno de los dos elementos avanzados que pueden emerger de esta combinación, junto al Elemento Fusión."
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Elemento Disolución: Jutsu Aparición de Fusión",
+        "Elemento Disolución: Cresta de Monstruo de Disolución",
+        "Elemento Disolución: Disolución de Ácido Explosivo",
+        "Elemento Disolución: Globos de Disolución",
+        "Elemento Disolución: Explosión Marca Estrella"
+      ],
+      "information": [
+        {
+          "title": "Uso[]",
+          "paragraphsp": [
+            "Combinando los elementos fuego y tierra, el usuario puede crear y lanzar una sustancia altamente corrosiva, capaz de disolver aquello que toca.[2][3] El usuario puede escoger la cantidad y forma en la que expulsar el líquido: en grandes cantidades y formar muros para evitar que el enemigo no pueda huir,[3] crear lagos para no permitir escapar a los oponentes[4] o en pequeños proyectiles para aumentar el alcance y la velocidad del ataque.[5]"
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "En su primera aparición en el anime, la técnica se le otorgó un aspecto similar al de Montaña de Flores y Frutas. Esto, junto con la mención de que se compone de fuego y tierra, se consideró que inicialmente era el mismo kekkei genkai que Elemento Fusión, ya que la palabra \"lava\", se puede escribir en japonés como 熔岩 y 溶岩. Ya en su siguientes apariciones de la técnica en el anime se le otorgó una animación similar a la de la edición digital del manga."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Ebullición",
+      "img": "https://static.wikia.nocookie.net/naruto/images/9/9c/Elemento_Vapor_Jutsu_de_Niebla_Corrosiva_Anime_1.png/revision/latest/scale-to-width-down/350?cb=20171003191115&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Fuego",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/4/4e/Elemento_Fuego.svg/revision/latest/scale-to-width-down/18?cb=20130303095521&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Agua",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/e/ea/Elemento_Agua.svg/revision/latest/scale-to-width-down/18?cb=20130303092733&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "Esta naturaleza de chakra permite al usuario liberar un vapor con propiedades corrosivas, siendo capaz de derretir cualquier cosa, incluso el portador es capaz de controlar el rango de acidez. El poder de este Kekkei Genkai es lo suficientemente fuerte como para derretir las costillas del Susanoo, algo impresionante, ya que Sasuke declaró que su jutsu es más fuerte que el Escudo de Arena de Gaara."
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Arte Sabio de Elemento Llama: Super Bola Bestia con Cola",
+        "Arte Sabio: Rasen Shuriken de Elemento Ebullición",
+        "Arte Sabio: Super Rasen Shuriken de Bestia con Cola",
+        "Carrera de Vapor",
+        "Elemento Ebullición: Fuerza Incomparable",
+        "Elemento Ebullición: Jutsu Loto Pecaminoso",
+        "Elemento Ebullición: Jutsu de Niebla Corrosiva",
+        "Elemento Disolución: Disolución de Ácido Explosivo",
+        "Indestructible",
+        "Patada Erupción",
+        "Patada Erupción en Caída",
+        "Puño Erupción a Propulsión",
+        "Salto de las Cinco Montañas",
+        "Verdadero: Rasen Shuriken de Bestia con Cola"
+      ],
+      "information": [
+        {
+          "title": "Información[]",
+          "paragraphsp": [
+            "Esta naturaleza de chakra permite al usuario liberar un vapor con propiedades corrosivas, siendo capaz de derretir cualquier cosa, incluso el portador es capaz de controlar el rango de acidez. El poder de este Kekkei Genkai es lo suficientemente fuerte como para derretir las costillas del Susanoo, algo impresionante, ya que Sasuke declaró que su jutsu es más fuerte que el Escudo de Arena de Gaara."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "El Rōmaji del Elemento Viento (Fūton) es muy parecido al Rōmaji del Elemento Ebullición excepto que éste se escribe con dos T. Quizás se deba a que el viento y el vapor tienen la misma forma física.",
+            "Erróneamente, al Elemento Ebullición se lo tradujo al español como Elemento Vapor (蒸気遁, Jōkiton, lit. Liberación de Vapor); pero nada tiene de relación con éste."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Explosión",
+      "img": "https://static.wikia.nocookie.net/naruto/images/f/fc/Pu%C3%B1o_de_mina.png/revision/latest/scale-to-width-down/350?cb=20120531164615&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Tierra",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/0/01/Elemento_Tierra.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Explosión (爆遁, Bakuton, literalmente Liberación de Explosión) es una naturaleza del chakra avanzada que se obtiene al combinar el Elemento Tierra[1] con otro elemento desconocido. Esta naturaleza del chakra, parece dar al portador la habilidad de utilizar chakra explosivo en combate, lo que les permite causar explosiones en los objetos que entran en contacto con él. Los usuarios que se conocen de esta naturaleza eran miembros del Cuerpo de Explosivos de Iwagakure; se desconoce si también los hay en algún otro lado.\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Arcilla Explosiva",
+        "Arcilla Explosiva: Araña",
+        "Arcilla Explosiva: Búho",
+        "Arcilla Explosiva: Fénix",
+        "Arcilla Explosiva: Pájaro",
+        "Arcilla Explosiva: Pájaro Misterioso",
+        "Arcilla Explosiva: Pájaros Gemelos",
+        "Arcilla Explosiva: Serpiente",
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "Campo de Minas de Arcilla",
+        "Clon de Bomba Suicida",
+        "Conjunto de Arte",
+        "Destrucción Creativa",
+        "Enjambre de Arte",
+        "Elemento Explosión: Palma Protectora",
+        "Elemento Explosión: Puño de Mina Explosiva",
+        "Jutsu: Clon de Arcilla",
+        "Jutsu de Colaboración: Arte Definitivo",
+        "Muñecos de Arcilla Explosiva"
+      ],
+      "information": [
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "Al parecer, Iwagakure es la única aldea con usuarios que poseen este Kekkei Genkai."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Fuego",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Fuego es naturalmente fuerte contra el Elemento Viento, puesto que éste último alimenta las llamas e incrementa su fuerza. Del mismo modo, el fuego es débil frente al Agua, debido a su capacidad de extinguir las llamas. Sin embargo, una técnica de fuego lo suficientemente poderosa podría llegar a ser capaz de evaporar a su debilidad natural. Las técnicas de fuego también pueden ser empleadas, junto con el Elemento Tierra, para obtener los kekkei genkai disolución y fusión; el Elemento Ebullición junto con el agua; y el Elemento Quemar junto con el viento.\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [],
+      "information": [
+        {
+          "title": "Elemento Llama[]",
+          "paragraphsp": [
+            "Amaterasu, un poder único del Mangekyō Sharingan, es considerado el nivel más alto de los ninjutsus de Elemento Fuego. Tiene la capacidad de crear llamas negras (黒炎, Kokuen?), a las que Sasuke se refiere como Elemento Llama (炎遁, Enton; literalmente Liberación de Llama), utilizado por él y su hermano Itachi Uchiha. Sasuke tiene la capacidad de manipular la forma de las llamas negras utilizando el Elemento Llama: Kagutsuchi, pudiendo crear diferentes armas y defensas. Asimismo, Sasuke puede crear estas llamas en su Susanoo, así como en la palma de su mano. Según C, Sasuke crea las llamas negras con su ojo izquierdo, mientras que manipula su forma con el derecho."
+          ],
+          "pictures": [
+            "https://static.wikia.nocookie.net/naruto/images/e/ee/Elemento_Llama_Kagutsuchi_Anime.png/revision/latest/scale-to-width-down/180?cb=20160218184938&path-prefix=es"
+          ]
+        },
+        {
+          "title": "Variaciones[]",
+          "paragraphsp": [
+            "Combinándose con Tierra se forma Elemento Disolución.",
+            " Combinándose con Tierra se forma Elemento Fusión.",
+            " Combinándose con Agua se forma Elemento Ebullición.",
+            " Combinándose con Viento se forma Elemento Quemar.",
+            " Combinándose con Viento y Tierra se forma Elemento Polvo."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "El lanzamiento del fuego es paralelo al arte ninja de la vida real \"katon-no-jutsu\". Un ejemplo de la vida real del katon-no-jutsu es Hitsuke: la práctica de los guardias que distraen por un incendio fuera del punto previsto del ninja de entrada.",
+            "Los clanes Uchiha y Sarutobi son conocidos por su especialización en este elemento.",
+            "El nombre Enton deriva de la palabra Ennetsu (炎熱), que significa calor del fuego (o llamarada, según la traducción); y el 1° Kanji de Enton, precisamente significa llama (Honō).",
+            "Erróneamente, al Elemento Llama se tradujo al español como Elemento Infierno (地獄遁, Jigokuton, lit. Liberación de Infierno), pero nada tiene de relación con éste."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Fusión",
+      "img": "https://static.wikia.nocookie.net/naruto/images/4/4a/Elemento_Lava_Jutsu_Corriente_de_Rocas_Abrasadoras_Anime.png/revision/latest/scale-to-width-down/350?cb=20130808131258&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Fuego",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/4/4e/Elemento_Fuego.svg/revision/latest/scale-to-width-down/18?cb=20130303095521&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Tierra",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/0/01/Elemento_Tierra.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Fusión (熔遁, Yōton, literalmente «Liberación de Fusión») es un tipo de elemento avanzado que surge de la combinación del Elemento Fuego y el Elemento Tierra, siendo uno de los dos elementos avanzados que pueden emerger de esta combinación, junto al Elemento Disolución.\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Arte Sabio: Rasen Shuriken de Elemento Fusión",
+        "Arte Sabio de Elemento Llama: Super Bola Bestia con Cola",
+        "Arte Sabio: Super Rasen Shuriken de Bestia con Cola",
+        "Elemento Fusión: Aros de Fuego Expansibles",
+        "Elemento Fusión: Bala de Roca Ardiente",
+        "Elemento Fusión: Balas Llameantes",
+        "Elemento Fusión: Bola de Goma",
+        "Elemento Fusión: Jutsu Corriente de Rocas Abrasadoras",
+        "Elemento Fusión: Cuerda de Goma",
+        "Elemento Fusión: Defensa de Goma",
+        "Elemento Fusión: Esferas de Goma",
+        "Elemento Fusión: Jutsu Sello de Piedra de Ceniza",
+        "Elemento Fusión: Jutsu de Congelamiento de Cal",
+        "Elemento Fusión: Pared de Goma",
+        "Elemento Fusión: Pasos Abrasadores",
+        "Elemento Fusión: Puño Ardiente Blindado",
+        "Jutsu: Prisión de Cal",
+        "Modo Chakra de Elemento Fusión",
+        "Montaña de Flores y Frutas",
+        "Verdadero: Rasen Shuriken de Bestia con Cola"
+      ],
+      "information": [
+        {
+          "title": "Uso",
+          "paragraphsp": [
+            "El Elemento Fusión permite al usuario crear y lanzar chorros de lava que pueden derretir casi cualquier cosa. Estas técnicas son de gran peligrosidad, pero según el anime el agua en grandes proporciones es capaz de extinguirlo. Los distintos usuarios de este elemento poseen cada uno, un estilo único del uso de este elemento, ya que son capaces de manipular otros materiales relacionados con este."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Formas y usuarios",
+          "paragraphsp": [
+            "Son Gokū y sus Jinchūrikis, Rōshi y Naruto Uzumaki, utilizan roca fundida, tanto en estado sólido como líquida.",
+            "Kurotsuchi, varios shinobis de Iwagakure y, en el anime, Kyūsuke, emplean cal corrosiva.",
+            "Kurotsuchi, por su parte, también es capaz de generar ceniza volcánica.",
+            "Dodai y Karyū son capaces de producir goma vulcanizada, y debido a las propiedades de dicho material, sirve como aislante ante el Elemento Rayo.",
+            "Etoro Konjiki emplea una variante con forma de llamas en su punto de fusión."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades",
+          "paragraphsp": [
+            "Éste es el elemento avanzado con mas usuarios conocidos (Kurotsuchi, Ōnoki,[1] Rōshi, Gokū, Dodai y Naruto) y más distribuido geográficamente, ya que el Kekkei Genkai está presente tanto en Iwagakure, Kumogakure y Konohagakure, en su mayoría, usuarios diferentes sin conexión de sangre conocidas entre sí.",
+            "Comparte la misma composición que el Elemento Disolución, llegando a ser incluso confundidos al principio en el anime.",
+            "El romaji del elemento Fusión, \"Yōton\", es el mismo que el del Elemento Yang y que el de Elemento Disolución."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Hielo",
+      "icon": "https://static.wikia.nocookie.net/naruto/images/6/61/S%C3%ADmbolo_de_Clan_Yuki.svg/revision/latest/scale-to-width-down/18?cb=20130303110659&path-prefix=es",
+      "img": "https://static.wikia.nocookie.net/naruto/images/a/a9/Espejos_Demon%C3%ADacos_de_Cristal_de_Hielo_Anime.png/revision/latest/scale-to-width-down/350?cb=20161231162904&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Viento",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/6/68/Elemento_Viento.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Agua",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/e/ea/Elemento_Agua.svg/revision/latest/scale-to-width-down/18?cb=20130303092733&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Hielo (氷遁, Hyōton, literalmente Liberación de Hielo) es un elemento avanzado que se crea a partir de la combinación del Elemento Agua y el Elemento Viento. Es el Kekkei Genkai del Clan Yuki y un Kekkei Genkai raro en los shinobis del País de la Nieve.[1]\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Elemento Hielo: Almádena Rompe Hielo",
+        "Elemento Hielo: Ballena Blanca de Un Cuerno",
+        "Elemento Hielo: Cadenas Consecutivas de Tierra de Hielo",
+        "Elemento Hielo: Campo Congelado",
+        "Elemento Hielo: Colisionador de Iceberg",
+        "Elemento Hielo: Combo Carámbano",
+        "Elemento Hielo: Diez Mil Pétalos de Hielo",
+        "Elemento Hielo: Golondrina Carámbano",
+        "Elemento Hielo: Ráfaga del Doble Dragón",
+        "Elemento Hielo: Ráfaga del Dragón Negro",
+        "Elemento Hielo: Roca de Hielo Domo de la Nada Magnifica",
+        "Elemento Hielo: Técnica de la Avalancha de Lobos",
+        "Elemento Hielo: Tigre Feroz",
+        "Elemento Hielo: Torbellino",
+        "Elemento Hielo: Tormenta de Golondrinas de Nieve",
+        "Elemento Hielo: Pared de Cristal",
+        "Jutsu: Prisión de Hielo",
+        "Jutsu Espada de Hielo",
+        "Jutsu Secreto: Espejos Demoníacos de Cristal de Hielo",
+        "Lanzas de Hielo de Muerte Segura",
+        "Puño Rompe Hielo"
+      ],
+      "information": [
+        {
+          "title": "Información[]",
+          "paragraphsp": [
+            "La fusión causa que el usuario al desprender chakra hacia el aire de su alrededor, éste se vuelva frío, congelando el agua de la atmósfera o la que está presente en su medio, permitiendo cambiar su forma ya sea para crear objetos o armas de hielo. Un ejemplo de esto son los Espejos Demoníacos Cristal de Hielo de Haku, los cuales han demostrado ser prácticamente inmunes al contacto con el Fuego, simplemente derritiéndose un poco. Esta habilidad puede utilizarse como defensa o escudo."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Otros medios[]",
+          "paragraphsp": [
+            "En la primera película de Naruto varios ninjas de Yukigakure eran capaces de usar el Elemento Hielo pero, a diferencia de Haku, ellos para realizar sus jutsus necesitaban tener una fuente de hielo existente, además podían manipular la nieve. La mayoría de las técnicas que realizaban estos personajes eran con el sello perro. Se cree que esta capacidad no es producto de un Kekkei Genkai, ya que Kakashi fue capaz de copiar las técnicas que usaban este elemento a pesar de que su Sharingan no puede imitar otros Kekkei Genkai."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "Fue la primera combinación de elementos vista en la serie.",
+            "Este elemento es el que más jutsus tiene basados en animales.",
+            "Sus técnicas son de las pocas que sirven de manera ofensiva y defensiva, y que tiene todos los alcances.",
+            "En la novelización de Boruto: Naruto the Movie, Katasuke Tōno fue capaz de utilizar técnicas de Elemento Hielo mediante el Kote. De la misma forma, Momoshiki Ōtsutsuki adquirió la capacidad de utilizar el elemento luego de absorber los jutsus de Katasuke."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Imán",
+      "img": "https://static.wikia.nocookie.net/naruto/images/3/30/Elemento_Im%C3%A1n_Funeral_de_la_Cascada_Imperial_de_Polvo_Dorado_Anime.png/revision/latest/scale-to-width-down/350?cb=20130117164905&path-prefix=es",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Imán (磁遁, Jiton, literalmente Liberación de Imán) es un Kekkei Genkai que se obtiene al combinar dos elementos desconocidos. Permite al usuario convertir su chakra en fuerzas magnéticas permitiéndole volver magnético a un objeto y así controlarlo a su antojo e incluso moverlo sin ningún contacto físico. No se sabe su proveniencia pero los principales usuarios que usan esta habilidad son ninjas antiguos de Sunagakure y Kumogakure.\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Arena de Hierro: Alas de Hierro Negro",
+        "Arena de Hierro: Llovizna",
+        "Arena de Hierro: Llovizna de Disparos Sucesivos",
+        "Arena de Hierro: Método Mundial",
+        "Arena de Hierro Recolección de Asalto",
+        "Arena de Hierro Recolección de Asalto: Caída",
+        "Arena de Hierro Recolección de Asalto: Clavo de Cinco Soles",
+        "Arena de Hierro Recolección de Asalto: Martillo",
+        "Armamento de Arena de Hierro",
+        "Arte Combinado Asesino",
+        "Arte Sabio de Elemento Llama: Super Bola Bestia con Cola",
+        "Arte Sabio: Rasengan de Elemento Imán",
+        "Arte Sabio: Rasen Shuriken de Elemento Imán",
+        "Arte Sabio: Super Rasen Shuriken de Bestia con Cola",
+        "Clon de Arena de Hierro",
+        "Conjunto de Arte",
+        "Elemento Imán: Conservación de Abeja de Hojas Gemelas",
+        "Elemento Imán: Dios del Rayo en Persona",
+        "Elemento Imán: Funeral de la Cascada Imperial de Polvo de Oro",
+        "Funeral de Arena de Hierro",
+        "Jutsu de Colaboración: Arte Definitivo",
+        "Jutsu Secreto Negro: Hierro Negro",
+        "Lanza de Arena de Hierro",
+        "Marca de Arena de Hierro",
+        "Marioneta: Prisión Masiva de Arena de Hierro",
+        "Método de la Bola Mundial de Polvo de Oro",
+        "Muro de Polvo de Oro",
+        "Ola de Arena de Hierro",
+        "Pared de Arena de Hierro",
+        "Pinchos de Polvo de Oro",
+        "Puño de Hierro Negro",
+        "Shuriken de Polvo de Oro",
+        "Tormenta de Polvo de Oro",
+        "Verdadero: Rasen Shuriken de Bestia con Cola"
+      ],
+      "information": [
+        {
+          "title": "Formas[]",
+          "paragraphsp": [
+            "Shukaku hace uso del Elemento Imán en conjunto con su patrón de sello maldito natural en su cuerpo de arena. Debido a su estado como Jinchūriki, Bunpuku y Gaara eran capaces de hacer uso del elemento. Por su parte, Naruto Uzumaki incorporó las capacidades de la bestia a su Rasengan para formar el Arte Sabio: Rasengan de Elemento Imán.",
+            "Gaara, a pesar de haber sido Jinchūriki de Shukaku, conservó la capacidad de utilizar el elemento, incluso después de haber perdido a la bestia, aclarando él mismo que lo heredó de su padre. En vez de manipular el Polvo de Oro, manipula una \"arena metálica brillante\" de alta densidad, que fue capaz de superar técnicas diseñadas para superar sus defensas de arena común. También la utiliza como una variante o mezclada con su Escudo de Arena.[1]",
+            "El Tercer Kazekage estudió las habilidades de uno de los Jinchūriki de Shukaku y aprendió a imitar su poder de control de arena, haciendo uso de la Arena de Hierro, utilizándola para aplastar a sus oponentes o moldear armas. De la misma forma, Kajūra, un terrorista de Ishigakure y Shinki, hijo adoptivo de Gaara y Genin de Sunagakure, son capaces de manipular la Arena de Hierro.",
+            "Rasa el Cuarto Kazekage utilizaba el Elemento Imán para manipular el Polvo de Oro, con el que contrarrestaba la arena de Shukaku al mezclar el polvo con su arena y aprovechar el peso superior del oro. Al hacer uso de la naturaleza, Rasa obtenía anillos de color negro, similares a los ojos de Gaara.",
+            "Toroi de Kumogakure usaba el magnetismo mediante unos shuriken, con el fin de magnetizar todo con lo que entre en contacto."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "En el anime, Jiga también tenía habilidades magnéticas, pero se debía a la ingestión de hierro cuando era joven, convirtiéndolo en un imán humano.",
+            "El Elemento Imán ha sido utilizado por al menos tres de los cinco Kazekage, es posible que ésta naturaleza avanzada no sea genética, ya que el Cuarto Databook estableció que Rasa lo aprendió del Tercer Kazekage. Esto se contradice en la Gaara Hiden: Un Espejismo de Tormenta de Arena, cuando Gaara dice que lo heredó de su padre.",
+            "A través de las naturalezas básicas dadas de Rasa y Gaara, se sugiere que lo más probable es que el Elemento Imán se obtenga como resultado de la combinación del Elemento Viento y el Elemento Tierra, ya que estos son los únicos elementos que ambos tienen."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Madera",
+      "icon": "https://static.wikia.nocookie.net/naruto/images/5/5a/S%C3%ADmbolo_del_Clan_%C5%8Ctsutsuki.svg/revision/latest/scale-to-width-down/18?cb=20180404221544&path-prefix=es",
+      "img": "https://static.wikia.nocookie.net/naruto/images/6/6f/Elemento_Madera_Anime.png/revision/latest/scale-to-width-down/350?cb=20120904022622&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Tierra",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/0/01/Elemento_Tierra.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Agua",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/e/ea/Elemento_Agua.svg/revision/latest/scale-to-width-down/18?cb=20130303092733&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "Al fusionar estas dos naturalezas de chakra, el portador crea una nueva forma de vida. Los jutsus que utilizan este elemento pueden realizarse desde cualquier lugar, incluyendo el cuerpo del usuario, creando raíces y flores[1]. La madera puede ser cambiada de forma: ya sea para crear amplias armas de combate o crear un gran paisaje en pocos segundos, el chakra del usuario está literalmente convertido en una fuente de vida. Las técnicas de este elemento son comúnmente afiliadas con el sello de la serpiente.\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Arte Sabio: Elemento Madera: Danza del Dragón de Madera",
+        "Arte Sabio: Elemento Madera: Pulso Terrestre",
+        "Arte Sabio: Elemento Madera: Varios Miles de Manos Verdaderas",
+        "Cumbre de Buda Transformado",
+        "Efímera",
+        "Elemento Fuego: Gran Aniquilación de Fuego: Polvo",
+        "Elemento Madera: Advenimiento de un Mundo de Árboles de Flores",
+        "Elemento Madera: Anillo Espinoso de Madera",
+        "Elemento Madera: Aparición de Bosque Profundo",
+        "Elemento Madera: Árbol de Vuelo",
+        "Elemento Madera: Atadura de Árbol",
+        "Elemento Madera: Barrera de Vegetación",
+        "Elemento Madera: Bloqueo Muro de Madera",
+        "Elemento Madera: Cabeceras de Perro",
+        "Elemento Madera: Cepo de Madera",
+        "Elemento Madera: Crecimiento de Árbol Corporal",
+        "Elemento Madera: Dios de la Buena Fortuna",
+        "Elemento Madera: Empalar con Raíces",
+        "Elemento Madera: Gran Desmoronamiento del Bosque",
+        "Elemento Madera: Gran Lanza de Árbol",
+        "Elemento Madera: Jutsu Dragón de Madera",
+        "Elemento Madera: Jutsu Hombre de Madera",
+        "Elemento Madera: Jutsu Verde Esmeralda",
+        "Elemento Madera: Jutsu de Estaca",
+        "Elemento Madera: Jutsu de Hōbi",
+        "Elemento Madera: Jutsu de Raíces Subterráneas",
+        "Elemento Madera: Jutsu de la Zarza Asfixiante",
+        "Elemento Madera: Jutsu del Gran Bosque",
+        "Elemento Madera: Lanza de Madera del Cielo",
+        "Elemento Madera: Manipulación de Herramienta Manual",
+        "Elemento Madera: Mazo de Madera",
+        "Elemento Madera: Mundo de Muros de Árboles",
+        "Elemento Madera: Nacimiento de un Mar de Árboles",
+        "Elemento Madera: Rafflesiaceae",
+        "Elemento Madera: Revuelta del Infierno",
+        "Elemento Madera: Serie de Casas de Cuatro Pilares",
+        "Elemento Madera: Técnica de la Casa de Cuatro Pilares",
+        "Elemento Madera: Técnica de la Prisión de Cuatro Pilares",
+        "Elemento Madera: Toda la Creación",
+        "Elemento Madera: Todas las Astillas",
+        "Elemento Madera: Transformación",
+        "Estilo Hokage de Jutsu Sexagenario — Kakuan Introduce a la Sociedad sus Manos Portadoras de Felicidad",
+        "Genes del Primer Hokage",
+        "Inserción Celestial de la Estrella Martillante",
+        "Issai Kaiku",
+        "Jutsu: Clon de Madera",
+        "Jutsu: Múltiples Clones de Elemento Madera",
+        "Jutsu Secreto de Elemento Madera: Nacimiento de un Mundo de Árboles",
+        "Madera de Transmisión",
+        "Madera y Fuerza Bruta",
+        "Pilar de Madera: Patada del Cielo",
+        "Rey del Loto Kanzeon"
+      ],
+      "information": [
+        {
+          "title": "Información",
+          "paragraphsp": [
+            "Al fusionar estas dos naturalezas de chakra, el portador crea una nueva forma de vida. Los jutsus que utilizan este elemento pueden realizarse desde cualquier lugar, incluyendo el cuerpo del usuario, creando raíces y flores[1]. La madera puede ser cambiada de forma: ya sea para crear amplias armas de combate o crear un gran paisaje en pocos segundos, el chakra del usuario está literalmente convertido en una fuente de vida. Las técnicas de este elemento son comúnmente afiliadas con el sello de la serpiente."
+          ],
+          "pictures": [
+            "https://static.wikia.nocookie.net/naruto/images/0/01/El_rostro_de_Hashirama_manifestado_en_el_brazo_de_Danzo.png/revision/latest/scale-to-width-down/180?cb=20120322195614&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/7/74/El_rostro_de_Hashirama_en_el_cuerpo_de_Madara.png/revision/latest/scale-to-width-down/180?cb=20130927191041&path-prefix=es"
+          ]
+        },
+        {
+          "title": "Curiosidades",
+          "paragraphsp": [
+            "Madara es el usuario que tiene un dominio del elemento madera más parecido al de Hashirama, además de que fue afirmado por el Hachibi.",
+            "En el anime, aparece un hongo llamado \"Hongo Moldeado\" capaz de drenar el chakra de los usuarios del Elemento Madera.",
+            "Parece ser el más raro de los Kekkei Genkai de elementos avanzados, ya que Hashirama Senju fue el único poseedor original, y los demás usuarios del elemento (como Yamato, Danzō Shimura, Madara Uchiha, Obito Uchiha, Zetsu Blanco y sus Clones, además de Zetsu Negro) solo lo poseían por el hecho de tener implantadas en sus cuerpos las células de Hashirama. Sin embargo, resulta que en Boruto, Moegi Kazamatsuri tiene este Kekkei Genkai de forma natural, siendo la segunda usuaria natural de este elemento después de Hashirama."
+          ],
+          "pictures": [
+            "https://static.wikia.nocookie.net/naruto/images/0/01/El_rostro_de_Hashirama_manifestado_en_el_brazo_de_Danzo.png/revision/latest/scale-to-width-down/180?cb=20120322195614&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/7/74/El_rostro_de_Hashirama_en_el_cuerpo_de_Madara.png/revision/latest/scale-to-width-down/180?cb=20130927191041&path-prefix=es"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Oscuridad",
+      "img": "https://static.wikia.nocookie.net/naruto/images/d/d0/Elemento_Oscuridad_Fauces_de_Inhalaci%C3%B3n.png/revision/latest?cb=20100709220336&path-prefix=es",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Oscuridad (冥遁, Meiton, literalmente Liberación Oscura) usa técnicas que pueden usarse para absorber, manipular y liberar chakra al robarlo de un oponente. Los elementos que deben unirse para crear este elemento en particular, son desconocidos pero se cree que es un tipo avanzado de chakra y no una combinación. Este elemento es utilizado en \"Naruto Shippūden la Película: Los Herederos de la Voluntad de Fuego\" por Hiruko. Al parecer, robó este Kekkei Genkai de un shinobi desconocido; lo más probable es que fuera de Sunagakure, Kirigakure o Iwagakure utilizando su Jutsu: Quimera para despojarlo de su habilidad genética. \n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Elemento Oscuridad: Fauces de Inhalación",
+        "Elemento Oscuridad: Juicio",
+        "Elemento Oscuridad: Onda Expansiva"
+      ],
+      "information": []
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Polvo",
+      "img": "https://static.wikia.nocookie.net/naruto/images/f/f9/Elemento_Polvo_Jutsu_del_Desprendimiento_del_Mundo_Primitivo_Anime_1.png/revision/latest/scale-to-width-down/350?cb=20110713215249&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Fuego",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/4/4e/Elemento_Fuego.svg/revision/latest/scale-to-width-down/18?cb=20130303095521&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Viento",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/6/68/Elemento_Viento.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Tierra",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/0/01/Elemento_Tierra.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Polvo (塵遁, Jinton, literalmente Liberación de Polvo) es un Kekkei Tōta, una naturaleza avanzada del Chakra que se logra combinando los elementos Tierra, Fuego y Viento.\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Elemento Polvo: Desmantelación",
+        "Elemento Polvo: Jutsu del Desprendimiento del Mundo Primitivo",
+        "Elemento Polvo: Jutsu del Desprendimiento del Mundo Primitivo: Pilar",
+        "Elemento Polvo: Jutsu del Desprendimiento del Mundo Primitivo Dividido"
+      ],
+      "information": [
+        {
+          "title": "Información[]",
+          "paragraphsp": [
+            "Es considerado uno de los elementos más destructivos existentes en el mundo ninja. Éste se forma de manera inicial como un objeto tridimensional hecho de Chakra entre las manos del usuario y al liberarse la forma creada se expande y rodea al objetivo. Esta naturaleza le permite al usuario manipular moléculas lo que les da la capacidad de desintegrar cualquier cosa a nivel molecular dentro de los límites de la forma creada. De acuerdo con Ōnoki, Mū, Tsunade y A, el Elemento Polvo le permite al usuario luchar contra cualquier cantidad de enemigos siempre y cuando no haya alguno lo suficientemente fuerte como para representar una amenaza para el usuario, es decir, que un usuario del Elemento Polvo solo puede ser enfrentado con calidad y no con cantidad, además, de otro usuario del mismo elemento."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Influencia[]",
+          "paragraphsp": [
+            "El kanji 塵 (じん, Jin) es un término proveniente del budismo que hace referencia a los seis campos objetivo de los sentidos (forma y color, sonido, aroma, sabor, sensación física y presentación mental)."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "Esta técnica no se transmite por línea de sangre, ya que Ōnoki aseguró que Mū le transmitió los secretos del Elemento Polvo.",
+            "Al igual que el Elemento Fusión y el Elemento Imán, la naturaleza del polvo tiene más de un usuario sin aparente relación de sangre entre sí.",
+            "Tiene el mismo Rōmaji que el Elemento Velocidad, pero su Kanji es distinto.",
+            "Es el único Kekkei Tōta visto hasta ahora en la serie.",
+            "Es el elemento más destructivo superando incluso al Elemento Explosivo.",
+            "Otra traducción válida de esta transformación elemental es Elemento Partícula. Viz Media en su versión del manga le traduce como Estilo Partícula siguiendo dicho significado alternativo del kanji que lo conforma."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Quemar",
+      "img": "https://static.wikia.nocookie.net/naruto/images/8/8a/Elemento_Quemar.png/revision/latest/scale-to-width-down/350?cb=20201020125434&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Fuego",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/4/4e/Elemento_Fuego.svg/revision/latest/scale-to-width-down/18?cb=20130303095521&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Viento",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/6/68/Elemento_Viento.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": ""
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Elemento Quemar: Asesinato Extremadamente Humeante",
+        "Elemento Quemar: Gran Ráfaga Explosiva Humeante"
+      ],
+      "information": [
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "En el anime, cuando Pakura utiliza el Elemento Quemar, las tres bolas incandescentes tienen cierta similitud con el Sello Maldito del Cielo."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Rayo",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "Fácil de esparcir, tiene una muy buena compatibilidad con los jutsus de medio y largo alcance. La energía eléctrica paraliza el blanco de manera tal que son incapaces de moverse y deja al afectado que sea vulnerable a los demás ataques. Aunque no es tan utilizado, un rayo puede infundirse en armas blancas, de una manera similar a la del Viento, a través de flujo de chakra para dar mayor nitidez a los golpes a través de más cantidad de vibraciones, que produce entumecimiento y una mayor capacidad de penetración. Cuando el jutsu se libera de sus cuerpos, y por lo tanto no requiere contacto físico, no se mueve tan rápido como el rayo real. En su lugar, debido al control que el usuario ha de ejercer sobre él, se mueve mucho más lento, lo que puede dar a los opositores tiempo para reaccionar. Este elemento es común en los ninja de Kumogakure. Basado en el rápido agotamiento de la utilización de técnicas de elemento rayo, se especula que requieren más chakra que las transformaciones de otro tipo de naturaleza."
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [],
+      "information": [
+        {
+          "title": "Variaciones[]",
+          "paragraphsp": [
+            "Combinándolo con Agua se forma el Elemento Tormenta."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "En Kumogakure, El Tercer Raikage y Darui son conocidos por haber desarrollado un nuevo tipo de Rayo, siendo el Rayo Negro.",
+            "Es la transformación de la naturaleza con menos combinaciones, teniendo solo una."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Tierra",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "La tierra es, naturalmente, fuerte contra el agua, pero al mismo tiempo, la tierra también es naturalmente débil contra el Rayo. La Tierra es también un componente de las naturalezas del chakra avanzadas, ya que combinándola con ciertos elementos, aparecen otros como la Fusión, la Disolución, la Madera, el Polvo y, en el anime, posiblemente, también el Cristal. Las técnicas de tierra son usualmente utilizadas para crear grandes masas de tierra o roca, ocultarse en la tierra, manipular minerales muy fuertes para ser ofensivo y poder controlar muchas cosas que estén en la tierra. Muchos usuarios del Doton como Kakashi pueden decapitar a sus enemigos enterrándolos y dejando a la intemperie solo su cabeza. También hay jutsus de resurrección de muertos, domos de tierra para absorber chakra, crear pantanos de fango y clones, y lanzar pedruscos al oponente. Otros como Deidara la utilizan en forma de arcilla para crear masas explosivas."
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [],
+      "information": [
+        {
+          "title": "Variantes[]",
+          "paragraphsp": [
+            "Combinándolo con Agua se forma Elemento Madera.",
+            " Combinándolo con Agua se forma Elemento Barro.",
+            " Combinándolo con Fuego se forma Elemento Disolución.",
+            " Combinándolo con Fuego se forma Elemento Fusión.",
+            " Combinándolo un elemento desconocido se forma Elemento Explosión.",
+            " Combinándolo con Fuego y Viento se forma Elemento Polvo.",
+            " Presumiblemente combinándolo con un elemento desconocido se forma Elemento Cristal."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Tifón",
+      "img": "https://static.wikia.nocookie.net/naruto/images/a/a0/Elemento_Tif%C3%B3n.png/revision/latest/scale-to-width-down/350?cb=20161222182719&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Viento",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/6/68/Elemento_Viento.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Tifón (颱遁, Taiton, literalmente Liberación de Tifón) es un elemento avanzado que se encuentra relacionado con el Elemento Viento. Esta naturaleza del chakra es utilizada para crear tormentas, huracanes y tifones que devastan su área circundante, además de ser capaces de cubrir una isla entera y tienen tal potencia que pueden mover incluso el Susanoo de Sasuke Uchiha.[1]"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Elemento Tifón: Vientos Fuertes en Ráfagas Consecutivas",
+        "Grandes Vientos Extremos en Ráfagas Consecutivas"
+      ],
+      "information": []
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Tormenta",
+      "img": "https://static.wikia.nocookie.net/naruto/images/4/44/Elemento_Tormenta-Circo_de_Laser.png/revision/latest/scale-to-width-down/350?cb=20120705163809&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Rayo",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/f/ff/Elemento_Rayo.svg/revision/latest/scale-to-width-down/18?cb=20130303092903&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Agua",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/e/ea/Elemento_Agua.svg/revision/latest/scale-to-width-down/18?cb=20130303092733&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Tormenta (嵐遁, Ranton; literalmente «Liberación de Tormenta») es una naturaleza que permite el uso de un conjunto de técnicas que combinan el Elemento Agua y el Elemento Rayo para crear brillantes vigas de electricidad que fluyen como el agua. También se ha visto que, aparte de Darui, existen otros usuarios de este Kekkei Genkai en Kumogakure.\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Arte Sabio: Colmillo de Luz de Elemento Tormenta",
+        "Elemento Tormenta: Cacería Negra",
+        "Elemento Tormenta: Circo de Láser",
+        "Elemento Tormenta: Nube con Ondas Interiores",
+        "Jutsu Secreto de Elemento Tormenta: Dragón Demonio Tormenta"
+      ],
+      "information": [
+        {
+          "title": "Otras Apariciones[]",
+          "paragraphsp": [
+            "En Naruto Shippūden 3: Los Herederos de la Voluntad de Fuego, Hiruko roba este Kekkei Genkai de un shinobi desconocido usando su Técnica Quimera. Él usa esta naturaleza para crear y manipular nubes negras de tormenta, que son capaces de absorber chakra para hacerse más grandes y potentes."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "Durante la Cuarta Guerra Mundial Shinobi, se descubrió que Darui no es el único usuario del Elemento Tormenta, sino que hay, como mínimo veintitrés usuarios más de este elemento."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Velocidad",
+      "img": "https://static.wikia.nocookie.net/naruto/images/4/4b/Elemento_Velocidad_Vuelo_sin_Sombra.png/revision/latest/scale-to-width-down/350?cb=20100622183100&path-prefix=es",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Velocidad (迅遁, Jinton, literalmente Liberación de Velocidad) es una naturaleza de chakra vista en Naruto Shippūden 3: Los Herederos de la Voluntad de Fuego. Este Kekkei Genkai es robado por Hiruko, con su Kinjutsu la \"Técnica Quimera\", a un ninja de Sunagakure, Iwagakure, o Kirigakure. Este tipo de chakra permite moverse a grandes velocidades, según Hiruko para evitar ataques directos y fuertes como los de Sakura y Tsunade con facilidad."
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Elemento Velocidad: Vuelo sin Sombra"
+      ],
+      "information": [
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "El Elemento Polvo (Jinton) se pronuncia igual al Elemento Velocidad (Jinton); lo único que difiere en el nombre es el Kanji, mientras que el Elemento Polvo es 塵遁, el Elemento Velocidad es 迅遁."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Viento",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "El viento es naturalmente fuerte contra el Elemento Rayo pero débil contra el Elemento Fuego. Si el viento y el fuego se combinan el poder de tal técnica de fuego aumenta en un estado que podría incluso hasta evaporar el agua, además de esta combinación de elementos surge el Elemento Quemar. Si una persona combina el Elemento Agua junto con el viento puede crear un nuevo elemento mejor conocido como Elemento Hielo. También al combinarlo con los elementos Fuego y Tierra crea el único Kekkei Tōta conocido hasta el momento: Elemento Polvo.\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [],
+      "information": [
+        {
+          "title": "Elemento Tifón",
+          "paragraphsp": [
+            "En Sasuke Shinden: Libro del Amanecer es introducida una forma más poderosa del Elemento Viento, el Elemento Tifón (颱遁, Taiton; literalmente Liberación de Tifón) al cual se le considera como un Kekkei Genkai. Mediante este, el usuario puede crear grandes tormentas para cubrir los alrededores, las cuales son los suficientemente fuertes como para mover a Sasuke Uchiha mientras utiliza su Susanoo."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Variaciones",
+          "paragraphsp": [
+            "Combinándolo con Agua se forma el Elemento Hielo.",
+            " Combinándolo con Fuego se forma el Elemento Quemar.",
+            " Combinándolo con Fuego y Tierra se forma el Elemento Polvo."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades",
+          "paragraphsp": [
+            "En la versión castellana nombraron a este elemento de dos formas distintas: \"Jutsu Aéreo\" en la Primera Temporada y \"Jutsu de Viento\" en Naruto: Shippūden, siendo la forma más correcta la segunda."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Yang",
+      "img": "https://static.wikia.nocookie.net/naruto/images/e/e5/Jutsu_Multi_Tama%C3%B1o_Anime.png/revision/latest/scale-to-width-down/350?cb=20140510024604&path-prefix=es",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "Según Yamato, los Ninjutsu Médico utilizan el elemento Yang.[2] Igualmente, el Jutsu: Multi Tamaño del Clan Akimichi está bajo la influencia del Yang. \nDespués de recibir el Poder Yang de los Seis Caminos de Hagoromo Ōtsutsuki, Naruto obtuvo una marca blanca con forma de sol en la palma de su mano derecha, con la que fue capaz de sellar a Kaguya Ōtsutsuki al utilizarla junto a su contraparte.\n\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Agujas Frías",
+        "Anestesia Secreta",
+        "Arte Ninja Creación de Renacimiento — Jutsu Fuerza de un Centenar",
+        "Arte Ninja: Creación de Renacimiento",
+        "Bisturí de Chakra",
+        "Bisturí de Chakra: Aglomeración de Serpiente",
+        "Bisturí de Chakra: Cortar",
+        "Bisturí de Chakra: Crueldad",
+        "Bisturí de Chakra: Destrucción",
+        "Bola de Tanque Humano",
+        "Bola de Tanque Humano Acuática",
+        "Bola de Tanque Humano Pinchante",
+        "Cuchilla Fluyente",
+        "Cuchillada de Piel de Serpiente",
+        "Curación Amplia",
+        "Destrucción Yin Curación de Lesiones",
+        "Disparo de Agujas de Niebla Venenosa",
+        "Doble Bola de Tanque Humano",
+        "Elemento Agua Médico: Mantis de Agua",
+        "Elemento Agua Médico: Medusa",
+        "Elemento Agua Médico: Mosquito de Agua",
+        "Empuje de Mega Palma",
+        "Formación Ino-Shika-Chō",
+        "Izanagi",
+        "Jutsu de Control de Muertos: Juego del Regreso del Alma",
+        "Jutsu de Estimulación Celular",
+        "Jutsu de la Muerte: Corte de Corazón",
+        "Jutsu Curativo de Reanimación y Regeneración",
+        "Jutsu Curativo de Sakura",
+        "Jutsu: Control de Muertos",
+        "Jutsu: Cuerpo Reanimado",
+        "Jutsu: Extracción de Enfermedad",
+        "Jutsu: Multi Tamaño",
+        "Jutsu: Multi Tamaño Parcial",
+        "Jutsu: Palma Mística",
+        "Jutsu: Super Multi Tamaño",
+        "Jutsu Prohibido: Jutsu del Alma Muerta",
+        "Katsuyu: Inmensa Red de Sanación",
+        "Medicina Oscura",
+        "Modo Médico",
+        "Onda de Palma",
+        "Palma de Delirio",
+        "Receta de Fortalecimiento: Inyección de Chakra",
+        "Secreto: Formación de Viento, Relámpago y Flor de Cerezo",
+        "Técnica Médica: Unidad Triple de la Muerte",
+        "Yo-Yo de Bola Humana"
+      ],
+      "information": [
+        {
+          "title": "Combinaciones[]",
+          "paragraphsp": [
+            "Cuando se combina con el Elemento Yin, forma el Elemento Yin-Yang."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "La lectura de sus kanji es igual a la del Elemento Disolución y al del Elemento Fusión.",
+            "Por lo expresado por Yamato durante el entrenamiento de Naruto para dominar la naturaleza de viento, el Ninjutsu Médico, así como el Jutsu: Multi Tamaño, emplean el Elemento Yang, al contrario del Genjutsu y el Jutsu: Posesión de Sombra, que emplean el Elemento Yin.[2]"
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Yin",
+      "affiliation": [],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "El Yin también es parte del Chakra de las Bestias con Cola. Durante el Ataque del Nueve Colas a Konoha, Minato Namikaze utilizó el Sello Consumidor del Demonio de la Muerte para sellar la mitad Yin del Chakra de Kurama en sí mismo. Gracias a esto, después de haber sido resucitado por Orochimaru durante la Cuarta Guerra Mundial Shinobi, Minato era capaz de entrar en el Modo Chakra del Nueve Colas. El elemento Yin también puede utilizar de manera ofensiva cuando con Senjutsu, como lo hizo Madara Uchiha, pudiendo liberar relámpagos de sus manos. Después de recibir el Poder Yin de los Seis Caminos de Hagoromo Ōtsutsuki, Sasuke obtuvo una marca negra con forma de luna creciente en la palma de su mano izquierda, con la que fue capaz de sellar a Kaguya Ōtsutsuki al utilizarla junto a su contraparte.\n"
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [],
+      "information": [
+        {
+          "title": "Combinaciones[]",
+          "paragraphsp": [
+            "Cuando se combina con el Elemento Yang, forma el Elemento Yin-Yang."
+          ],
+          "pictures": []
+        },
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "Por lo expresado por Yamato durante el entrenamiento de Naruto para dominar la naturaleza de viento, el Ninjutsu Médico así como el Jutsu: Multi Tamaño, emplean el Elemento Yang, al contrario del Genjutsu y el Jutsu: Posesión de Sombra, que emplean el Elemento Yin [2]."
+          ],
+          "pictures": []
+        }
+      ]
+    }
+  },
+  {
+    "header": {
+      "name": "Elemento Yin-Yang",
+      "img": "https://static.wikia.nocookie.net/naruto/images/6/67/Jutsu_Creaci%C3%B3n_de_Todas_las_Cosas_Anime.png/revision/latest/scale-to-width-down/350?cb=20130115155623&path-prefix=es",
+      "affiliation": [],
+      "element": [
+        {
+          "elementName": "Elemento Yin",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/d/d3/Elemento_Yin.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+        },
+        {
+          "elementName": "Elemento Yang",
+          "elementIcon": "https://static.wikia.nocookie.net/naruto/images/d/d9/Elemento_Yang.svg/revision/latest/scale-to-width-down/18?cb=20130303092904&path-prefix=es"
+        }
+      ],
+      "kekkeiGenkai": [],
+      "abstract": "El Elemento Yin-Yang (陰陽遁, Onmyōton o In'Yōton, literalmente Liberación Yin-Yang) es un elemento en el cual se utiliza simultáneamente el Elemento Yin y el Elemento Yang."
+    },
+    "info": {
+      "usuarios": [],
+      "jutsus": [
+        "Bola de la Búsqueda de la Verdad",
+        "Bola de la Búsqueda de la Verdad Expansiva",
+        "Bola de la Búsqueda de la Verdad Mortal",
+        "Chakra de los Seis Caminos: Renacimiento",
+        "Jutsu: Creación de Todas las Cosas",
+        "Seis Caminos — Chibaku Tensei"
+      ],
+      "information": [
+        {
+          "title": "Información[]",
+          "paragraphsp": [
+            "Yin se refiere a la propia energía espiritual y Yang a la energía física, dando un molde para el Ninjutsu. Con esto, la base para lo que es el amasar Chakra y el uso de jutsus se basa en el Elemento Yin-Yang. De acuerdo con Yamato, la manipulación del Yin y Yang es la fuente de técnica no elementales, como el Jutsu: Posesión de Sombra del Clan Nara, el Jutsu: Multi Tamaño del Clan Akimichi, así como el Ninjutsu Médico y el Genjutsu."
+          ],
+          "pictures": [
+            "https://static.wikia.nocookie.net/naruto/images/5/54/Naruto_y_Sasuke_utilizando_el_Yin-Yang_para_sellar_a_Kaguya.png/revision/latest/scale-to-width-down/180?cb=20160901131425&path-prefix=es"
+          ]
+        }
+      ]
+    }
+  }
+]

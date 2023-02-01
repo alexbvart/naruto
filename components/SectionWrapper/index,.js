@@ -1,6 +1,7 @@
 import React, {useRef, useState} from 'react';
 import Paragraph from 'Shares/Paragraph';
 import Title from 'Shares/Title';
+import { isEmpty } from 'utils/isEmpty';
 import useWindowDimensions from '../../hooks/useWindowDimension';
 import DropDown from './DropDown';
 import { Section, AbstractSection, MiniInfo, OneSection } from './Section';
@@ -12,7 +13,7 @@ import TabList from './TabList';
 import {carrousel,section} from './wrapper.module.css'
 
 const SectionWrapper = ({content}) => {
-
+    console.log(content);
     const windowSize = useWindowDimensions();
     const mainContainer = useRef(null)
     const wrapperContainer = mainContainer.current;
@@ -67,8 +68,9 @@ const SectionWrapper = ({content}) => {
                 className={`${carrousel} carrousel_dinamic wrapper_margin_globals`} 
                 // onScroll={()=> DetectScrollPosition()}
                 >
-                { content.map((c, index) => (
-                    <Section content={c} key={index}/>
+                { !isEmpty(content) &&
+                    content.map((c, index) => (
+                        <Section content={c} key={index}/>
                 ))}
             </main> 
         </>

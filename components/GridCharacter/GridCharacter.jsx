@@ -4,7 +4,7 @@ import { removeAccents } from 'utils/formatTitles';
 import Figure from 'components/Figure';
 import { CardLinkContainer } from 'Shares/CardLinkContainer';
 
-export const GridCharacter = ({ characters }) => {
+export const GridCharacter = ({ characters, route }) => {
     return (
         <>
             {(characters && characters.length > 0) &&
@@ -15,7 +15,7 @@ export const GridCharacter = ({ characters }) => {
                         // img.url && 
                         c &&
                         (   
-                            <Link href={`/character/${removeAccents(c.name)}`} passHref legacyBehavior>
+                            <Link href={`/${route}/${removeAccents(c.name)}`} passHref legacyBehavior>
                                 <CardLinkContainer>
                                     <Figure 
                                         src={c.photo} 

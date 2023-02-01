@@ -7,12 +7,15 @@ import Paragraph from 'Shares/Paragraph';
 import Span from 'Shares/Span/Span';
 import { BackArrow } from 'icon/BackArrow';
 import { useRouter } from 'next/router';
+import { isEmpty } from 'utils/isEmpty';
 
 const Hero = ({header}) => {
     const router = useRouter()
+    let srcImage = !isEmpty(header.photos) ? header.photos : header.img
+    srcImage = Array.isArray(srcImage) ?  srcImage :[srcImage]
     return ( 
         <article className={main}>
-            <CarouselOfHeaderImages items={header.photos} />
+            <CarouselOfHeaderImages items={srcImage} />
 
             <div className={header_info}>
                 <div>

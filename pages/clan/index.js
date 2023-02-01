@@ -15,10 +15,11 @@ const characterRecommendations = [
     },
 ]
 const Character = ({ characters }) => {
+    console.log(characters);
     return (
         <>
             <Head>
-                <title>Personajes</title>
+                <title>Clanes</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="theme-color" content="#171516" />
             </Head>
@@ -27,11 +28,11 @@ const Character = ({ characters }) => {
                 <Recommendations recommendations={characterRecommendations} />
                 <TitleHero
                     text1="Explora todos los"
-                    text2="Personajes"
+                    text2="Clanes"
                     text3="de la serie"
                 />
-                <BackNavHeader title="Personajes" />
-                <GridCharacter characters={characters} route="character" />
+                <BackNavHeader title="Clanes" />
+                <GridCharacter characters={characters} route="clan" />
             </div>
         </>
 
@@ -50,9 +51,16 @@ import { BackNavHeader } from 'components/Header/BackNavHeader/BackNavHeader'
 
 export async function getStaticProps() {
     //   const filePath = path.join(process.cwd(), 'json/character.json');
-    const filePath = path.join(process.cwd(), 'json/pathCharacter.json');
+    const filePath = path.join(process.cwd(), 'json/clans.json');
     const jsonData = await fsPromises.readFile(filePath);
-    const objectData = JSON.parse(jsonData);
+    let objectData = JSON.parse(jsonData);
+
+    objectData = objectData.map((data)=>{
+        return data && {
+            name: data.header.name,
+            photo: data.header.img || ''
+        }
+    })
     return {
         props: { characters: objectData }
     }

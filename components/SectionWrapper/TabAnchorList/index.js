@@ -1,5 +1,6 @@
 import React from 'react';
 import { toText2Case } from 'utils/formatTitles';
+import { isEmpty } from 'utils/isEmpty';
 import {nav,
         navigation,tab_element,tab_element_active,
         navigation_buuble,bubble,bubble_active} from './tablist.module.css'
@@ -9,7 +10,7 @@ const TabAnchorList = ({activeKey, onSelect, children}) => {
         <nav className={`${nav} wrapper_margin_globals`}>
         <div className={navigation}>
         
-            {children.map((child, i) => (
+            { !isEmpty(children) && children.map((child, i) => (
                 <div
                     href={`#${child.props.title}`}
                     key={child.props.pushSlide}
@@ -25,7 +26,7 @@ const TabAnchorList = ({activeKey, onSelect, children}) => {
         </div>
 
         <div className={navigation_buuble}>
-            {children.map((child, i) => (
+            {!isEmpty(children) && children.map((child, i) => (
                 <div
                     key={'buble'+i}
                     className={`${bubble} ${activeKey === child.props.pushSlide && bubble_active}`}
