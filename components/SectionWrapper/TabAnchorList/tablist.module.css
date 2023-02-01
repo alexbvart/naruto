@@ -7,8 +7,8 @@
 
     position: sticky;
     padding-bottom: 12px;
-    /* top: var(--header-h); */
-    top: var(--header-h-max);
+    top: calc( var(--header-h) - 2px);
+    /* top: var(--header-h-max); */
     z-index: 2;
     overflow: scroll hidden;
     background-color: var(--bg-1);
@@ -23,7 +23,7 @@
 .navigation{
     display: flex;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     margin-right: 8px;
 }
 .tab_element{
@@ -55,7 +55,7 @@
 
 .bubble{
     width: 20px;
-    height: 6px;
+    height: 4px;
     background-color: var(--color-2);
     border-radius: 35px;
     margin-right: 8px;
@@ -63,7 +63,7 @@
 }
 .bubble_active{
     width: 80px;
-    height: 6px;
+    height: 4px;
     background-color: #ffffff90;
     background-color: var(--color-1);
 }

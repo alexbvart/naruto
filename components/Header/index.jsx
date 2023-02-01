@@ -2,7 +2,7 @@ import useScrollPosition from 'hooks/useScrollPosition'
 import { ActivityPending } from 'icon/ActivityPending'
 import { Logo } from 'icon/Logo'
 import { SearchIcon } from 'icon/SearchIcon'
-import { header, headerUp, icon_button, bg_hard, header_icons } from './header.module.css'
+import { header, headerUp, icon_button, bg_hard, header_icons, hidden } from './header.module.css'
 
 export const Header = () => {
     const scrollPosition = useScrollPosition();
@@ -10,7 +10,7 @@ export const Header = () => {
     return (
         <div className={`${classHeader} `}>
             <div className={headerUp}>
-                <div>
+                <div className={ scrollPosition > 1000 && hidden}>
                     <Logo />
                 </div>
                 <div className={header_icons}>

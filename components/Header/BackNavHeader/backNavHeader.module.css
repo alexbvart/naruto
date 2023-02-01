@@ -1,7 +1,8 @@
 .backNavHeader{
     width: 100%;
     max-width: var(--max-w);
-    margin: 50px auto;
+    min-height: var(--header-h);
+    margin: 0px auto;
     position: fixed;
     left: 0;
     right: 0;
@@ -12,6 +13,7 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     flex-direction: row;
+    height: 48px;
     gap: 12px;
     box-sizing: border-box;
     padding: 0 var(--wrapper-margin);
