@@ -17,6 +17,7 @@ const character = ({character}) => {
     // console.log({ birth, blood, age, height, weight, uniquePersonality,
     //     range, classifications, familyMembers, teamMates, teams,
     //     weapons, jutsus, alias, clan, affiliation, kekkeiGenkai, element} );
+
     return ( 
         <>
             <Head>

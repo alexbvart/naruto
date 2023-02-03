@@ -15,7 +15,6 @@ const characterRecommendations = [
     },
 ]
 const Character = ({ characters }) => {
-    console.log(characters);
     return (
         <>
             <Head>

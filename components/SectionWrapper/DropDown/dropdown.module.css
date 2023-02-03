@@ -3,6 +3,8 @@
     padding: 12px;
     border-radius: var(--border-radius);
     margin-bottom: 24px;
+    height: 100%;
+    overflow: hidden;
 }
 .dropdown_header{
     height: 52px;
@@ -27,7 +29,7 @@
 .wrapper_down{
     height: 0;
     opacity: 0;
-    transition: all ease-in 0s;
+    transition: all ease-in .1s;
 }
 .wrapper_down_active{
     height: 100%;
@@ -35,7 +37,7 @@
     display: grid;
     grid-gap: 16px;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
-    transition: all ease-in .3s;
+    transition: all ease-in .2s;
     margin-top: 12px;
 }
 .card_data{

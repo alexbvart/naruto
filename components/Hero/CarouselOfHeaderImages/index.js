@@ -11,16 +11,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { isEmpty } from "utils/isEmpty";
 
 const CarouselOfHeaderImages = ({ children, items }) => {
+    const isAutoplay = items.length <= 1 
+                        ? false 
+                        :   {
+                                delay: 1800,
+                                disableOnInteraction: false,
+                            }
     return (
         <>  
-
             <Swiper
                 centeredSlides={true}
-                autoplay={{
-                    delay: 1800,
-                    disableOnInteraction: false,
-                }}
-                effect={"fade"}
+                autoplay={isAutoplay}
+                effect="fade"
                 loop={true}
                 // pagination={{
                 //     clickable: true,
