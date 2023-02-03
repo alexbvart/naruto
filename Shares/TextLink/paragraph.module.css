@@ -6,12 +6,35 @@
     line-height: 170%;
     /* margin-bottom: 2.2rem; */
     cursor: pointer;
+    padding: 2px 0 4px 4px;
+}
+.textLink:hover{
+    background-color: var(--bg-3);
+    border-radius: var(--border-radius);
 }
 
-@media screen and (max-width: 560px) {
+.hover_underline_animation {
+    position: relative;
+    /* color: black; */
+    padding-bottom: 2px;
+}
 
-    .paragraph{
-        /* font-size: 1.8rem; */
-        /* line-height: 170%; */
-    }
+.hover_underline_animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-2);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+/* .hover_underline_animation:hover::after  */
+.textLink:hover .hover_underline_animation:after 
+{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }

@@ -1,16 +1,17 @@
 import { useImage } from 'hooks/useImage';
 import Image from 'next/image'
+import React from 'react';
 import H3 from '../../../Shares/H3';
 import Paragraph from '../../../Shares/Paragraph';
 
-import {badge} from './badge.module.css'
+import {badge, hover_underline_animation} from './badge.module.css'
 
-const Badge = ({text, url, width="24", height="24" }) => {
+const Badge = React.forwardRef(({onClick,text, url, width="24", height="24" }, ref) => {
     const {lowQuality, highQuality} = useImage({src:url, max:"300"})
 
     return ( 
         <>
-            <article className={badge}>
+            <article className={badge} ef={ref} onClick={onClick}>
                 <figure>
                     {url &&
                         <Image 
@@ -25,11 +26,11 @@ const Badge = ({text, url, width="24", height="24" }) => {
                         />
                     }
                 </figure>
-                <span>
+                <span className={hover_underline_animation}>
                     <Paragraph>{text}</Paragraph>
                 </span>
             </article>
         </>
     );
-}
+})
 export default Badge;

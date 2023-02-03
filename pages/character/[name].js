@@ -61,7 +61,7 @@ const character = ({character}) => {
                 <DropDown 
                     content={{
                         "Alistamiento" : affiliation || "",
-                        "Clan" : clan  || ""
+                        "Clan"    : {body: clan, src:'clan'} || ""
                     }} 
                     key="Afiliacion" 
                     title={"Afiliación"} 

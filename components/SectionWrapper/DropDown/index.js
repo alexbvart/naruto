@@ -78,7 +78,10 @@ const CardData = ({title,body, src}) => {
                                                     {b}        
                                                 </TextLink>
                                             </Link> 
-                                        : <Badge key={`${title}__${index+1}`}  text={Object.values(b)[0]} url={Object.values(b)[1]} />
+                                        : 
+                                        <Link href={`/${src}/${removeAccents(Object.values(b)[0])}`} passHref legacyBehavior>
+                                            <Badge key={`${title}__${index+1}`}  text={Object.values(b)[0]} url={Object.values(b)[1]} />
+                                        </Link> 
                                     } 
                                 </>
                             ))
