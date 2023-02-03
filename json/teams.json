@@ -4625,6 +4625,66 @@
   },
   {
     "header": {
+      "name": "Unidad de Escolta",
+      "img": "https://static.wikia.nocookie.net/naruto/images/8/82/Unidad_de_Escolta_Anime.png/revision/latest/scale-to-width-down/350?cb=20151003150055&path-prefix=es",
+      "affiliation": [
+        {
+          "affiliationName": "Konohagakure",
+          "affiliationIcon": "https://static.wikia.nocookie.net/naruto/images/2/2b/S%C3%ADmbolo_de_Konohagakure.svg/revision/latest/scale-to-width-down/18?cb=20130303103502&path-prefix=es"
+        }
+      ],
+      "element": [],
+      "kekkeiGenkai": [],
+      "abstract": "La Unidad de Escolta (護衛部隊, Goei Butai) era un equipo de élite, liderado por Tobirama Senju, el Segundo Hokage."
+    },
+    "info": {
+      "members": [
+        {
+          "memberName": "Hiruzen Sarutobi",
+          "memberIcon": "https://static.wikia.nocookie.net/naruto/images/2/2a/Masculino_HD.png/revision/latest/scale-to-width-down/18?cb=20140418042716&path-prefix=es"
+        },
+        {
+          "memberName": "Homura Mitokado",
+          "memberIcon": "https://static.wikia.nocookie.net/naruto/images/2/2a/Masculino_HD.png/revision/latest/scale-to-width-down/18?cb=20140418042716&path-prefix=es"
+        },
+        {
+          "memberName": "Koharu Utatane",
+          "memberIcon": "https://static.wikia.nocookie.net/naruto/images/3/34/Femenino_HD.png/revision/latest/scale-to-width-down/18?cb=20140418042953&path-prefix=es"
+        },
+        {
+          "memberName": "Danzō Shimura",
+          "memberIcon": "https://static.wikia.nocookie.net/naruto/images/2/2a/Masculino_HD.png/revision/latest/scale-to-width-down/18?cb=20140418042716&path-prefix=es"
+        },
+        {
+          "memberName": "Kagami Uchiha",
+          "memberIcon": "https://static.wikia.nocookie.net/naruto/images/2/2a/Masculino_HD.png/revision/latest/scale-to-width-down/18?cb=20140418042716&path-prefix=es"
+        },
+        {
+          "memberName": "Torifu Akimichi",
+          "memberIcon": "https://static.wikia.nocookie.net/naruto/images/2/2a/Masculino_HD.png/revision/latest/scale-to-width-down/18?cb=20140418042716&path-prefix=es"
+        }
+      ],
+      "leaders": [
+        {
+          "leaderName": "Tobirama Senju",
+          "leaderIcon": "https://static.wikia.nocookie.net/naruto/images/2/2a/Masculino_HD.png/revision/latest/scale-to-width-down/18?cb=20140418042716&path-prefix=es"
+        }
+      ],
+      "jutsus": [],
+      "information": [
+        {
+          "title": "Curiosidades[]",
+          "paragraphsp": [
+            "El escuadrón estaba compuesto por los miembros del Equipo Tobirama: Hiruzen Sarutobi, Homura Mitokado y Koharu Utatane, así como también por Danzō Shimura, Kagami Uchiha y Torifu Akimichi.",
+            "Se desconoce mucho acerca de este equipo, pero se sabe que participaron en la Primera Guerra Mundial Shinobi, donde fueron rastreados y perseguidos por la Armada Kinkaku de Kumogakure, por lo que Tobirama sacrificó su vida para que sus compañeros puedan escapar. Sin embargo, antes de partir, Tobirama nombró a Hiruzen como el Tercer Hokage. Más tarde, Homura y Koharu formarían el Consejo de Konoha, convirtiéndose en asesores de Hiruzen y de la futura Hokage."
+          ],
+          "pictures": ["https://static.wikia.nocookie.net/naruto/images/8/82/Unidad_de_Escolta_Anime.png/revision/latest/scale-to-width-down/350?cb=20151003150055&path-prefix=es"]
+        }
+      ]
+    }
+  },
+  {
+    "header": {
       "name": "Equipo Tres",
       "img": "https://static.wikia.nocookie.net/naruto/images/b/b0/Equipo_Tres.png/revision/latest?cb=20101011051030&path-prefix=es",
       "affiliation": [
@@ -7816,6 +7876,7 @@
       "information": []
     }
   },
+  
   {
     "header": {
       "name": "Unidad Nubarrón",

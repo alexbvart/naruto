@@ -48,7 +48,7 @@ const team = ({team}) => {
                     status={true}
                 />}
                 
-                { (!isEmpty(members)) && 
+                { (!isEmpty(members) || !isEmpty(leaders)) && 
                 <DropDown 
                     content={{
                         "Lideres" :    { body:leaders, src:'character' } || "",
