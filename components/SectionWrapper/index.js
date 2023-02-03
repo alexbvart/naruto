@@ -13,7 +13,7 @@ import TabList from './TabList';
 import {carrousel,section} from './wrapper.module.css'
 
 const SectionWrapper = ({content}) => {
-    console.log(content);
+    // console.log(content);
     const windowSize = useWindowDimensions();
     const mainContainer = useRef(null)
     const wrapperContainer = mainContainer.current;

@@ -3,7 +3,7 @@ import Hero from '../../components/Hero';
 import {  removeAccents, toSnakeCase } from 'utils/formatTitles';
 import { AbstractSection, MiniInfo } from 'components/SectionWrapper/Section';
 import DropDown from 'components/SectionWrapper/DropDown';
-import SectionWrapper from '../../components/SectionWrapper/index,';
+import SectionWrapper from '../../components/SectionWrapper';
 
 
 const character = ({character}) => {
