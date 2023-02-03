@@ -27,7 +27,7 @@ const Character = ({ characters }) => {
                 <Recommendations recommendations={characterRecommendations} />
                 <TitleHero
                     text1="Explora todos los"
-                    text2="Clanes"
+                    text2="Equipos"
                     text3="de la serie"
                 />
                 <BackNavHeader title="Clanes" />
