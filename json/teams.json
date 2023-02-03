@@ -2,6 +2,7 @@
   {
     "header": {
       "name": "Armada Kinkaku",
+      "img": "https://static.wikia.nocookie.net/naruto/images/9/95/Armas_Atesoradas_del_Sabio_de_los_Seis_Caminos_Anime.png/revision/latest?cb=20120705133528&path-prefix=es",
       "affiliation": [
         {
           "affiliationName": "Kumogakure",
@@ -32,7 +33,13 @@
           "paragraphsp": [
             "Kinkaku (金角) significa \"Cuerno de Oro\". Es el nombre de un personaje de la famosa historia de \"Viaje al Oeste\"."
           ],
-          "pictures": []
+          "pictures": [
+            "https://static.wikia.nocookie.net/naruto/images/4/48/Versi%C3%B3n_Uno_de_Kinkaku_y_Ginkaku.png/revision/latest/scale-to-width-down/180?cb=20120705171408&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/0/0a/Kinkaku_y_Ginkaku_vs_Kurama.png/revision/latest/scale-to-width-down/180?cb=20120705232840&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/9/95/Armas_Atesoradas_del_Sabio_de_los_Seis_Caminos_Anime.png/revision/latest?cb=20120705133528&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/3/35/Kinkaku_Anime.png/revision/latest?cb=20120621155501&path-prefix=es",
+            "https://static.wikia.nocookie.net/naruto/images/8/84/Ginkaku_Anime.png/revision/latest?cb=20120621155558&path-prefix=es"
+        ]
         }
       ]
     }

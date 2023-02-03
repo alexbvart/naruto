@@ -105,7 +105,7 @@ const character = ({character}) => {
                 { (alias?.length > 0 || teams?.length > 0) && 
                 <DropDown 
                     content={{
-                        'Integrar' : teams,
+                        'Integrar' : { body :teams, src : 'team' || ""},
                         Alias : alias
                     }} 
                     key="Alias" 

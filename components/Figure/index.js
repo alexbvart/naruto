@@ -18,7 +18,7 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
     const [activeFullScreen, setActiveFullScreen] = useState(false)
 
     useEffect(() => {
-        const {highQuality} = useImage({src})
+        const {lowQuality,highQuality} = useImage({src})
         setSrc(highQuality)
     }, [src])
     
@@ -38,16 +38,14 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
             >
                 <Image
                     src={srcImage}
-                    onError={() => setSrc('https://i.postimg.cc/ryPtffNW/error-image.png')}
+                    onError={() => setSrc('https://i.postimg.cc/c1Kjpkt3/not-fount.png')}
                     placeholder="blur"
                     blurDataURL={lowQuality}
-                    // loader={customLoader}
                     onLoadingComplete={ () => setIsLoadingImage(false)}
                     className={ isLoadingImage ? `${loading}` : ``}
                     alt={description}
                     objectPosition="center"
                     objectFit="cover"
-                    // objectPosition="top"
                     quality={100}
                     width={500}
                     height={height}
