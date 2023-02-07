@@ -106,48 +106,12 @@ export async function getStaticPaths() {
     //     console.log(team.header.name.toString(), "...", removeAccents(team.header.name.toString()))
     // })
     const paths = team.map((team) => ({
-        // params: { name : toSnakeCase(team.header.name.toString()) }
         params: { name : removeAccents(team.header.name.toString()) }
     }))
-    // console.log(paths);
-
-
 
     return{
         paths,
-        fallback: false
+        // fallback: false
+        fallback: true
     }
 }
-
-// export async function getStaticPaths() { 
-//     const team = await fetch(`${process.env.API_URL}/teamPaths/`)
-//                             .then( res => res.json())
-//                             .catch(error => console.log("||getStaticPaths:: ", error))
-//     // const team = await res.json()
-//     // console.log(team);
-//     const paths = team.map((team) => ({
-//         // params: { name : toSnakeCase(team.header.name.toString()) }
-//         params: { name : toSnakeCase(team.name.toString()) }
-//     }))
-//     // console.log(paths);
-//     return{
-//         paths,
-//         fallback: false
-//     }
-// }
-
-// export async function getServerSideProps({ params }) {
-
-//     // Call an external API endpoint to get posts.
-//     // You can use any data fetching library
-//     const res = await fetch('http://localhost:3000/api/team')
-//     const team = await res.json()
-//     // By returning { props: { posts } }, the Blog component
-//     // will receive `posts` as a prop at build time
-//     return {
-//             props: {
-//                 team,
-//         },
-//     }
-//   }
-

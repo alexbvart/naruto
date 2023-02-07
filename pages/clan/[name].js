@@ -108,45 +108,9 @@ export async function getStaticPaths() {
         // params: { name : toSnakeCase(character.header.name.toString()) }
         params: { name : removeAccents(character.header.name.toString()) }
     }))
-    // console.log(paths);
-
-
-
     return{
         paths,
-        fallback: false
+        // fallback: false
+        fallback: true
     }
 }
-
-// export async function getStaticPaths() { 
-//     const character = await fetch(`${process.env.API_URL}/characterPaths/`)
-//                             .then( res => res.json())
-//                             .catch(error => console.log("||getStaticPaths:: ", error))
-//     // const character = await res.json()
-//     // console.log(character);
-//     const paths = character.map((character) => ({
-//         // params: { name : toSnakeCase(character.header.name.toString()) }
-//         params: { name : toSnakeCase(character.name.toString()) }
-//     }))
-//     // console.log(paths);
-//     return{
-//         paths,
-//         fallback: false
-//     }
-// }
-
-// export async function getServerSideProps({ params }) {
-
-//     // Call an external API endpoint to get posts.
-//     // You can use any data fetching library
-//     const res = await fetch('http://localhost:3000/api/character')
-//     const character = await res.json()
-//     // By returning { props: { posts } }, the Blog component
-//     // will receive `posts` as a prop at build time
-//     return {
-//             props: {
-//                 character,
-//         },
-//     }
-//   }
-
