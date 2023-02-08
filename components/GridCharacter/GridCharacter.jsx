@@ -15,7 +15,11 @@ export const GridCharacter = ({ characters, route }) => {
                         // img.url && 
                         c &&
                         (   
-                            <Link href={`/${route}/${removeAccents(c.name)}`} passHref legacyBehavior>
+                            <Link 
+                                href={`/${route}/${removeAccents(c.name)}`} 
+                                passHref legacyBehavior
+                                key={`${c.name}_${index}`}
+                            >
                                 <CardLinkContainer>
                                     <Figure 
                                         src={c.photo} 

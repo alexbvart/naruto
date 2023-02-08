@@ -1,5 +1,6 @@
 module.exports = {
     images: {
+        dangerouslyAllowSVG: true,
         domains: ['cdns-images.dzcdn.net',
                 "i.redd.it",
                 "static.wikia.nocookie.net",

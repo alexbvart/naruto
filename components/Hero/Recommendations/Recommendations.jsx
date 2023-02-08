@@ -7,8 +7,8 @@ export const Recommendations = ({ recommendations }) => {
             <Subtitle>Explora</Subtitle>
             <div className={badgeContainer}>
                 {recommendations &&
-                    recommendations.map(r => (
-                        <div className={badgeItem}>
+                    recommendations.map((r,index) => (
+                        <div className={badgeItem} key={`${r.text}_${index}`}>
                             <Badge text={r.text} url={r.url} width={40} height={40} />
                         </div>
                     ))

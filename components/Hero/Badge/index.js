@@ -11,7 +11,7 @@ const Badge = React.forwardRef(({onClick,text, url, width="24", height="24" }, r
 
     return ( 
         <>
-            <article className={badge} ef={ref} onClick={onClick}>
+            <article className={badge} ref={ref} onClick={onClick}>
                 <figure>
                     {url &&
                         <Image 

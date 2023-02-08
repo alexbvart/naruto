@@ -31,7 +31,7 @@ const character = ({character}) => {
                 { ( !isEmpty(affiliation)) && 
                 <DropDown 
                     content={{
-                        "Alistamiento" : affiliation || "",
+                        "Alistamiento" : { body:affiliation, src:'village' } || "",
                     }} 
                     key="Afiliacion" 
                     title={"Afiliación"} 

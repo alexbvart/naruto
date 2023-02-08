@@ -43,52 +43,47 @@ const DropDown = ({title,content,status=false}) => {
 export default DropDown;
 
 const CardData = ({title,body, src}) => {
-    // console.log({body,src});
-
-    // if (body?.length>0 && body!==null) {    
     if (!isEmpty(body)) {    
-        
         return ( 
-            <article className={card_data} key={`${title}___#`}> 
+            <section className={card_data} > 
                 {title && <H3>{toTitleCase(title)}</H3>}
-
                 {   /* Flujo normal de card que no tienen links */
                     isEmpty(src) &&
                     (   Array.isArray(body) 
-                            ?body.map((b,index)=>(
-                                <> {
+                            ? body.map((b,index)=>(
+                                <div key={`${title}__${index+1}`} > {
                                         typeof b === 'string' 
-                                        ? <Paragraph key={`${title}__${index+1}`} >{b}</Paragraph> 
-                                        : <Badge key={`${title}__${index+1}`}  text={Object.values(b)[0]} url={Object.values(b)[1]} />
+                                        ? <Paragraph>{b}</Paragraph> 
+                                        : <Badge text={Object.values(b)[0]} url={Object.values(b)[1]} />
                                     } 
-                                </>
+                                </div>
                             ))
-                            :<Paragraph key={`${title}__01`} >{body}</Paragraph>
+                            :<Paragraph>{body}</Paragraph>
                     )
                 }
                 {   /* Flujo modificado de card que si tienen links */
                     !isEmpty(src) &&
                     (   Array.isArray(body) 
                             ?body.map((b,index)=>(
-                                <> {
+                                <div  key={`${title}__${index+1}`} > {
                                         typeof b === 'string' 
                                         ?   
                                             <Link href={`/${src}/${removeAccents(b)}`} passHref legacyBehavior>
-                                                <TextLink key={`${title}__${index+1}`} >
+                                                <TextLink  >
                                                     {b}        
                                                 </TextLink>
                                             </Link> 
                                         : 
                                         <Link href={`/${src}/${removeAccents(Object.values(b)[0])}`} passHref legacyBehavior>
-                                            <Badge key={`${title}__${index+1}`}  text={Object.values(b)[0]} url={Object.values(b)[1]} />
+                                            <Badge   text={Object.values(b)[0]} url={Object.values(b)[1]} />
                                         </Link> 
                                     } 
-                                </>
+                                </div>
                             ))
-                            :<Paragraph key={`${title}__01`} >{body}</Paragraph>
+                            :<Paragraph>{body}</Paragraph>
                     )
                 }
-            </article>
+            </section>
         );
     }else{
         return null

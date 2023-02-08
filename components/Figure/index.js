@@ -18,7 +18,7 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
     const [activeFullScreen, setActiveFullScreen] = useState(false)
 
     useEffect(() => {
-        const {lowQuality,highQuality} = useImage({src})
+        const {highQuality} = useImage({src})
         setSrc(highQuality)
     }, [src])
     
@@ -26,7 +26,6 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
         if(description){
             i = [...new Set(i), {src, description}]
         }
-        // console.log('object')
     }, [])
 
     return (

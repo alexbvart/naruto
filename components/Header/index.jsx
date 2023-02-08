@@ -10,7 +10,7 @@ export const Header = () => {
     return (
         <div className={`${classHeader} `}>
             <div className={headerUp}>
-                <div className={ scrollPosition > 1000 && hidden}>
+                <div className={ scrollPosition > 1000 ? hidden : ''}>
                     <Logo />
                 </div>
                 <div className={header_icons}>
