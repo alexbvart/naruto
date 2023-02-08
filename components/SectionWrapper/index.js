@@ -26,7 +26,7 @@ const SectionWrapper = ({content}) => {
     
     const {isOnScreen} = useObserver(tabList)
 
-    console.log(`se encontro el tab list: ${isOnScreen} ${tabList.current}`);
+    // console.log(`se encontro el tab list: ${isOnScreen} ${tabList.current}`);
     const ScrollFromSection = (id)=>{
         const section = wrapperContainer.children[id+1];
         // section.scrollIntoView( {block: "start", inline: "nearest"})   

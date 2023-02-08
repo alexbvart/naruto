@@ -1,6 +1,8 @@
+import { isEmpty } from "utils/isEmpty";
+
 export const useImage = ({src, min='18', max='600'}) => {
     // console.log(src);
-    if (src===undefined) {
+    if (isEmpty(src)) {
         return { 
             lowQuality: 'https://i.postimg.cc/c1Kjpkt3/not-fount.png', 
             highQuality: 'https://i.postimg.cc/c1Kjpkt3/not-fount.png'
