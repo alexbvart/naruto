@@ -61,7 +61,7 @@ const character = ({character}) => {
                 { (clan?.length > 0 || affiliation?.length > 0) && 
                 <DropDown 
                     content={{
-                        "Alistamiento" : affiliation || "",
+                        "Alistamiento" :  {body: affiliation, src:'village'} || "",
                         "Clan"    : {body: clan, src:'clan'} || ""
                     }} 
                     key="Afiliacion" 
@@ -186,8 +186,8 @@ export async function getStaticPaths() {
 
     return{
         paths,
-        // fallback: false
-        fallback: true
+        fallback: false
+        // fallback: true
     }
 }
 

@@ -32,7 +32,7 @@ const Figure = ({ src, className, description, height = 400, borderRadius = true
     return (
         <>
             <figure
-                className={ isLoadingImage ? `${figure_wrapper_loading} ${loading}` : `${className} ${figure_wrapper} ${border_radius}`}
+                className={ isLoadingImage ? `${className} ${figure_wrapper_loading} ${loading}` : `${className} ${figure_wrapper} ${border_radius}`}
                 // className={`${className} ${figure_wrapper} ${border_radius}`}
                 onClick={() => setActiveFullScreen(nofullScreen? !activeFullScreen : activeFullScreen)}
             >

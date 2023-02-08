@@ -53,12 +53,9 @@ export const OneSection = ({content,className, title}) => {
                     <div className={images_grid}>
                         {content.pictures.map((img,index)=>
                                 // img.url && 
-                                img && 
-                                
-                                (
-                                    // <Figure src={img.url}  description={img.description} key={index}/> 
-                                    <Figure src={img}  description="" key={index} height="305"/>
-                                )
+                                typeof img === 'object' 
+                                ?  <Figure src={img.src}  description={img.description} key={index}/>
+                                :  <Figure src={img}  description="" key={index} height="305"/>                                
                             )
                         }
                     </div>

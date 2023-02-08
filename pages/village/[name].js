@@ -6,18 +6,17 @@ import DropDown from 'components/SectionWrapper/DropDown';
 import SectionWrapper from '../../components/SectionWrapper';
 
 
-const team = ({team}) => {
-    const { name, abstract, affiliation, kekkeiGenkai, element  } = team?.header
-    const { members, leaders, jutsus } = team?.info
-    // console.log({name, clan, range, birth, age});
+const Village = ({village}) => {
+    const { name, abstract, nation, img  } = village?.header
+    const { founders, cofounders, leaders, clans, information } = village?.info
     return ( 
         <>
             <Head>
-                <title>{team.header.name}</title>
+                <title>{name}</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <meta name="theme-color" content="#171516" />
             </Head>
-            <Hero header={team.header} />
+            <Hero header={village.header} />
             <section className={"wrapper_margin_globals"}>
             {/* {   
                 (   !isEmpty(clan) ) && 
@@ -28,57 +27,47 @@ const team = ({team}) => {
                 <AbstractSection content={abstract} title={"Resumen"} />
 
                 
-                { ( !isEmpty(affiliation)) && 
+                { ( !isEmpty(nation)) && 
                 <DropDown 
                     content={{
-                        "Alistamiento" : affiliation || "",
+                        "" : nation || "",
                     }} 
-                    key="Afiliacion" 
-                    title={"Afiliación"} 
+                    key="Nation" 
+                    title={"Nación"} 
                     status={true}
                 />}
-                { (kekkeiGenkai?.length > 0 || element?.length > 0) && 
-                <DropDown 
-                    content={{
-                        "Elementos" : element || "",
-                        "Kekkei Genkai" : kekkeiGenkai  || ""
-                    }} 
-                    key="Naturaleza del chacra" 
-                    title={"Naturaleza del chacra"} 
-                    status={true}
-                />}
+
                 
-                { (!isEmpty(members) || !isEmpty(leaders)) && 
+                { (!isEmpty(founders) || !isEmpty(leaders) || !isEmpty(cofounders) ) && 
                 <DropDown 
                     content={{
-                        "Lideres" :    { body:leaders, src:'character' } || "",
-                        "Miembros" : { body:members, src:'character' } || "",
-                        // "Familiares" : familyMembers || "",
-                        // "Colegas"    : {body: teamMates, src:'team'} || ""
+                        "Fundador" :  { body:founders, src:'character' } || "",
+                        "CoFundador" : { body:cofounders, src:'character' } || "",
+                        "Lider" :    leaders || "",
                     }} 
-                    key="Miembros" 
-                    title={"Miembros"} 
+                    key="Dirigente" 
+                    title={"Dirigente"} 
+                    status={false}
+                />}
+                { (!isEmpty(clans)) && 
+                <DropDown 
+                    content={{
+                        "" :  { body:clans, src:'clan' } || "",
+                    }} 
+                    key="Clanes" 
+                    title={"Clanes"} 
                     status={false}
                 />}
 
-                { jutsus?.length > 0 && 
-                <DropDown 
-                    content={{
-                        '' : jutsus,
-                    }} 
-                    key="jutsus" 
-                    title={"Arte ninja"} 
-                    status={false}
-                />}
             </section>
             <BackNavHeader title={name}/>
             <SectionWrapper 
-                content={team.info.information}
+                content={information}
             />
         </>
     );
 }
-export default team;
+export default Village;
 
 import fsPromises from 'fs/promises';
 import path from 'path'
@@ -86,27 +75,25 @@ import { BackNavHeader } from 'components/Header/BackNavHeader/BackNavHeader';
 import { isEmpty } from 'utils/isEmpty';
 
 export async function getStaticProps({ params }) {
-  const filePath = path.join(process.cwd(), 'json/teams.json');
+  const filePath = path.join(process.cwd(), 'json/villages.json');
   const jsonData = await fsPromises.readFile(filePath);
-  const teams = JSON.parse(jsonData);
+  const villages = JSON.parse(jsonData);
 
-  const team = teams.find((p) => removeAccents(p.header.name) === params.name)
-
-
+  const village = villages.find((p) => removeAccents(p.header.name) === params.name)
   return {
-    props: {team}
+    props: {village}
   }
 }
 export async function getStaticPaths() { 
-    const filePath = path.join(process.cwd(), 'json/teams.json');
+    const filePath = path.join(process.cwd(), 'json/villages.json');
     const jsonData = await fsPromises.readFile(filePath);
     const team = JSON.parse(jsonData);
     // console.log(team);
     // team.map((team) => {
     //     console.log(team.header.name.toString(), "...", removeAccents(team.header.name.toString()))
     // })
-    const paths = team.map((team) => ({
-        params: { name : removeAccents(team.header.name.toString()) }
+    const paths = team.map((village) => ({
+        params: { name : removeAccents(village.header.name.toString()) }
     }))
 
     return{

@@ -1,3 +1,5 @@
+
+import useObserver from 'hooks/useObserver';
 import React, {useRef, useState} from 'react';
 import Paragraph from 'Shares/Paragraph';
 import Title from 'Shares/Title';
@@ -15,11 +17,16 @@ import {carrousel,section} from './wrapper.module.css'
 const SectionWrapper = ({content}) => {
     // console.log(content);
     const windowSize = useWindowDimensions();
+
+    const tabList = useRef(null)
     const mainContainer = useRef(null)
     const wrapperContainer = mainContainer.current;
     const [key, setKey] = useState(-1);
     // const widthOfWindow = windowSize.width > 560 ? "900px" : "calc(100vw - 48px) ";
+    
+    const {isOnScreen} = useObserver(tabList)
 
+    console.log(`se encontro el tab list: ${isOnScreen} ${tabList.current}`);
     const ScrollFromSection = (id)=>{
         const section = wrapperContainer.children[id+1];
         // section.scrollIntoView( {block: "start", inline: "nearest"})   
@@ -44,11 +51,12 @@ const SectionWrapper = ({content}) => {
     return ( 
         <>
             <TabAnchorList
+                ref={tabList} 
                 activeKey={key}
                 onSelect={(keyOfChild) => {
                     setKey(keyOfChild);
-                }
-            }>
+                }}
+            >
                 {   content && 
                     content.map(( {title}, index) => ( 
                         <TabAnchor 
