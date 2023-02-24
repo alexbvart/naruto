@@ -5,7 +5,8 @@ import { toText2Case, toTextCase } from 'utils/formatTitles';
 import { isEmpty } from 'utils/isEmpty';
 import Subtitle from '../../../Shares/Subtitle';
 import Figure from '../../Figure';
-import {section,images_grid,rellenuto,abstractSection,miniInfo} from './section.module.css'
+import {section,images_grid,rellenuto,abstractSection,
+        miniInfo, miniInfo_span} from './section.module.css'
 
 export const Section = ({content,children}) => {
     if(Array.isArray(content)){
@@ -51,14 +52,11 @@ export const OneSection = ({content,className, title}) => {
                 { (content.pictures &&  content.pictures.length > 0) &&
                     <div className={images_grid}>
                         {content.pictures.map((img,index)=>
-                                // img.url && 
-                                img && 
-                                
-                                (
-                                    // <Figure src={img.url}  description={img.description} key={index}/> 
-                                    <Figure src={img}  description="" key={index}/>
-                                )
-                            )
+                            !isEmpty(img) &&
+                            typeof img === 'object' 
+                            ?  <Figure src={img.src}  description={img.description} key={index} height="330"/>
+                            :  <Figure src={img}  description="" key={index} height="305"/>                                
+                        )
                         }
                     </div>
                 }
@@ -107,15 +105,15 @@ export const MiniInfo = ({clan,range,birth,age,className}) => {
 
     const miniInfoArray = [clan,range,birth, age && `${age} años`]
                             .filter((i) => i.length > 0)
-    const isThereNextItemExist = (nextItem) =>  miniInfoArray[nextItem] ? ', ' : ''
+    const isThereNextItemExist = (nextItem) =>  miniInfoArray[nextItem] ? `,` : ''
 
     return ( 
         <>
             <section className={`${miniInfo} ${className}`}>
-                <Span> 
+                <Span className={miniInfo_span}>  
                     { miniInfoArray.map((info,index)=>(
                         <span key={`miniInfoArray_${info}`}>
-                            {`${toTextCase(info)}${isThereNextItemExist(index+1)} `}
+                            {`${toTextCase(info)}${isThereNextItemExist(index+1)}`}&nbsp;
                         </span> 
                     ))}
                     {/* {clan?.length>0 && <>{`${toTextCase(clan)}, `}</>  }

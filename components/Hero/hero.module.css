@@ -1,11 +1,12 @@
 .main {
     max-width: var(--max-w);
     height: 100%;
+    max-height: 600px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "info carrousel";
+    grid-template-columns: 1fr;
+    grid-template-areas: "carrousel" "info";
     grid-auto-flow: column;
-    gap: 12px;
+
     overflow: hidden;
     margin: auto;
     position: relative;
@@ -13,13 +14,37 @@
 
 .header_info {
     width: 100%;
+    max-width: calc(100vw - ( 2 * var(--wrapper-margin)));
     grid-area: "info";
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* gap: 12px; */
-    /* margin-left: 7.5vw; */
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: sticky;
+    bottom: 12px;
+    z-index: 2;
+}
+.header_info p{
+    margin: 0;
+}
+.backDirection{
+    min-width: 56px;
+    min-height: 56px;
+    /* margin: auto; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.backDirection:hover{
+    background-color: var(--bg-2);
 }
 
 .image_header {
@@ -28,35 +53,27 @@
     overflow: hidden;
 }
 
+
 .alias {
     /* margin-top: 2px; */
     margin-bottom: 0px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (min-width: 760px) {
     .main {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas: "carrousel" "info";
-        grid-auto-flow: column;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "info carrousel";
+        gap: 12px;
     }
-
     .header_info {
-        /* position: sticky; */
-        width: calc( 100% - 48px);
-        bottom: 0;
-        margin-left: 24px;
-        position: absolute;
-
+        position: static;
+        margin-left: var(--wrapper-margin);
     }
 }
-
-@media screen and (min-width: 760px) and (max-width: 1000px) {
-    .main {
-        justify-items: end;
-    }
+@media screen and (min-width: 970px) {
 
     .header_info {
-        width: calc(100% - 15%);
+        margin-left: 0;
     }
 }

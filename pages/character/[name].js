@@ -3,7 +3,7 @@ import Hero from '../../components/Hero';
 import {  removeAccents, toSnakeCase } from 'utils/formatTitles';
 import { AbstractSection, MiniInfo } from 'components/SectionWrapper/Section';
 import DropDown from 'components/SectionWrapper/DropDown';
-import SectionWrapper from '../../components/SectionWrapper/index,';
+import SectionWrapper from '../../components/SectionWrapper';
 
 
 const character = ({character}) => {
@@ -17,6 +17,7 @@ const character = ({character}) => {
     // console.log({ birth, blood, age, height, weight, uniquePersonality,
     //     range, classifications, familyMembers, teamMates, teams,
     //     weapons, jutsus, alias, clan, affiliation, kekkeiGenkai, element} );
+
     return ( 
         <>
             <Head>
@@ -60,8 +61,8 @@ const character = ({character}) => {
                 { (clan?.length > 0 || affiliation?.length > 0) && 
                 <DropDown 
                     content={{
-                        "Alistamiento" : affiliation || "",
-                        "Clan" : clan  || ""
+                        "Alistamiento" :  {body: affiliation, src:'village'} || "",
+                        "Clan"    : {body: clan, src:'clan'} || ""
                     }} 
                     key="Afiliacion" 
                     title={"Afiliación"} 
@@ -104,7 +105,7 @@ const character = ({character}) => {
                 { (alias?.length > 0 || teams?.length > 0) && 
                 <DropDown 
                     content={{
-                        'Integrar' : teams,
+                        'Integrar' : { body :teams, src : 'team' || ""},
                         Alias : alias
                     }} 
                     key="Alias" 
@@ -130,6 +131,7 @@ const character = ({character}) => {
                     status={false}
                 />}
             </section>
+            <BackNavHeader title={name}/>
             <SectionWrapper 
                 content={character.information}
             />
@@ -153,6 +155,7 @@ export default character;
 
 import fsPromises from 'fs/promises';
 import path from 'path'
+import { BackNavHeader } from 'components/Header/BackNavHeader/BackNavHeader';
 
 export async function getStaticProps({ params }) {
   const filePath = path.join(process.cwd(), 'json/character.json');
@@ -184,6 +187,7 @@ export async function getStaticPaths() {
     return{
         paths,
         fallback: false
+        // fallback: true
     }
 }
 

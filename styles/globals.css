@@ -83,7 +83,8 @@
   --icon-wrapper: 40px;
   --nav-bar-width: 230px;
   --main-width: calc(100vw - var(--nav-bar-width));
-
+  --header-h: 64px;
+  --header-h-max: 96px;
 
   /*  * PADDING */
 
@@ -97,6 +98,8 @@
 
 
   --border-radius: 12px;
+  /* --gap-exterior: 12px; */
+  --gap-exterior: 16px;
   --max-w : 900px;
 
   /* * z-index  */
@@ -155,11 +158,6 @@ body::-webkit-scrollbar-thumb {
   background: var(--card-background);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-  font-weight: 700;
-}
 
 * {
   padding: 0;
@@ -167,15 +165,27 @@ a {
   box-sizing: border-box;
 }
 
-.blur{
-  filter: blur(40px);
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+}
+img{
+  display: block;
+  filter: contrast(75%)  saturate(1.35)  brightness(90%)
+
 }
 .wrapper_margin_globals{
-  width: calc(100% - 15%);
+  width: calc(100vw - ( 2 * var(--wrapper-margin)));
   max-width: var(--max-w);
   margin: auto;
   height: 100%; 
 }
+
+.gap_layout_header{
+  /* margin-top: calc( var(--header-h) + var(--padding-between-sections)); */
+}
+
 .title-headers{
   font-size: var(--title-headers-font-size);
   font-weight: var(--title-headers-weight-bold);
@@ -216,18 +226,22 @@ a {
   color: #fff;
 }
 
+.header_space{
+  height: calc( var(--header-h) + var(--padding-between-sections) );
+}
 
 
 @media screen and (max-width: 560px) {
 
   :root{
-    --wrapper-margin: 24px;
+    --wrapper-margin: 16px;
     --main-width: 100vw;
     --z-nav: -1;
 
   }
   .wrapper_margin_globals{
-    width: calc(100vw - 48px);
+    width: 100%;
+    max-width: calc(100vw - ( 2 * var(--wrapper-margin)));
     margin: auto;
   }
 

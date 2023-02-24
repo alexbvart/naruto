@@ -1,29 +1,63 @@
-.badge{
+.badge {
+    width: 100%;
     display: flex;
     gap: 12px;
     grid-template-columns: 34px 1fr;
     grid-auto-flow: column;
     align-items: center;
     padding: 2px 0;
+    cursor: pointer;
 }
 
-.badge figure{
-    width: 34px;
-    height: 34px;
+.badge:hover {
+    background-color: var(--bg-3);
+    border-radius: var(--border-radius);
+}
+
+.badge figure {
+    min-width: 34px;
+    min-height: 34px;
     background-color: var(--color-2);
     border-radius: var(--border-radius);
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
-.badge span{
+.badge span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
 }
 
 .badge p {
     margin: 0;
     display: 0;
+    cursor: pointer;
+}
+
+.hover_underline_animation {
+    position: relative;
+    /* color: black; */
+    padding-bottom: 2px;
+}
+
+.hover_underline_animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-2);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.badge:hover .hover_underline_animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
